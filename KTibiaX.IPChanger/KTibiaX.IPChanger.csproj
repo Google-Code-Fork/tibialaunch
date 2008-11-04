@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBEC6020-E656-4542-B84A-82697DBA712C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KTibiaX.IPChanger</RootNamespace>
+    <AssemblyName>KTibiaX.IPChanger</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Crystal_Jar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.OfficeSkins.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v8.2.Core, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+    <Reference Include="DevExpress.XtraGauges.v8.2.Win, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Developer Express .NET v8.2\\Sources\DevExpress.DLL\DevExpress.XtraGauges.v8.2.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
+    <Reference Include="KTibiaX.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\KTibiaX\KTibiaX.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Ctrl_ServerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Ctrl_ServerList.Designer.cs">
+      <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_About.Designer.cs">
+      <DependentUpon>frm_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_Options.Designer.cs">
+      <DependentUpon>frm_Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_Pinger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_Pinger.Designer.cs">
+      <DependentUpon>frm_Pinger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_Server.Designer.cs">
+      <DependentUpon>frm_Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_Skins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_Skins.Designer.cs">
+      <DependentUpon>frm_Skins.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_StartClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_StartClient.Designer.cs">
+      <DependentUpon>frm_StartClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\FrameRate.cs" />
+    <Compile Include="Modules\Memory.cs" />
+    <Compile Include="Modules\ProcessTools.cs" />
+    <Compile Include="Modules\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\Ctrl_ServerList.resx">
+      <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_About.resx">
+      <DependentUpon>frm_About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Options.resx">
+      <DependentUpon>frm_Options.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Pinger.resx">
+      <DependentUpon>frm_Pinger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Server.resx">
+      <DependentUpon>frm_Server.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Skins.resx">
+      <DependentUpon>frm_Skins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_StartClient.resx">
+      <DependentUpon>frm_StartClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Crystal_Jar.ico" />
+    <None Include="Resources\notes.png" />
+    <None Include="Resources\keyrox.png" />
+    <None Include="Resources\author_128.png" />
+    <None Include="Resources\cmd.png" />
+    <None Include="Resources\hunt_tools.png" />
+    <None Include="Resources\jockey.png" />
+    <None Include="Resources\ball_red.png" />
+    <None Include="Resources\ball_green.png" />
+    <None Include="Resources\ball_yellow.png" />
+    <None Include="Resources\addbk_32.png" />
+    <None Include="Resources\addbk2_32.png" />
+    <None Include="Resources\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KTibiaX.IPChanger.Data\KTibiaX.IPChanger.Data.csproj">
+      <Project>{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}</Project>
+      <Name>KTibiaX.IPChanger.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KTibiaX.IPChanger.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GraphicsEngine" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TibiaPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\program files\tibia\tibia.exe</Value>
+    </Setting>
+    <Setting Name="ChangeFPS" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LoginServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">login01.tibia.com</Value>
+    </Setting>
+    <Setting Name="LoginPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7171</Value>
+    </Setting>
+    <Setting Name="StringVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1247104594</Value>
+    </Setting>
+    <Setting Name="MCVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">t&#xB;ÿ×ø&#x5;t&#x4;3Àë&#x5;¸&#x1;</Value>
+    </Setting>
+    <Setting Name="FPSValue" Type="System.UInt32" Scope="User">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="EnableMC" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WriteRSA" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RSAKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">109120132967399429278860960508995541528237502902798129123468757937266291492576446330739696001110603907230888610072655818825358503429057592827629436413108566029093628212635953836686562675849720620786279431090218017681061521755056710823876476444260558147179707119674283982419152118103759076030616683978566631413</Value>
+    </Setting>
+    <Setting Name="ChangeGraphics" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DistinctMaps" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ServerList" Type="KTibiaX.IPChanger.Data.LoginServerCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ClientList" Type="KTibiaX.IPChanger.Data.ClientPathCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppSkin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="OTMapPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
