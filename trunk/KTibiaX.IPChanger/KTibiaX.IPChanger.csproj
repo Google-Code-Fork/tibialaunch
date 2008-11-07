@@ -46,7 +46,7 @@
     <Reference Include="DevExpress.XtraLayout.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL" />
     <Reference Include="KTibiaX.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\KTibiaX\KTibiaX.Shared.dll</HintPath>
+      <HintPath>..\lib\KTibiaX.Shared.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -167,6 +167,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Crystal_Jar.ico" />
+    <None Include="Resources\remove.png" />
+    <None Include="Resources\apply.png" />
+    <None Include="Resources\about.png" />
+    <None Include="Resources\delete.png" />
     <None Include="Resources\notes.png" />
     <None Include="Resources\keyrox.png" />
     <None Include="Resources\author_128.png" />
