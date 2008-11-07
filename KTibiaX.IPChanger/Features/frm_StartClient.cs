@@ -41,6 +41,7 @@ namespace KTibiaX.IPChanger {
                 }
             }
             ckFPS.Checked = Settings.Default.ChangeFPS;
+            ckMC.Checked = Settings.Default.EnableMC;
             txtPath.Focus();
         }
 
@@ -128,12 +129,12 @@ namespace KTibiaX.IPChanger {
                     return;
                 }
             }
-
+            System.Threading.Thread.Sleep(1000);
             //Write the new login server.
             if (!string.IsNullOrEmpty(ctrl_ServerList1.CurrentIP)) {
                 var pointer = MemoryAddress.LoginServer;
                 var max = MemoryAddress.Older ? 5 : LoginMax;
-                var server = ctrl_ServerList1.CurrentIP;
+                var server = ctrl_ServerList1.CurrentIP.Trim();
                 server += (char)0;
                 for (int i = 0; i < max; i++) {
                     ClientMemory.Writer.String(pointer, server);
@@ -198,7 +199,7 @@ namespace KTibiaX.IPChanger {
             var hProcess = ProcessTools.OpenProcess(TibiaClient);
             var ClientMemory = new Memory(hProcess);
             Address MemoryAddress = null;
-            ProcessTools.CloseHandle(TibiaClient.Handle);
+            //ProcessTools.CloseHandle(TibiaClient.Handle);
             #endregion
 
             #region "[rgn] Fix Tibia Version   "

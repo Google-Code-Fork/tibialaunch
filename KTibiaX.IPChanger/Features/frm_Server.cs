@@ -41,9 +41,9 @@ namespace KTibiaX.IPChanger.Features {
             }
             var server = new LoginServer() {
                 Exp = txtExp.Text,
-                Ip = txtIP.Text,
+                Ip = txtIP.Text.Trim(),
                 Name = txtName.Text,
-                Port = txtPort.Text.ToInt32(),
+                Port = txtPort.Text.Trim().ToInt32(),
                 Version = (Version)ddlVersion.Properties.Items[ddlVersion.SelectedIndex].Value.ToInt32()
             };
             var serverlist = Settings.Default.ServerList != null ? Settings.Default.ServerList : new LoginServerCollection();

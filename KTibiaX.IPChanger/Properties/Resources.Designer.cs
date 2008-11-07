@@ -60,6 +60,13 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap about {
+            get {
+                object obj = ResourceManager.GetObject("about", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap addbk_32 {
             get {
                 object obj = ResourceManager.GetObject("addbk_32", resourceCulture);
@@ -74,23 +81,9 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap ball_green {
+        internal static System.Drawing.Bitmap apply {
             get {
-                object obj = ResourceManager.GetObject("ball_green", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap ball_red {
-            get {
-                object obj = ResourceManager.GetObject("ball_red", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap ball_yellow {
-            get {
-                object obj = ResourceManager.GetObject("ball_yellow", resourceCulture);
+                object obj = ResourceManager.GetObject("apply", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -112,6 +105,13 @@ namespace KTibiaX.IPChanger.Properties {
         internal static System.Drawing.Bitmap config {
             get {
                 object obj = ResourceManager.GetObject("config", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap delete {
+            get {
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -140,6 +140,13 @@ namespace KTibiaX.IPChanger.Properties {
         internal static System.Drawing.Bitmap notes {
             get {
                 object obj = ResourceManager.GetObject("notes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap remove {
+            get {
+                object obj = ResourceManager.GetObject("remove", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
