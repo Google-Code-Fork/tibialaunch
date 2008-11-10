@@ -181,7 +181,7 @@ namespace KTibiaX.IPChanger.Features {
             this.emptySpaceItem4.Location = new System.Drawing.Point(19, 57);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
             this.emptySpaceItem4.Size = new System.Drawing.Size(234, 24);
-            this.emptySpaceItem4.Text = "  Support: http://tpforums.org/";
+            this.emptySpaceItem4.Text = "  Support: http://tibialaunch.googlecode.com";
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 20);
             this.emptySpaceItem4.TextVisible = true;
             // 
