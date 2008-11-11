@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-16"?><SystemVersion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Version>1.3.3237.33096</Version><ReleaseDate>2008-11-11T00:00:00</ReleaseDate><UpdateDescription>* Support for new Languages (English / Portuguese)
-
-* Added option to choose when close the system.
-
-* New feature 'Tibia.cfg Management
-
-'.* Appearance and usability improvement.
-
-* Fixed some english spell errors.
-
-* Auto Update feature Implemented.
-</UpdateDescription></SystemVersion>
+<?xml version="1.0" encoding="utf-16"?><SystemVersion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Version>1.3.3237.33154</Version><ReleaseDate>2008-11-11T00:00:00</ReleaseDate><UpdateDescription>* Support for new Languages (English / Portuguese){0}{0}* Added option to choose when close the system.{0}{0}* New feature 'Tibia.cfg Management{0}{0}'.* Appearance and usability improvement.{0}{0}* Fixed some english spell errors.{0}{0}* Auto Update feature Implemented.{0}</UpdateDescription></SystemVersion>
