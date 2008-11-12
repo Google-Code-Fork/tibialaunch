@@ -88,6 +88,34 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap ball_green {
+            get {
+                object obj = ResourceManager.GetObject("ball_green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ball_red {
+            get {
+                object obj = ResourceManager.GetObject("ball_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ball_yellow {
+            get {
+                object obj = ResourceManager.GetObject("ball_yellow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Brazil {
+            get {
+                object obj = ResourceManager.GetObject("Brazil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap close_32 {
             get {
                 object obj = ResourceManager.GetObject("close_32", resourceCulture);
@@ -123,6 +151,13 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap ini {
+            get {
+                object obj = ResourceManager.GetObject("ini", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap keyrox {
             get {
                 object obj = ResourceManager.GetObject("keyrox", resourceCulture);
@@ -147,6 +182,20 @@ namespace KTibiaX.IPChanger.Properties {
         internal static System.Drawing.Bitmap remove {
             get {
                 object obj = ResourceManager.GetObject("remove", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap update {
+            get {
+                object obj = ResourceManager.GetObject("update", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap USA {
+            get {
+                object obj = ResourceManager.GetObject("USA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

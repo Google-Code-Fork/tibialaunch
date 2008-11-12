@@ -189,58 +189,43 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControl1.Controls.Add(this.gcLag);
             this.layoutControl1.Controls.Add(this.gcStatus);
             this.layoutControl1.Controls.Add(this.groupControl1);
-            this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.layoutControl1, "layoutControl1");
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(581, 330);
-            this.layoutControl1.TabIndex = 0;
-            this.layoutControl1.Text = "layoutControl1";
             // 
             // groupControl4
             // 
             this.groupControl4.Controls.Add(this.layoutControl4);
-            this.groupControl4.Location = new System.Drawing.Point(7, 7);
+            resources.ApplyResources(this.groupControl4, "groupControl4");
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(174, 150);
-            this.groupControl4.TabIndex = 8;
-            this.groupControl4.Text = "Options";
             // 
             // layoutControl4
             // 
             this.layoutControl4.Controls.Add(this.progressBarControl1);
             this.layoutControl4.Controls.Add(this.pictureEdit1);
-            this.layoutControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl4.Location = new System.Drawing.Point(2, 20);
+            resources.ApplyResources(this.layoutControl4, "layoutControl4");
             this.layoutControl4.Name = "layoutControl4";
             this.layoutControl4.Root = this.layoutControlGroup4;
-            this.layoutControl4.Size = new System.Drawing.Size(170, 128);
-            this.layoutControl4.TabIndex = 0;
-            this.layoutControl4.Text = "layoutControl4";
             // 
             // progressBarControl1
             // 
-            this.progressBarControl1.Location = new System.Drawing.Point(5, 106);
+            resources.ApplyResources(this.progressBarControl1, "progressBarControl1");
             this.progressBarControl1.Name = "progressBarControl1";
-            this.progressBarControl1.Size = new System.Drawing.Size(161, 18);
             this.progressBarControl1.StyleController = this.layoutControl4;
-            this.progressBarControl1.TabIndex = 5;
             // 
             // pictureEdit1
             // 
             this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.remove;
-            this.pictureEdit1.Location = new System.Drawing.Point(7, 7);
+            resources.ApplyResources(this.pictureEdit1, "pictureEdit1");
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.pictureEdit1.Size = new System.Drawing.Size(157, 59);
             this.pictureEdit1.StyleController = this.layoutControl4;
-            this.pictureEdit1.TabIndex = 4;
             // 
             // layoutControlGroup4
             // 
-            this.layoutControlGroup4.CustomizationFormText = "layoutControlGroup4";
+            resources.ApplyResources(this.layoutControlGroup4, "layoutControlGroup4");
             this.layoutControlGroup4.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.lblStatus,
             this.layoutControlItem5,
@@ -249,7 +234,6 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlGroup4.Name = "layoutControlGroup4";
             this.layoutControlGroup4.Size = new System.Drawing.Size(170, 128);
             this.layoutControlGroup4.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
-            this.layoutControlGroup4.Text = "layoutControlGroup4";
             this.layoutControlGroup4.TextVisible = false;
             // 
             // lblStatus
@@ -260,22 +244,20 @@ namespace KTibiaX.IPChanger.Features {
             this.lblStatus.AppearanceItemCaption.Options.UseForeColor = true;
             this.lblStatus.AppearanceItemCaption.Options.UseTextOptions = true;
             this.lblStatus.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.lblStatus.CustomizationFormText = "Not Checked...";
+            resources.ApplyResources(this.lblStatus, "lblStatus");
             this.lblStatus.Location = new System.Drawing.Point(0, 70);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(168, 31);
-            this.lblStatus.Text = "Not Checked...";
             this.lblStatus.TextSize = new System.Drawing.Size(0, 20);
             this.lblStatus.TextVisible = true;
             // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.pictureEdit1;
-            this.layoutControlItem5.CustomizationFormText = "layoutControlItem5";
+            resources.ApplyResources(this.layoutControlItem5, "layoutControlItem5");
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(168, 70);
-            this.layoutControlItem5.Text = "layoutControlItem5";
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextToControlDistance = 0;
@@ -284,12 +266,11 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem24
             // 
             this.layoutControlItem24.Control = this.progressBarControl1;
-            this.layoutControlItem24.CustomizationFormText = "layoutControlItem24";
+            resources.ApplyResources(this.layoutControlItem24, "layoutControlItem24");
             this.layoutControlItem24.Location = new System.Drawing.Point(0, 101);
             this.layoutControlItem24.Name = "layoutControlItem24";
             this.layoutControlItem24.Padding = new DevExpress.XtraLayout.Utils.Padding(3, 3, 3, 3);
             this.layoutControlItem24.Size = new System.Drawing.Size(168, 25);
-            this.layoutControlItem24.Text = "layoutControlItem24";
             this.layoutControlItem24.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem24.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem24.TextToControlDistance = 0;
@@ -301,28 +282,21 @@ namespace KTibiaX.IPChanger.Features {
             this.btnCheck.Appearance.Options.UseFont = true;
             this.btnCheck.ImageIndex = 0;
             this.btnCheck.ImageList = this.imageCollection2;
-            this.btnCheck.Location = new System.Drawing.Point(448, 7);
+            resources.ApplyResources(this.btnCheck, "btnCheck");
             this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(127, 59);
             this.btnCheck.StyleController = this.layoutControl1;
-            this.btnCheck.TabIndex = 5;
-            this.btnCheck.Text = "Check OT";
             this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
             // imageCollection2
             // 
-            this.imageCollection2.ImageSize = new System.Drawing.Size(48, 48);
+            resources.ApplyResources(this.imageCollection2, "imageCollection2");
             this.imageCollection2.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection2.ImageStream")));
             // 
             // gcInfo
             // 
             this.gcInfo.Controls.Add(this.layoutControl5);
-            this.gcInfo.Enabled = false;
-            this.gcInfo.Location = new System.Drawing.Point(448, 77);
+            resources.ApplyResources(this.gcInfo, "gcInfo");
             this.gcInfo.Name = "gcInfo";
-            this.gcInfo.Size = new System.Drawing.Size(127, 247);
-            this.gcInfo.TabIndex = 7;
-            this.gcInfo.Text = "Info";
             // 
             // layoutControl5
             // 
@@ -333,94 +307,76 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControl5.Controls.Add(this.txtMax);
             this.layoutControl5.Controls.Add(this.txtPlayers);
             this.layoutControl5.Controls.Add(this.txtClient);
-            this.layoutControl5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl5.Location = new System.Drawing.Point(2, 20);
+            resources.ApplyResources(this.layoutControl5, "layoutControl5");
             this.layoutControl5.Name = "layoutControl5";
             this.layoutControl5.Root = this.layoutControlGroup5;
-            this.layoutControl5.Size = new System.Drawing.Size(123, 225);
-            this.layoutControl5.TabIndex = 0;
-            this.layoutControl5.Text = "layoutControl5";
             // 
             // txtAuthor
             // 
-            this.txtAuthor.Location = new System.Drawing.Point(66, 193);
+            resources.ApplyResources(this.txtAuthor, "txtAuthor");
             this.txtAuthor.Name = "txtAuthor";
             this.txtAuthor.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtAuthor.Properties.Appearance.Options.UseBackColor = true;
             this.txtAuthor.Properties.ReadOnly = true;
-            this.txtAuthor.Size = new System.Drawing.Size(51, 20);
             this.txtAuthor.StyleController = this.layoutControl5;
-            this.txtAuthor.TabIndex = 14;
             // 
             // txtMap
             // 
-            this.txtMap.Location = new System.Drawing.Point(66, 162);
+            resources.ApplyResources(this.txtMap, "txtMap");
             this.txtMap.Name = "txtMap";
             this.txtMap.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtMap.Properties.Appearance.Options.UseBackColor = true;
             this.txtMap.Properties.ReadOnly = true;
-            this.txtMap.Size = new System.Drawing.Size(51, 20);
             this.txtMap.StyleController = this.layoutControl5;
-            this.txtMap.TabIndex = 12;
             // 
             // txtMonsters
             // 
-            this.txtMonsters.Location = new System.Drawing.Point(66, 131);
+            resources.ApplyResources(this.txtMonsters, "txtMonsters");
             this.txtMonsters.Name = "txtMonsters";
             this.txtMonsters.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtMonsters.Properties.Appearance.Options.UseBackColor = true;
             this.txtMonsters.Properties.ReadOnly = true;
-            this.txtMonsters.Size = new System.Drawing.Size(51, 20);
             this.txtMonsters.StyleController = this.layoutControl5;
-            this.txtMonsters.TabIndex = 11;
             // 
             // txtPeek
             // 
-            this.txtPeek.Location = new System.Drawing.Point(66, 100);
+            resources.ApplyResources(this.txtPeek, "txtPeek");
             this.txtPeek.Name = "txtPeek";
             this.txtPeek.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPeek.Properties.Appearance.Options.UseBackColor = true;
             this.txtPeek.Properties.ReadOnly = true;
-            this.txtPeek.Size = new System.Drawing.Size(51, 20);
             this.txtPeek.StyleController = this.layoutControl5;
-            this.txtPeek.TabIndex = 10;
             // 
             // txtMax
             // 
-            this.txtMax.Location = new System.Drawing.Point(66, 69);
+            resources.ApplyResources(this.txtMax, "txtMax");
             this.txtMax.Name = "txtMax";
             this.txtMax.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtMax.Properties.Appearance.Options.UseBackColor = true;
             this.txtMax.Properties.ReadOnly = true;
-            this.txtMax.Size = new System.Drawing.Size(51, 20);
             this.txtMax.StyleController = this.layoutControl5;
-            this.txtMax.TabIndex = 5;
             // 
             // txtPlayers
             // 
-            this.txtPlayers.Location = new System.Drawing.Point(66, 38);
+            resources.ApplyResources(this.txtPlayers, "txtPlayers");
             this.txtPlayers.Name = "txtPlayers";
             this.txtPlayers.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPlayers.Properties.Appearance.Options.UseBackColor = true;
             this.txtPlayers.Properties.ReadOnly = true;
-            this.txtPlayers.Size = new System.Drawing.Size(51, 20);
             this.txtPlayers.StyleController = this.layoutControl5;
-            this.txtPlayers.TabIndex = 4;
             // 
             // txtClient
             // 
-            this.txtClient.Location = new System.Drawing.Point(66, 7);
+            resources.ApplyResources(this.txtClient, "txtClient");
             this.txtClient.Name = "txtClient";
             this.txtClient.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtClient.Properties.Appearance.Options.UseBackColor = true;
             this.txtClient.Properties.ReadOnly = true;
-            this.txtClient.Size = new System.Drawing.Size(51, 20);
             this.txtClient.StyleController = this.layoutControl5;
-            this.txtClient.TabIndex = 4;
             // 
             // layoutControlGroup5
             // 
-            this.layoutControlGroup5.CustomizationFormText = "layoutControlGroup5";
+            resources.ApplyResources(this.layoutControlGroup5, "layoutControlGroup5");
             this.layoutControlGroup5.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem18,
             this.layoutControlItem19,
@@ -433,7 +389,6 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlGroup5.Name = "layoutControlGroup5";
             this.layoutControlGroup5.Size = new System.Drawing.Size(123, 225);
             this.layoutControlGroup5.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
-            this.layoutControlGroup5.Text = "layoutControlGroup5";
             this.layoutControlGroup5.TextVisible = false;
             // 
             // layoutControlItem18
@@ -443,11 +398,10 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem18.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem18.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem18.Control = this.txtPlayers;
-            this.layoutControlItem18.CustomizationFormText = " Players: ";
+            resources.ApplyResources(this.layoutControlItem18, "layoutControlItem18");
             this.layoutControlItem18.Location = new System.Drawing.Point(0, 31);
             this.layoutControlItem18.Name = "layoutControlItem18";
             this.layoutControlItem18.Size = new System.Drawing.Size(121, 31);
-            this.layoutControlItem18.Text = " Players: ";
             this.layoutControlItem18.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem18.TextSize = new System.Drawing.Size(54, 20);
             // 
@@ -458,11 +412,10 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem19.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem19.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem19.Control = this.txtMax;
-            this.layoutControlItem19.CustomizationFormText = " Max: ";
+            resources.ApplyResources(this.layoutControlItem19, "layoutControlItem19");
             this.layoutControlItem19.Location = new System.Drawing.Point(0, 62);
             this.layoutControlItem19.Name = "layoutControlItem19";
             this.layoutControlItem19.Size = new System.Drawing.Size(121, 31);
-            this.layoutControlItem19.Text = " Max: ";
             this.layoutControlItem19.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem19.TextSize = new System.Drawing.Size(54, 20);
             // 
@@ -473,11 +426,10 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem7.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem7.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem7.Control = this.txtClient;
-            this.layoutControlItem7.CustomizationFormText = " Client: ";
+            resources.ApplyResources(this.layoutControlItem7, "layoutControlItem7");
             this.layoutControlItem7.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Size = new System.Drawing.Size(121, 31);
-            this.layoutControlItem7.Text = " Client: ";
             this.layoutControlItem7.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem7.TextSize = new System.Drawing.Size(54, 20);
             // 
@@ -486,11 +438,10 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem20.AppearanceItemCaption.BackColor = System.Drawing.Color.WhiteSmoke;
             this.layoutControlItem20.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem20.Control = this.txtPeek;
-            this.layoutControlItem20.CustomizationFormText = " Peek: ";
+            resources.ApplyResources(this.layoutControlItem20, "layoutControlItem20");
             this.layoutControlItem20.Location = new System.Drawing.Point(0, 93);
             this.layoutControlItem20.Name = "layoutControlItem20";
             this.layoutControlItem20.Size = new System.Drawing.Size(121, 31);
-            this.layoutControlItem20.Text = " Peek: ";
             this.layoutControlItem20.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem20.TextSize = new System.Drawing.Size(54, 20);
             // 
@@ -499,11 +450,10 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem21.AppearanceItemCaption.BackColor = System.Drawing.Color.WhiteSmoke;
             this.layoutControlItem21.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem21.Control = this.txtMonsters;
-            this.layoutControlItem21.CustomizationFormText = " Monsters: ";
+            resources.ApplyResources(this.layoutControlItem21, "layoutControlItem21");
             this.layoutControlItem21.Location = new System.Drawing.Point(0, 124);
             this.layoutControlItem21.Name = "layoutControlItem21";
             this.layoutControlItem21.Size = new System.Drawing.Size(121, 31);
-            this.layoutControlItem21.Text = " Monsters: ";
             this.layoutControlItem21.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem21.TextSize = new System.Drawing.Size(54, 20);
             // 
@@ -514,11 +464,10 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem23.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem23.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem23.Control = this.txtMap;
-            this.layoutControlItem23.CustomizationFormText = " Map: ";
+            resources.ApplyResources(this.layoutControlItem23, "layoutControlItem23");
             this.layoutControlItem23.Location = new System.Drawing.Point(0, 155);
             this.layoutControlItem23.Name = "layoutControlItem23";
             this.layoutControlItem23.Size = new System.Drawing.Size(121, 31);
-            this.layoutControlItem23.Text = " Map: ";
             this.layoutControlItem23.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem23.TextSize = new System.Drawing.Size(54, 20);
             // 
@@ -529,22 +478,18 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem25.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem25.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem25.Control = this.txtAuthor;
-            this.layoutControlItem25.CustomizationFormText = " Author: ";
+            resources.ApplyResources(this.layoutControlItem25, "layoutControlItem25");
             this.layoutControlItem25.Location = new System.Drawing.Point(0, 186);
             this.layoutControlItem25.Name = "layoutControlItem25";
             this.layoutControlItem25.Size = new System.Drawing.Size(121, 37);
-            this.layoutControlItem25.Text = " Author: ";
             this.layoutControlItem25.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem25.TextSize = new System.Drawing.Size(54, 20);
             // 
             // gcLag
             // 
             this.gcLag.Controls.Add(this.gaugeControl1);
-            this.gcLag.Location = new System.Drawing.Point(7, 168);
+            resources.ApplyResources(this.gcLag, "gcLag");
             this.gcLag.Name = "gcLag";
-            this.gcLag.Size = new System.Drawing.Size(174, 156);
-            this.gcLag.TabIndex = 6;
-            this.gcLag.Text = "Lag";
             // 
             // gaugeControl1
             // 
@@ -552,10 +497,8 @@ namespace KTibiaX.IPChanger.Features {
             this.gaugeControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.gaugeControl1.Gauges.AddRange(new DevExpress.XtraGauges.Win.Base.GaugeBase[] {
             this.circularGauge1});
-            this.gaugeControl1.Location = new System.Drawing.Point(5, 7);
+            resources.ApplyResources(this.gaugeControl1, "gaugeControl1");
             this.gaugeControl1.Name = "gaugeControl1";
-            this.gaugeControl1.Size = new System.Drawing.Size(161, 172);
-            this.gaugeControl1.TabIndex = 0;
             // 
             // circularGauge1
             // 
@@ -651,12 +594,8 @@ namespace KTibiaX.IPChanger.Features {
             // gcStatus
             // 
             this.gcStatus.Controls.Add(this.layoutControl3);
-            this.gcStatus.Enabled = false;
-            this.gcStatus.Location = new System.Drawing.Point(192, 77);
+            resources.ApplyResources(this.gcStatus, "gcStatus");
             this.gcStatus.Name = "gcStatus";
-            this.gcStatus.Size = new System.Drawing.Size(245, 247);
-            this.gcStatus.TabIndex = 5;
-            this.gcStatus.Text = "Status";
             // 
             // layoutControl3
             // 
@@ -668,105 +607,85 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControl3.Controls.Add(this.txtServer);
             this.layoutControl3.Controls.Add(this.txtVersion);
             this.layoutControl3.Controls.Add(this.txtUpTime);
-            this.layoutControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl3.Location = new System.Drawing.Point(2, 20);
+            resources.ApplyResources(this.layoutControl3, "layoutControl3");
             this.layoutControl3.Name = "layoutControl3";
             this.layoutControl3.Root = this.layoutControlGroup3;
-            this.layoutControl3.Size = new System.Drawing.Size(241, 225);
-            this.layoutControl3.TabIndex = 0;
-            this.layoutControl3.Text = "layoutControl3";
             // 
             // txtMotd
             // 
-            this.txtMotd.Location = new System.Drawing.Point(7, 162);
+            resources.ApplyResources(this.txtMotd, "txtMotd");
             this.txtMotd.Name = "txtMotd";
             this.txtMotd.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtMotd.Properties.Appearance.Options.UseBackColor = true;
             this.txtMotd.Properties.ReadOnly = true;
-            this.txtMotd.Size = new System.Drawing.Size(228, 57);
             this.txtMotd.StyleController = this.layoutControl3;
-            this.txtMotd.TabIndex = 12;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(62, 69);
+            resources.ApplyResources(this.txtEmail, "txtEmail");
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtEmail.Properties.Appearance.Options.UseBackColor = true;
             this.txtEmail.Properties.ReadOnly = true;
-            this.txtEmail.Size = new System.Drawing.Size(173, 20);
             this.txtEmail.StyleController = this.layoutControl3;
-            this.txtEmail.TabIndex = 11;
             // 
             // txtOwner
             // 
-            this.txtOwner.Location = new System.Drawing.Point(62, 100);
+            resources.ApplyResources(this.txtOwner, "txtOwner");
             this.txtOwner.Name = "txtOwner";
             this.txtOwner.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtOwner.Properties.Appearance.Options.UseBackColor = true;
             this.txtOwner.Properties.ReadOnly = true;
-            this.txtOwner.Size = new System.Drawing.Size(53, 20);
             this.txtOwner.StyleController = this.layoutControl3;
-            this.txtOwner.TabIndex = 10;
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(181, 100);
+            resources.ApplyResources(this.txtLocation, "txtLocation");
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtLocation.Properties.Appearance.Options.UseBackColor = true;
             this.txtLocation.Properties.ReadOnly = true;
-            this.txtLocation.Size = new System.Drawing.Size(54, 20);
             this.txtLocation.StyleController = this.layoutControl3;
-            this.txtLocation.TabIndex = 8;
             // 
             // txtUrl
             // 
-            this.txtUrl.Location = new System.Drawing.Point(62, 38);
+            resources.ApplyResources(this.txtUrl, "txtUrl");
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtUrl.Properties.Appearance.Options.UseBackColor = true;
             this.txtUrl.Properties.ReadOnly = true;
-            this.txtUrl.Size = new System.Drawing.Size(173, 20);
             this.txtUrl.StyleController = this.layoutControl3;
-            this.txtUrl.TabIndex = 7;
             // 
             // txtServer
             // 
-            this.txtServer.Location = new System.Drawing.Point(62, 7);
+            resources.ApplyResources(this.txtServer, "txtServer");
             this.txtServer.Name = "txtServer";
             this.txtServer.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtServer.Properties.Appearance.Options.UseBackColor = true;
             this.txtServer.Properties.ReadOnly = true;
-            this.txtServer.Size = new System.Drawing.Size(173, 20);
             this.txtServer.StyleController = this.layoutControl3;
-            this.txtServer.TabIndex = 6;
             // 
             // txtVersion
             // 
-            this.txtVersion.Location = new System.Drawing.Point(62, 131);
+            resources.ApplyResources(this.txtVersion, "txtVersion");
             this.txtVersion.Name = "txtVersion";
             this.txtVersion.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtVersion.Properties.Appearance.Options.UseBackColor = true;
             this.txtVersion.Properties.ReadOnly = true;
-            this.txtVersion.Size = new System.Drawing.Size(53, 20);
             this.txtVersion.StyleController = this.layoutControl3;
-            this.txtVersion.TabIndex = 5;
             // 
             // txtUpTime
             // 
-            this.txtUpTime.Location = new System.Drawing.Point(181, 131);
+            resources.ApplyResources(this.txtUpTime, "txtUpTime");
             this.txtUpTime.Name = "txtUpTime";
             this.txtUpTime.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtUpTime.Properties.Appearance.Options.UseBackColor = true;
             this.txtUpTime.Properties.ReadOnly = true;
-            this.txtUpTime.Size = new System.Drawing.Size(54, 20);
             this.txtUpTime.StyleController = this.layoutControl3;
-            this.txtUpTime.TabIndex = 9;
             // 
             // layoutControlGroup3
             // 
-            this.layoutControlGroup3.CustomizationFormText = "layoutControlGroup3";
+            resources.ApplyResources(this.layoutControlGroup3, "layoutControlGroup3");
             this.layoutControlGroup3.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem11,
             this.layoutControlItem12,
@@ -780,72 +699,65 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlGroup3.Name = "layoutControlGroup3";
             this.layoutControlGroup3.Size = new System.Drawing.Size(241, 225);
             this.layoutControlGroup3.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
-            this.layoutControlGroup3.Text = "layoutControlGroup3";
             this.layoutControlGroup3.TextVisible = false;
             // 
             // layoutControlItem11
             // 
             this.layoutControlItem11.Control = this.txtVersion;
-            this.layoutControlItem11.CustomizationFormText = " Version: ";
+            resources.ApplyResources(this.layoutControlItem11, "layoutControlItem11");
             this.layoutControlItem11.Location = new System.Drawing.Point(0, 124);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(119, 31);
-            this.layoutControlItem11.Text = " Version: ";
             this.layoutControlItem11.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem11.TextSize = new System.Drawing.Size(50, 20);
             // 
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.txtServer;
-            this.layoutControlItem12.CustomizationFormText = "Server: ";
+            resources.ApplyResources(this.layoutControlItem12, "layoutControlItem12");
             this.layoutControlItem12.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(239, 31);
-            this.layoutControlItem12.Text = "Server: ";
             this.layoutControlItem12.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem12.TextSize = new System.Drawing.Size(50, 20);
             // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.txtUrl;
-            this.layoutControlItem13.CustomizationFormText = " Url: ";
+            resources.ApplyResources(this.layoutControlItem13, "layoutControlItem13");
             this.layoutControlItem13.Location = new System.Drawing.Point(0, 31);
             this.layoutControlItem13.Name = "layoutControlItem13";
             this.layoutControlItem13.Size = new System.Drawing.Size(239, 31);
-            this.layoutControlItem13.Text = " Url: ";
             this.layoutControlItem13.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem13.TextSize = new System.Drawing.Size(50, 20);
             // 
             // layoutControlItem16
             // 
             this.layoutControlItem16.Control = this.txtOwner;
-            this.layoutControlItem16.CustomizationFormText = " Owner: ";
+            resources.ApplyResources(this.layoutControlItem16, "layoutControlItem16");
             this.layoutControlItem16.Location = new System.Drawing.Point(0, 93);
             this.layoutControlItem16.Name = "layoutControlItem16";
             this.layoutControlItem16.Size = new System.Drawing.Size(119, 31);
-            this.layoutControlItem16.Text = " Owner: ";
             this.layoutControlItem16.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem16.TextSize = new System.Drawing.Size(50, 20);
             // 
             // layoutControlItem14
             // 
             this.layoutControlItem14.Control = this.txtLocation;
-            this.layoutControlItem14.CustomizationFormText = " Location: ";
+            resources.ApplyResources(this.layoutControlItem14, "layoutControlItem14");
             this.layoutControlItem14.Location = new System.Drawing.Point(119, 93);
             this.layoutControlItem14.Name = "layoutControlItem14";
             this.layoutControlItem14.Size = new System.Drawing.Size(120, 31);
-            this.layoutControlItem14.Text = " Location: ";
             this.layoutControlItem14.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem14.TextSize = new System.Drawing.Size(50, 20);
             // 
             // layoutControlItem22
             // 
             this.layoutControlItem22.Control = this.txtMotd;
-            this.layoutControlItem22.CustomizationFormText = "layoutControlItem22";
+            resources.ApplyResources(this.layoutControlItem22, "layoutControlItem22");
             this.layoutControlItem22.Location = new System.Drawing.Point(0, 155);
             this.layoutControlItem22.Name = "layoutControlItem22";
             this.layoutControlItem22.Size = new System.Drawing.Size(239, 68);
-            this.layoutControlItem22.Text = "layoutControlItem22";
             this.layoutControlItem22.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem22.TextToControlDistance = 0;
@@ -854,74 +766,60 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem15
             // 
             this.layoutControlItem15.Control = this.txtUpTime;
-            this.layoutControlItem15.CustomizationFormText = " UpTime: ";
+            resources.ApplyResources(this.layoutControlItem15, "layoutControlItem15");
             this.layoutControlItem15.Location = new System.Drawing.Point(119, 124);
             this.layoutControlItem15.Name = "layoutControlItem15";
             this.layoutControlItem15.Size = new System.Drawing.Size(120, 31);
-            this.layoutControlItem15.Text = " UpTime: ";
             this.layoutControlItem15.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem15.TextSize = new System.Drawing.Size(50, 20);
             // 
             // layoutControlItem17
             // 
             this.layoutControlItem17.Control = this.txtEmail;
-            this.layoutControlItem17.CustomizationFormText = " Email: ";
+            resources.ApplyResources(this.layoutControlItem17, "layoutControlItem17");
             this.layoutControlItem17.Location = new System.Drawing.Point(0, 62);
             this.layoutControlItem17.Name = "layoutControlItem17";
             this.layoutControlItem17.Size = new System.Drawing.Size(239, 31);
-            this.layoutControlItem17.Text = " Email: ";
             this.layoutControlItem17.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem17.TextSize = new System.Drawing.Size(50, 20);
             // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.layoutControl2);
-            this.groupControl1.Location = new System.Drawing.Point(192, 7);
+            resources.ApplyResources(this.groupControl1, "groupControl1");
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(245, 59);
-            this.groupControl1.TabIndex = 4;
-            this.groupControl1.Text = "Params";
             // 
             // layoutControl2
             // 
             this.layoutControl2.Controls.Add(this.txtPort);
             this.layoutControl2.Controls.Add(this.txtIp);
-            this.layoutControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutControl2.Location = new System.Drawing.Point(2, 20);
+            resources.ApplyResources(this.layoutControl2, "layoutControl2");
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.Root = this.layoutControlGroup2;
-            this.layoutControl2.Size = new System.Drawing.Size(241, 37);
-            this.layoutControl2.TabIndex = 0;
-            this.layoutControl2.Text = "layoutControl2";
             // 
             // txtPort
             // 
-            this.txtPort.EditValue = "7171";
-            this.txtPort.Location = new System.Drawing.Point(203, 7);
+            resources.ApplyResources(this.txtPort, "txtPort");
             this.txtPort.Name = "txtPort";
             this.txtPort.Properties.Appearance.BackColor = System.Drawing.SystemColors.Info;
             this.txtPort.Properties.Appearance.Options.UseBackColor = true;
             this.txtPort.Properties.Appearance.Options.UseTextOptions = true;
             this.txtPort.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.txtPort.Properties.Mask.EditMask = "####";
-            this.txtPort.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.txtPort.Size = new System.Drawing.Size(32, 20);
+            this.txtPort.Properties.Mask.EditMask = resources.GetString("txtPort.Properties.Mask.EditMask");
+            this.txtPort.Properties.Mask.MaskType = ((DevExpress.XtraEditors.Mask.MaskType)(resources.GetObject("txtPort.Properties.Mask.MaskType")));
             this.txtPort.StyleController = this.layoutControl2;
-            this.txtPort.TabIndex = 5;
             // 
             // txtIp
             // 
-            this.txtIp.Location = new System.Drawing.Point(67, 7);
+            resources.ApplyResources(this.txtIp, "txtIp");
             this.txtIp.Name = "txtIp";
             this.txtIp.Properties.Appearance.BackColor = System.Drawing.SystemColors.Info;
             this.txtIp.Properties.Appearance.Options.UseBackColor = true;
-            this.txtIp.Size = new System.Drawing.Size(125, 20);
             this.txtIp.StyleController = this.layoutControl2;
-            this.txtIp.TabIndex = 4;
             // 
             // layoutControlGroup2
             // 
-            this.layoutControlGroup2.CustomizationFormText = "layoutControlGroup2";
+            resources.ApplyResources(this.layoutControlGroup2, "layoutControlGroup2");
             this.layoutControlGroup2.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem2,
             this.layoutControlItem3});
@@ -929,31 +827,28 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlGroup2.Name = "layoutControlGroup2";
             this.layoutControlGroup2.Size = new System.Drawing.Size(241, 37);
             this.layoutControlGroup2.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
-            this.layoutControlGroup2.Text = "layoutControlGroup2";
             this.layoutControlGroup2.TextVisible = false;
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.txtIp;
-            this.layoutControlItem2.CustomizationFormText = " Server: ";
+            resources.ApplyResources(this.layoutControlItem2, "layoutControlItem2");
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(196, 35);
-            this.layoutControlItem2.Text = " Server IP: ";
             this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem2.TextSize = new System.Drawing.Size(55, 20);
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.txtPort;
-            this.layoutControlItem3.CustomizationFormText = "layoutControlItem3";
+            resources.ApplyResources(this.layoutControlItem3, "layoutControlItem3");
             this.layoutControlItem3.Location = new System.Drawing.Point(196, 0);
             this.layoutControlItem3.MaxSize = new System.Drawing.Size(0, 31);
             this.layoutControlItem3.MinSize = new System.Drawing.Size(40, 31);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(43, 35);
             this.layoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.layoutControlItem3.Text = "layoutControlItem3";
             this.layoutControlItem3.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
             this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -962,7 +857,7 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // layoutControlGroup1
             // 
-            this.layoutControlGroup1.CustomizationFormText = "layoutControlGroup1";
+            resources.ApplyResources(this.layoutControlGroup1, "layoutControlGroup1");
             this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem4,
             this.layoutControlItem9,
@@ -974,17 +869,15 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlGroup1.Name = "layoutControlGroup1";
             this.layoutControlGroup1.Size = new System.Drawing.Size(581, 330);
             this.layoutControlGroup1.Spacing = new DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0);
-            this.layoutControlGroup1.Text = "layoutControlGroup1";
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.gcStatus;
-            this.layoutControlItem4.CustomizationFormText = "layoutControlItem4";
+            resources.ApplyResources(this.layoutControlItem4, "layoutControlItem4");
             this.layoutControlItem4.Location = new System.Drawing.Point(185, 70);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(256, 258);
-            this.layoutControlItem4.Text = "layoutControlItem4";
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextToControlDistance = 0;
@@ -993,14 +886,13 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.gcLag;
-            this.layoutControlItem9.CustomizationFormText = "layoutControlItem9";
+            resources.ApplyResources(this.layoutControlItem9, "layoutControlItem9");
             this.layoutControlItem9.Location = new System.Drawing.Point(0, 161);
             this.layoutControlItem9.MaxSize = new System.Drawing.Size(185, 167);
             this.layoutControlItem9.MinSize = new System.Drawing.Size(185, 167);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Size = new System.Drawing.Size(185, 167);
             this.layoutControlItem9.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.layoutControlItem9.Text = "layoutControlItem9";
             this.layoutControlItem9.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextToControlDistance = 0;
@@ -1009,11 +901,10 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem8
             // 
             this.layoutControlItem8.Control = this.gcInfo;
-            this.layoutControlItem8.CustomizationFormText = "layoutControlItem8";
+            resources.ApplyResources(this.layoutControlItem8, "layoutControlItem8");
             this.layoutControlItem8.Location = new System.Drawing.Point(441, 70);
             this.layoutControlItem8.Name = "layoutControlItem8";
             this.layoutControlItem8.Size = new System.Drawing.Size(138, 258);
-            this.layoutControlItem8.Text = "layoutControlItem8";
             this.layoutControlItem8.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextToControlDistance = 0;
@@ -1022,11 +913,10 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem1
             // 
             this.layoutControlItem1.Control = this.groupControl1;
-            this.layoutControlItem1.CustomizationFormText = "layoutControlItem1";
+            resources.ApplyResources(this.layoutControlItem1, "layoutControlItem1");
             this.layoutControlItem1.Location = new System.Drawing.Point(185, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(256, 70);
-            this.layoutControlItem1.Text = "layoutControlItem1";
             this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextToControlDistance = 0;
@@ -1035,13 +925,12 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.btnCheck;
-            this.layoutControlItem6.CustomizationFormText = "layoutControlItem6";
+            resources.ApplyResources(this.layoutControlItem6, "layoutControlItem6");
             this.layoutControlItem6.Location = new System.Drawing.Point(441, 0);
             this.layoutControlItem6.MinSize = new System.Drawing.Size(127, 67);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(138, 70);
             this.layoutControlItem6.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
-            this.layoutControlItem6.Text = "layoutControlItem6";
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem6.TextToControlDistance = 0;
@@ -1050,11 +939,10 @@ namespace KTibiaX.IPChanger.Features {
             // layoutControlItem10
             // 
             this.layoutControlItem10.Control = this.groupControl4;
-            this.layoutControlItem10.CustomizationFormText = "layoutControlItem10";
+            resources.ApplyResources(this.layoutControlItem10, "layoutControlItem10");
             this.layoutControlItem10.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Size = new System.Drawing.Size(185, 161);
-            this.layoutControlItem10.Text = "layoutControlItem10";
             this.layoutControlItem10.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextToControlDistance = 0;
@@ -1080,15 +968,12 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // frm_Pinger
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(581, 330);
             this.Controls.Add(this.layoutControl1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "frm_Pinger";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OT Serv Status Checker";
             this.Load += new System.EventHandler(this.frm_Pinger_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Pinger_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();

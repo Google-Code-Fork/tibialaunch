@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Security.AccessControl;
+using System.Reflection;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Controls;
@@ -14,6 +14,7 @@ using KTibiaX.IPChanger.Modules;
 using KTibiaX.IPChanger.Properties;
 using KTibiaX.Shared.Objects;
 using Version = KTibiaX.IPChanger.Data.Version;
+using KTibiaX.IPChanger.Data.Objects;
 
 namespace KTibiaX.IPChanger {
     public partial class frm_StartClient : XtraForm {
@@ -23,7 +24,13 @@ namespace KTibiaX.IPChanger {
         public frm_StartClient() {
             InitializeComponent();
             ddlGraphics.SelectedIndex = 0;
+            TMUpdateValues.Start();
             defaultLookAndFeel1.LookAndFeel.SetSkinStyle(Settings.Default.AppSkin);
+
+            CheckServerList();
+            CheckConfigFileList();
+            CheckClientVersionList();
+            lblUpdate.Caption = Program.GetCurrentResource().GetString("strCheckingUpdate");
         }
 
         /// <summary>
@@ -40,8 +47,13 @@ namespace KTibiaX.IPChanger {
                         ddlGraphics.SelectedItem = item;
                 }
             }
-            ckFPS.Checked = Settings.Default.ChangeFPS;
-            ckMC.Checked = Settings.Default.EnableMC;
+            UpdateChecker = new CheckUpdate();
+            UpdateChecker.NewVersionDetected += new EventHandler<SystemVersionEventArgs>(UpdateChecker_NewVersionDetected);
+            UpdateChecker.NoUpdateAvailable += new EventHandler(UpdateChecker_NoUpdateAvailable);
+            UpdateChecker.WebNotAvailable += new EventHandler(UpdateChecker_WebNotAvailable);
+            UpdateChecker.BeginCheckVersion();
+
+            lblVersion.Caption = string.Concat("v", Assembly.GetExecutingAssembly().GetName().Version.ToString());
             txtPath.Focus();
         }
 
@@ -51,6 +63,10 @@ namespace KTibiaX.IPChanger {
         public Address MemoryAddress { get; set; }
 
         public LoginServer CurrentServer { get; set; }
+        public CheckUpdate UpdateChecker { get; set; }
+        public string UpdateLabelText { get; set; }
+        public bool MustHideMainForm { get; set; }
+        public SystemVersion NewVersion { get; set; }
 
         private uint LoginMax { get { return 10; } }
         private uint LoginStep { get { return 112; } }
@@ -67,6 +83,8 @@ namespace KTibiaX.IPChanger {
             //Get user defined values.
             var file = new FileInfo(txtPath.Text); var port = Convert.ToInt32(txtPort.Text);
             bool isotserver = CurrentServer != null && !OfficialLoginServers().Contains(CurrentServer.Ip);
+            var oficialConfigFile = string.Concat(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "\\Tibia\\tibia.cfg");
+
 
             #region "[rgn] Fix OTServer Maps   "
             var mapPath = string.Empty;
@@ -87,7 +105,7 @@ namespace KTibiaX.IPChanger {
                     Settings.Default.Save();
                     mapdir = new DirectoryInfo(Settings.Default.OTMapPath);
                     if (!mapdir.Exists) mapdir.Create();
-                    MessageBox.Show("OT Server Maps Directory not found!\nPath restored to: " + Settings.Default.OTMapPath, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Program.GetCurrentResource().GetString("strMapError") + Settings.Default.OTMapPath, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
                 var servname = CurrentServer.Ip.Replace(".", "-").Trim();
@@ -96,15 +114,44 @@ namespace KTibiaX.IPChanger {
             }
             #endregion
 
+            #region "[rgn] Fix Config File     "
+            if (ctrl_ConfigFile1.CurrentConfigFile != null) {
+
+                if (ctrl_ServerList1.CurrentServer != null) {
+                    if (ctrl_ConfigFile1.CurrentConfigFile.Version != ctrl_ServerList1.CurrentServer.Version) {
+                        MessageBox.Show(Program.GetCurrentResource().GetString("strVersionConflict"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+
+                FileInfo configDefaultPath = null;
+                if (isotserver && Settings.Default.DistinctMaps) { configDefaultPath = new FileInfo(string.Concat(mapPath, "\\tibia.cfg")); }
+                else { configDefaultPath = new FileInfo(oficialConfigFile); }
+
+                if (configDefaultPath.Exists) configDefaultPath.Delete();
+                var newconfigFile = new FileInfo(ctrl_ConfigFile1.CurrentConfigFile.Path);
+                if (newconfigFile.Exists) { newconfigFile.CopyTo(configDefaultPath.FullName); }
+                else {
+                    MessageBox.Show(Program.GetCurrentResource().GetString("strConfigFileNotFound"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    var files = Settings.Default.ConfigFiles;
+                    files.Remove(ctrl_ConfigFile1.CurrentConfigFile);
+                    Settings.Default.ConfigFiles = files;
+                    Settings.Default.Save();
+                    ctrl_ConfigFile1.CurrentConfigFile = null;
+                }
+            }
+            #endregion
+
             #region "[rgn] Start Tibia Client  "
             //Build the command line and start the client.
             string cmdLine = "";
-            if (ddlGraphics.SelectedIndex > 0) cmdLine = string.Concat("engine ", ddlGraphics.Properties.Items[ddlGraphics.SelectedIndex].Value, " ");
+            if (ddlGraphics.SelectedIndex > 0) cmdLine = string.Concat(" engine ", ddlGraphics.Properties.Items[ddlGraphics.SelectedIndex].Value, " ");
             if (!string.IsNullOrEmpty(mapPath)) cmdLine += string.Concat("path ", mapPath.Trim());
 
             Process hclient = default(Process); Memory hmemory = default(Memory); Address haddress = default(Address);
-            OpenClient(file.FullName, cmdLine, ckMC.Checked, ref hclient, ref haddress, ref hmemory);
+            OpenClient(file.FullName, cmdLine, Settings.Default.EnableMC, ref hclient, ref haddress, ref hmemory);
             TibiaClient = hclient; ClientMemory = hmemory; MemoryAddress = haddress;
+            if (TibiaClient == null) { return; }
             #endregion
 
             #region "[rgn] Write OT RSA Key    "
@@ -125,7 +172,7 @@ namespace KTibiaX.IPChanger {
                     MemoryAddress = addr;
                 }
                 else {
-                    MessageBox.Show("This Tibia Version is not Supported!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Program.GetCurrentResource().GetString("strVersionNotSupported"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
@@ -146,7 +193,7 @@ namespace KTibiaX.IPChanger {
 
             #region "[rgn] Change Frame Rate   "
             //Change FPS.
-            if (ckFPS.Checked && MemoryAddress != null && MemoryAddress.ptrFrameRateBegin > 0) {
+            if (Settings.Default.ChangeFPS && MemoryAddress != null && MemoryAddress.ptrFrameRateBegin > 0) {
                 var FPSChanger = new FrameRate(ClientMemory, MemoryAddress);
                 //var currentFPS = FPSChanger.GetFPS();
                 FPSChanger.SetFPS(Convert.ToDouble(Settings.Default.FPSValue));
@@ -162,8 +209,8 @@ namespace KTibiaX.IPChanger {
             Settings.Default.ClientList = clients; Settings.Default.Save();
             #endregion
 
-            //Good bye.
-            Close();
+            //Close program if necessary.
+            if (Settings.Default.CloseAfterStart) Close();
         }
 
         /// <summary>
@@ -177,7 +224,10 @@ namespace KTibiaX.IPChanger {
             #region "[rgn] Load Security Info  "
             //Get Client Path Info.
             var file = new FileInfo(clientPath);
-            if (!file.Exists) throw new FileNotFoundException("Tibia Client not found!");
+            if (!file.Exists) {
+                MessageBox.Show(Program.GetCurrentResource().GetString("strClientNotFound"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             //Get User Token
             IntPtr token = IntPtr.Zero;
@@ -192,7 +242,7 @@ namespace KTibiaX.IPChanger {
             var success = ProcessTools.CreateProcessAsUser(token, file.FullName, commandLine, ref sa, ref sa, false, 4, IntPtr.Zero, file.Directory.FullName, ref si, out pi);
             System.Threading.Thread.Sleep(1000);
             //Get the Process
-            if (!success) { MessageBox.Show("Failed to start Tibia.exe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            if (!success) { MessageBox.Show(Program.GetCurrentResource().GetString("strStartFail"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
             var TibiaClient = System.Diagnostics.Process.GetProcessById(pi.dwProcessId.ToInt32());
 
             //Get Client Information.
@@ -242,7 +292,6 @@ namespace KTibiaX.IPChanger {
             memory = ClientMemory;
             address = MemoryAddress;
         }
-
 
         #region "[rgn] Helper Methods  "
         public List<string> OfficialLoginServers() {
@@ -331,8 +380,6 @@ namespace KTibiaX.IPChanger {
             frmOptions.Show();
         }
         private void frmOptions_OptionsChanged(object sender, IPCOptionsEventArgs e) {
-            ckFPS.Checked = e.Args.ChangeFPS;
-            ckMC.Checked = e.Args.EnableMC;
             if (Settings.Default.GraphicsEngine != "") {
                 foreach (ImageComboBoxItem item in ddlGraphics.Properties.Items) {
                     if (item.ToString() == Settings.Default.GraphicsEngine)
@@ -342,6 +389,143 @@ namespace KTibiaX.IPChanger {
         }
         private void frmOptions_FormClosed(object sender, FormClosedEventArgs e) {
             this.Show();
+        }
+        private void btnKeyrox_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            var url = Program.GetCurrentResource().GetString("strUrl");
+            var info = new ProcessStartInfo("iexplore.exe");
+            info.Arguments = url;
+            Process.Start(info);
+        }
+        private void btnLanguage_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            var frmCulture = new frm_Culture();
+            frmCulture.FormClosed += new FormClosedEventHandler(frmCulture_FormClosed);
+            this.Hide();
+            frmCulture.Show();
+        }
+        private void frmCulture_FormClosed(object sender, FormClosedEventArgs e) {
+            MessageBox.Show(Program.GetCurrentResource().GetString("strMustRestart"), "KTibiaX", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Show();
+        }
+        private void lblVersion_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            var url = Program.GetCurrentResource().GetString("strUrl");
+            var info = new ProcessStartInfo("iexplore.exe");
+            info.Arguments = url;
+            Process.Start(info);
+        }
+        private void btnUpdates_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            lblUpdate.Caption = Program.GetCurrentResource().GetString("strCheckingUpdate");
+            UpdateChecker.BeginCheckVersion();
+        }
+        private void UpdateChecker_WebNotAvailable(object sender, EventArgs e) {
+            UpdateLabelText = Program.GetCurrentResource().GetString("strUpdateError");
+        }
+        private void UpdateChecker_NoUpdateAvailable(object sender, EventArgs e) {
+            UpdateLabelText = Program.GetCurrentResource().GetString("strNoUpdates");
+        }
+        private void UpdateChecker_NewVersionDetected(object sender, SystemVersionEventArgs e) {
+            UpdateLabelText = Program.GetCurrentResource().GetString("strUpdateFound");
+            NewVersion = e.SystemVersion;
+            MustHideMainForm = true;
+        }
+        private void frmInfo_FormClosed(object sender, FormClosedEventArgs e) {
+            this.Show();
+        }
+        private void TMUpdateValues_Tick(object sender, EventArgs e) {
+            if (MustHideMainForm) {
+                var frmInfo = new frm_UpdateInfo(NewVersion);
+                frmInfo.FormClosed += new FormClosedEventHandler(frmInfo_FormClosed);
+                this.Hide();
+                frmInfo.Show();
+                MustHideMainForm = false;
+            }
+            if (lblUpdate.Caption != UpdateLabelText) { lblUpdate.Caption = UpdateLabelText; }
+        }
+        #endregion
+
+        #region "[rgn] Settings Backup "
+        public void CheckServerList() {
+            try {
+                if (Settings.Default.ServerList == null) {
+                    var file = new FileInfo(string.Concat(Application.StartupPath, "\\",Settings.Default.AppConfigDir, "\\ServerList.kbx"));
+                    if (file.Exists) {
+                        var reader = new StreamReader(file.FullName);
+
+                        var xml = reader.ReadToEnd();
+                        reader.Close(); reader.Dispose();
+                        var oldServerList = xml.Deserialize<LoginServerCollection>();
+
+                        Settings.Default.ServerList = oldServerList;
+                        Settings.Default.Save();
+                    }
+                }
+            }
+            catch (Exception ex) { ex.ToString(); }
+        }
+        public void SaveServerList() {
+            if (Settings.Default.ServerList != null) {
+                var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ServerList.kbx"));
+                if (file.Exists) { file.Delete(); }
+                if (!file.Directory.Exists) { file.Directory.Create(); }
+                var writer = new StreamWriter(file.FullName);
+                writer.Write(Settings.Default.ServerList.Serialize());
+                writer.Flush(); writer.Close();
+            }
+        }
+        public void CheckConfigFileList() {
+            try {
+                if (Settings.Default.ConfigFiles == null) {
+                    var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ConfigFiles.kbx"));
+                    if (file.Exists) {
+                        var reader = new StreamReader(file.FullName);
+                        
+                        var xml = reader.ReadToEnd();
+                        reader.Close(); reader.Dispose();
+                        var oldSettings = xml.Deserialize<TibiaCFGCollection>();
+
+                        Settings.Default.ConfigFiles = oldSettings;
+                        Settings.Default.Save();
+                    }
+                }
+            }
+            catch (Exception ex) { ex.ToString(); }
+        }
+        public void SaveConfigFileList() {
+            if (Settings.Default.ConfigFiles != null) {
+                var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ConfigFiles.kbx"));
+                if (file.Exists) { file.Delete(); }
+                if (!file.Directory.Exists) { file.Directory.Create(); }
+                var writer = new StreamWriter(file.FullName);
+                writer.Write(Settings.Default.ConfigFiles.Serialize());
+                writer.Flush(); writer.Close();
+            }
+        }
+        public void CheckClientVersionList() {
+            try {
+                if (Settings.Default.ClientList == null) {
+                    var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ClientList.kbx"));
+                    if (file.Exists) {
+                        var reader = new StreamReader(file.FullName);
+
+                        var xml = reader.ReadToEnd();
+                        reader.Close(); reader.Dispose();
+                        var oldSettings = xml.Deserialize<ClientPathCollection>();
+
+                        Settings.Default.ClientList = oldSettings;
+                        Settings.Default.Save();
+                    }
+                }
+            }
+            catch (Exception ex) { ex.ToString(); }
+        }
+        public void SaveClientVersionList() {
+            if (Settings.Default.ClientList != null) {
+                var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ClientList.kbx"));
+                if (file.Exists) { file.Delete(); }
+                if (!file.Directory.Exists) { file.Directory.Create(); }
+                var writer = new StreamWriter(file.FullName);
+                writer.Write(Settings.Default.ClientList.Serialize());
+                writer.Flush(); writer.Close();
+            }
         }
         #endregion
 
@@ -356,6 +540,11 @@ namespace KTibiaX.IPChanger {
             Settings.Default.GraphicsEngine = ddlGraphics.SelectedItem.ToString();
             Settings.Default.LoginPort = Convert.ToInt32(txtPort.Text);
             Settings.Default.Save();
+            
+            SaveServerList();
+            SaveConfigFileList();
+            SaveClientVersionList();
         }
+
     }
 }

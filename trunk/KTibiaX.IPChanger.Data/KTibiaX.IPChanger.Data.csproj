@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30428</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -53,6 +53,12 @@
     <Compile Include="DTO\Players.cs" />
     <Compile Include="DTO\Server.cs" />
     <Compile Include="DTO\ServerInfo.cs" />
+    <Compile Include="EventArgs\SystemVersionEventArgs.cs" />
+    <Compile Include="EventArgs\TibiaCFGEventArgs.cs" />
+    <Compile Include="Objects\SystemVersion.cs" />
+    <Compile Include="Objects\TibiaCFG.cs" />
+    <Compile Include="Objects\TibiaCFGCollection.cs" />
+    <Compile Include="DTO\Vocation.cs" />
     <Compile Include="Objects\ClientPath.cs" />
     <Compile Include="Objects\ClientPathCollection.cs" />
     <Compile Include="OTPinger\DataAvailableEventArgs.cs" />

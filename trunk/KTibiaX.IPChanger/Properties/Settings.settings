@@ -53,5 +53,20 @@
     <Setting Name="OTMapPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="ConfigFiles" Type="KTibiaX.IPChanger.Data.TibiaCFGCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ConfigFilesDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ConfigFiles</Value>
+    </Setting>
+    <Setting Name="CloseAfterStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AppConfigDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AppConfig</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

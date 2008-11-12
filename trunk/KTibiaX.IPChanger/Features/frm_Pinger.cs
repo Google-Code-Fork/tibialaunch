@@ -36,7 +36,7 @@ namespace KTibiaX.IPChanger.Features {
         /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
         private void frm_Pinger_Load(object sender, EventArgs e) {
             StatusImage = Properties.Resources.remove;
-            StatusText = "Not Checked!";
+            StatusText = Program.GetCurrentResource().GetString("strNotChecked");
         }
 
         /// <summary>
@@ -99,7 +99,7 @@ namespace KTibiaX.IPChanger.Features {
         }
         private void btnCheck_Click(object sender, EventArgs e) {
             if (txtIp.Text.Length < 5) {
-                MessageBox.Show("Invalid server address!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Program.GetCurrentResource().GetString("strInvalidAddress"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             Check();
@@ -144,7 +144,10 @@ namespace KTibiaX.IPChanger.Features {
                     else { PingValues.RemoveAt(0); }
                 }
             }
-            else { gcLag.Text = "Lag - Checking..."; arcScaleComponent1.Value = 0; }
+            else {
+                gcLag.Text = string.Concat("Lag -", Program.GetCurrentResource().GetString("strLagChecking"));
+                arcScaleComponent1.Value = 0;
+            }
         }
         private void TMPing_Callback(object o) {
             if (PingerConnected) {
@@ -177,11 +180,11 @@ namespace KTibiaX.IPChanger.Features {
                 if (!string.IsNullOrEmpty(xml)) {
                     CurrentServer = xml.Deserialize<Server>();
                 }
-                StatusText = "Server On Line!";
+                StatusText = Program.GetCurrentResource().GetString("strOnline");
                 StatusImage = Properties.Resources.apply;
             }
             catch (SocketException) {
-                StatusText = "Server Off Line!";
+                StatusText = Program.GetCurrentResource().GetString("strOffLine");
                 StatusImage = Properties.Resources.delete;
             }
             catch (Exception ex) {
@@ -252,7 +255,7 @@ namespace KTibiaX.IPChanger.Features {
             TMPing = new System.Threading.Timer(new TimerCallback(TMPing_Callback), null, 0, 1500);
 
             StatusImage = Properties.Resources.remove;
-            StatusText = "Checking...";
+            StatusText = Program.GetCurrentResource().GetString("strLagChecking");
             progressBarControl1.Position = 0;
             TMChk.Start();
             TMLag.Start();
@@ -283,7 +286,7 @@ namespace KTibiaX.IPChanger.Features {
             }
             catch (SocketException) {
                 SetErrorState();
-                LagHeaderValue = "Lag - Unavaliable!";
+                LagHeaderValue = string.Concat("Lag - ", Program.GetCurrentResource().GetString("strUnavaliable"));
             }
             catch (Exception ex) {
                 SetErrorState();
