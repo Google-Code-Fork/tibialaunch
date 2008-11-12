@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.30428</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FBEC6020-E656-4542-B84A-82697DBA712C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -13,6 +13,21 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>Crystal_Jar.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -89,6 +104,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppLocal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppLocal.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AppLocal.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppLocal.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AppLocal.pt-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppLocal.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Ctrl_ConfigFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Ctrl_ConfigFile.Designer.cs">
+      <DependentUpon>Ctrl_ConfigFile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Ctrl_ServerList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -100,6 +136,12 @@
     </Compile>
     <Compile Include="Features\frm_About.Designer.cs">
       <DependentUpon>frm_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_Culture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_Culture.Designer.cs">
+      <DependentUpon>frm_Culture.cs</DependentUpon>
     </Compile>
     <Compile Include="Features\frm_Options.cs">
       <SubType>Form</SubType>
@@ -131,36 +173,110 @@
     <Compile Include="Features\frm_StartClient.Designer.cs">
       <DependentUpon>frm_StartClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="Features\frm_TibiaConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_TibiaConfig.Designer.cs">
+      <DependentUpon>frm_TibiaConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\frm_UpdateInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Features\frm_UpdateInfo.Designer.cs">
+      <DependentUpon>frm_UpdateInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CheckUpdate.cs" />
     <Compile Include="Modules\FrameRate.cs" />
     <Compile Include="Modules\Memory.cs" />
     <Compile Include="Modules\ProcessTools.cs" />
     <Compile Include="Modules\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AppLocal.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppLocal.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppLocal.pt-BR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppLocal.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Ctrl_ConfigFile.resx">
+      <DependentUpon>Ctrl_ConfigFile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\Ctrl_ServerList.resx">
       <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_About.en-US.resx">
+      <DependentUpon>frm_About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_About.pt-BR.resx">
+      <DependentUpon>frm_About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_About.resx">
       <DependentUpon>frm_About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Culture.en-US.resx">
+      <DependentUpon>frm_Culture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Culture.pt-BR.resx">
+      <DependentUpon>frm_Culture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Culture.resx">
+      <DependentUpon>frm_Culture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Options.pt-BR.resx">
+      <DependentUpon>frm_Options.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Options.resx">
       <DependentUpon>frm_Options.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Pinger.en-US.resx">
+      <DependentUpon>frm_Pinger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Pinger.pt-BR.resx">
+      <DependentUpon>frm_Pinger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Pinger.resx">
       <DependentUpon>frm_Pinger.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Server.pt-BR.resx">
+      <DependentUpon>frm_Server.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Server.resx">
       <DependentUpon>frm_Server.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_Skins.pt-BR.resx">
+      <DependentUpon>frm_Skins.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Skins.resx">
       <DependentUpon>frm_Skins.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_StartClient.pt-BR.resx">
+      <DependentUpon>frm_StartClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_StartClient.resx">
       <DependentUpon>frm_StartClient.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_TibiaConfig.pt-BR.resx">
+      <DependentUpon>frm_TibiaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_TibiaConfig.resx">
+      <DependentUpon>frm_TibiaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_UpdateInfo.pt-BR.resx">
+      <DependentUpon>frm_UpdateInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_UpdateInfo.resx">
+      <DependentUpon>frm_UpdateInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -192,6 +308,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Crystal_Jar.ico" />
+    <None Include="Resources\update.png" />
+    <None Include="Resources\Brazil.png" />
+    <None Include="Resources\United States of America%28USA%29.png" />
+    <None Include="Resources\ini.png" />
+    <None Include="Resources\folder.png" />
     <None Include="Resources\remove.png" />
     <None Include="Resources\apply.png" />
     <None Include="Resources\about.png" />
@@ -214,6 +335,28 @@
       <Project>{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}</Project>
       <Name>KTibiaX.IPChanger.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

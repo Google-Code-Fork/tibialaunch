@@ -15,7 +15,7 @@ namespace KTibiaX.IPChanger.Features {
         }
 
         private void frm_About_Load(object sender, EventArgs e) {
-            lblVersion.Text = string.Concat("  Version: ",
+            lblVersion.Text = string.Concat(Program.GetCurrentResource().GetString("strVersion"),
                 Assembly.GetExecutingAssembly().GetName().Version.ToString(), " (", 
                 Assembly.GetExecutingAssembly().GetName().GetBuildDate().ToString("dd/MM/yyyy"), ")");
         }

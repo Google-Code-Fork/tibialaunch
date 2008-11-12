@@ -18,6 +18,7 @@ namespace KTibiaX.IPChanger.Controls {
                 width += col.Width;
             }
             lookUpEdit1.Properties.PopupWidth = width;
+            lookUpEdit1.Properties.NullText = Program.GetCurrentResource().GetString("strSelectServer");
         }
 
         /// <summary>
@@ -42,7 +43,7 @@ namespace KTibiaX.IPChanger.Controls {
                 case DevExpress.XtraEditors.Controls.ButtonPredefines.Close:
                     if (CurrentServer != null) {
                         var result =
-                            MessageBox.Show("Delete current server.\nAre you shure?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                            MessageBox.Show(Program.GetCurrentResource().GetString("strDeleteServer"), "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (result == DialogResult.Yes) {
                             DataSource.Remove(CurrentServer);
                             Settings.Default.ServerList = DataSource;
@@ -75,7 +76,7 @@ namespace KTibiaX.IPChanger.Controls {
             }
         }
         private void lookUpEdit1_EditValueChanging(object sender, DevExpress.XtraEditors.Controls.ChangingEventArgs e) {
-            if (e.NewValue == null) {CurrentServer = null; DisableButton(ButtonPredefines.Close); }
+            if (e.NewValue == null) { CurrentServer = null; DisableButton(ButtonPredefines.Close); }
             else {
                 var servers = (from server in DataSource where server.Ip == e.NewValue.ToString() select server);
                 if (servers.Count() > 0) {
@@ -84,6 +85,17 @@ namespace KTibiaX.IPChanger.Controls {
                 }
             }
             if (ServerChange != null) ServerChange(this, new LoginServerChangeEventArgs(CurrentServer));
+        }
+        private void lookUpEdit1_KeyPress(object sender, KeyPressEventArgs e) {
+            if (lookUpEdit1.Text != "") {
+                lookUpEdit1.EditValue = lookUpEdit1.Text;
+            }
+            else { lookUpEdit1.EditValue = null; }
+        }
+        private void lookUpEdit1_KeyUp(object sender, KeyEventArgs e) {
+            if (e.KeyCode == Keys.Delete || e.KeyCode == Keys.Back) {
+                lookUpEdit1.EditValue = null;
+            }
         }
         #endregion
 
@@ -143,13 +155,5 @@ namespace KTibiaX.IPChanger.Controls {
                 btn.Enabled = true; return;
             }
         }
-
-        private void lookUpEdit1_KeyPress(object sender, KeyPressEventArgs e) {
-            if (lookUpEdit1.Text != "") {
-                lookUpEdit1.EditValue = lookUpEdit1.Text;
-            }
-            else { lookUpEdit1.EditValue = null; }
-        }
-
     }
 }

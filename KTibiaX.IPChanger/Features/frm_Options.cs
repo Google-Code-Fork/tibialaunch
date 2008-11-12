@@ -68,6 +68,7 @@ namespace KTibiaX.IPChanger.Features {
             ckMC.Checked = Settings.Default.EnableMC;
             ckRSA.Checked = Settings.Default.WriteRSA;
             txtRSA.Text = Settings.Default.RSAKey;
+            ckClose.Checked = Settings.Default.CloseAfterStart;
             if (string.IsNullOrEmpty(Settings.Default.OTMapPath)) {
                 txtMapPath.Text = string.Concat(Environment.CurrentDirectory, "\\OTServMaps\\");
             }
@@ -87,6 +88,7 @@ namespace KTibiaX.IPChanger.Features {
             Settings.Default.WriteRSA = ckRSA.Checked;
             Settings.Default.RSAKey = txtRSA.Text;
             Settings.Default.OTMapPath = txtMapPath.Text;
+            Settings.Default.CloseAfterStart = ckClose.Checked;
             Settings.Default.Save();
             Close();
         }
@@ -102,6 +104,7 @@ namespace KTibiaX.IPChanger.Features {
             ckMaps.Checked = true;
             ckMC.Checked = true;
             ckRSA.Checked = true;
+            ckClose.Checked = true;
             txtMapPath.Text = string.Concat(Environment.CurrentDirectory, "\\OTServMaps\\");
             txtRSA.Text = "109120132967399429278860960508995541528237502902798129123468757937266291492576446330739696001110603907230888610072655818825358503429057592827629436413108566029093628212635953836686562675849720620786279431090218017681061521755056710823876476444260558147179707119674283982419152118103759076030616683978566631413";
             SaveData();

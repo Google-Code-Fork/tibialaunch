@@ -107,6 +107,7 @@ namespace KTibiaX.IPChanger.Controls {
             this.lookUpEdit1.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.lookUpEdit1_ButtonClick);
             this.lookUpEdit1.EditValueChanging += new DevExpress.XtraEditors.Controls.ChangingEventHandler(this.lookUpEdit1_EditValueChanging);
             this.lookUpEdit1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lookUpEdit1_KeyPress);
+            this.lookUpEdit1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.lookUpEdit1_KeyUp);
             this.lookUpEdit1.TextChanged += new System.EventHandler(this.lookUpEdit1_TextChanged);
             // 
             // Ctrl_ServerList

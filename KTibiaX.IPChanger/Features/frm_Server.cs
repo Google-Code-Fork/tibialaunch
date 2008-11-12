@@ -36,7 +36,7 @@ namespace KTibiaX.IPChanger.Features {
         /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
         private void btnSave_Click(object sender, EventArgs e) {
             if (ddlVersion.SelectedIndex == 0 || ddlVersion.SelectedIndex == -1) {
-                MessageBox.Show("Invalid Tibia Version!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Program.GetCurrentResource().GetString("strInvalidVersion"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             var server = new LoginServer() {
@@ -47,11 +47,16 @@ namespace KTibiaX.IPChanger.Features {
                 Version = (Version)ddlVersion.Properties.Items[ddlVersion.SelectedIndex].Value.ToInt32()
             };
             var serverlist = Settings.Default.ServerList != null ? Settings.Default.ServerList : new LoginServerCollection();
-            if ((from inserv in serverlist
-                 where inserv.Ip.ToLower() == server.Ip.ToLower()
-                 select inserv).Count() > 0) {
-                MessageBox.Show("Server IP Already Exist!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+            var serverWithIP = (from inserv in serverlist
+                                where inserv.Ip.ToLower() == server.Ip.ToLower()
+                                select inserv);
+            if (serverWithIP.Count() > 0) {
+                foreach (var innerserver in serverWithIP) {
+                    if (innerserver.Port == server.Port) {
+                        MessageBox.Show(Program.GetCurrentResource().GetString("strIPExist"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
             }
             serverlist.Add(server);
             Properties.Settings.Default.ServerList = serverlist;
@@ -88,7 +93,7 @@ namespace KTibiaX.IPChanger.Features {
         /// <param name="enumType">Enum to get items.</param>
         public void AddEnumItems(ImageComboBoxEdit combo, Type enumType) {
             combo.Properties.Items.BeginUpdate();
-            combo.Properties.Items.Add(new ImageComboBoxItem("Select", -1, -1));
+            combo.Properties.Items.Add(new ImageComboBoxItem(Program.GetCurrentResource().GetString("strSelect"), -1, -1));
             Array items = Enum.GetValues(enumType);
             foreach (Enum item in items) {
                 string enumText = item.Description() != "" ? item.Description() : item.ToString();
