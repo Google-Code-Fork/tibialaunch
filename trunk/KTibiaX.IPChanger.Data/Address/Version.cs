@@ -4,7 +4,7 @@ using System.ComponentModel;
 namespace KTibiaX.IPChanger.Data {
 
     [Serializable]
-    public static class Versions { public const uint Total = 10; }
+    public static class Versions { public const uint Total = 11; }
 
     public enum Version {
 
@@ -36,7 +36,10 @@ namespace KTibiaX.IPChanger.Data {
         v830 = 8,
 
         [Description("8.31")]
-        v831 = 9
+        v831 = 9,
+        
+        [Description("8.4")]
+        v84 = 10
 
     }
 }
