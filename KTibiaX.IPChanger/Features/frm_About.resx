@@ -126,14 +126,11 @@
   <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
     <value>emptySpaceItem1</value>
   </data>
-  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
-    <value>Author: Keyrox (keyrox@gmail.com)</value>
-  </data>
   <data name="layoutControlItem2.Text" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
   <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="lblVersion.CustomizationFormText" xml:space="preserve">
     <value>Version: 1.0.0.00000</value>
@@ -156,7 +153,10 @@
     <value>7.6, 7.9, 7.92, 8.0, 8.10, 8.11, 8.20, 8.22, 8.30, 8.31</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
   </data>
   <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
     <value>KTibiaX® Tibia Launcher 2008</value>
@@ -176,8 +176,8 @@
   <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
     <value>pictureEdit1</value>
   </data>
-  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="emptySpaceItem5.Text" xml:space="preserve">
+    <value>emptySpaceItem5</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -189,10 +189,7 @@
     <value>6, 13</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
-    <value>layoutControlItem1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
@@ -205,7 +202,7 @@
     <value>5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
@@ -216,8 +213,8 @@
   <data name="layoutControlGroup2.Text" xml:space="preserve">
     <value>Root</value>
   </data>
-  <data name="emptySpaceItem5.Text" xml:space="preserve">
-    <value>emptySpaceItem5</value>
+  <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem4.Name" xml:space="preserve">
     <value>emptySpaceItem4</value>
@@ -234,9 +231,6 @@
   <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
     <value>lblVersion</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
   <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>400, 168</value>
   </data>
@@ -244,16 +238,13 @@
     <value>layoutControlItem2</value>
   </data>
   <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
-    <value>layoutControl1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frm_About</value>
@@ -264,26 +255,26 @@
   <data name="&gt;&gt;emptySpaceItem5.Name" xml:space="preserve">
     <value>emptySpaceItem5</value>
   </data>
+  <data name="emptySpaceItem4.Text" xml:space="preserve">
+    <value>  Support: http://tibialaunch.googlecode.com</value>
+  </data>
   <data name="emptySpaceItem4.CustomizationFormText" xml:space="preserve">
     <value>Support: http://tpforums.org/</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>259, 155</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
-  <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="&gt;&gt;emptySpaceItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -298,7 +289,7 @@
     <value>emptySpaceItem2</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
     <value>Root</value>
@@ -306,53 +297,26 @@
   <data name="emptySpaceItem3.Text" xml:space="preserve">
     <value>  Author: Keyrox (keyrox@gmail.com)</value>
   </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
     <value>emptySpaceItem3</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlGroup1.Text" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 20</value>
-  </data>
-  <data name="emptySpaceItem1.Text" xml:space="preserve">
-    <value>  KTibiaX® Tibia Launcher 2008</value>
-  </data>
-  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="emptySpaceItem5.CustomizationFormText" xml:space="preserve">
-    <value>emptySpaceItem5</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem1</value>
-  </data>
-  <data name="lblVersion.Text" xml:space="preserve">
-    <value>  Version: 1.0.0.00000 (00/00/0000)</value>
-  </data>
-  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2335,8 +2299,44 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
-  <data name="emptySpaceItem4.Text" xml:space="preserve">
-    <value>  Support: http://tibialaunch.googlecode.com</value>
+  <data name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>  KTibiaX® Tibia Launcher 2008</value>
+  </data>
+  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="emptySpaceItem5.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>  Version: 1.0.0.00000 (00/00/0000)</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>Author: Keyrox (keyrox@gmail.com)</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 155</value>
@@ -2345,10 +2345,10 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
   </data>
   <data name="layoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
