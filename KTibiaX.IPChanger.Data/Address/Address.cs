@@ -118,6 +118,15 @@ namespace KTibiaX.IPChanger.Data {
                     FrameRateCurrentOffset = 0x60;
                     FrameRateLimitOffset = 0x58;
                     break;
+
+                case Version.v84:
+                    MultiClient = 0x505945;
+                    LoginServer = 0x77FC48;
+                    RSAKey = 0X5AB610;
+                    ptrFrameRateBegin = 0x788EB4;
+                    FrameRateCurrentOffset = 0x60;
+                    FrameRateLimitOffset = 0x58;
+                    break;
                 #endregion
 
                 default: throw new ArgumentException("Invalid Address Memory Version!");

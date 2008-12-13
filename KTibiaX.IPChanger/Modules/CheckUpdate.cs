@@ -27,7 +27,7 @@ namespace KTibiaX.IPChanger.Modules {
         private void CheckVersion() {
             try {
                 var sysver = GetLastVersion();
-                if (sysver.Version != null && sysver.Version != Assembly.GetExecutingAssembly().GetName().Version.ToString()) {
+                if (sysver.ReleaseDate > Program.GetBuildDate(Assembly.GetExecutingAssembly().GetName())) {
                     if (NewVersionDetected != null) NewVersionDetected(this, new SystemVersionEventArgs(sysver));
                 }
                 else if (NoUpdateAvailable != null) NoUpdateAvailable(this, EventArgs.Empty);
