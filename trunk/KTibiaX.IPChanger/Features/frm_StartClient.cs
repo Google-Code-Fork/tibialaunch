@@ -254,23 +254,11 @@ namespace KTibiaX.IPChanger {
 
             #region "[rgn] Fix Tibia Version   "
             //Verify the Client Version.
-            for (int i = 0; i < Versions.Total; i++) {
-                var addr = new Address((Version)i);
-                string nversion = ClientMemory.Reader.String((IntPtr)addr.RSAKey);
-                if (nversion.StartsWith(Properties.Settings.Default.StringVersion)) {
-                    MemoryAddress = addr;
-                    //Fix the bug between 830 and 831
-                    if (MemoryAddress.Version == Version.v830) {
-                        string mcResult = ClientMemory.Reader.String((IntPtr)MemoryAddress.MultiClient);
-
-                        if (mcResult != Properties.Settings.Default.MCVersion) {
-                            MemoryAddress = new Address(Version.v831);
-                        }
-                    }
-                    //MessageBox.Show(MemoryAddress.Version.ToString());
-                    break;
-                }
+            var memoryversion = Versions.GetVersion(clientPath);
+            if (memoryversion != Version.Unknow) {
+                MemoryAddress = new Address(memoryversion);
             }
+            else { MessageBox.Show(Program.GetCurrentResource().GetString("strVersionNotSupported"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); return; }
             #endregion
 
             #region "[rgn] Enable Multi-Client "
@@ -391,10 +379,14 @@ namespace KTibiaX.IPChanger {
             this.Show();
         }
         private void btnKeyrox_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
-            var url = Program.GetCurrentResource().GetString("strUrl");
-            var info = new ProcessStartInfo("iexplore.exe");
-            info.Arguments = url;
-            Process.Start(info);
+            //var url = Program.GetCurrentResource().GetString("strUrl");
+            //var info = new ProcessStartInfo("iexplore.exe");
+            //info.Arguments = url;
+            //Process.Start(info);
+            var frmAbout = new frm_About();
+            this.Hide();
+            frmAbout.FormClosed += new FormClosedEventHandler(frmAbout_FormClosed);
+            frmAbout.Show();
         }
         private void btnLanguage_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             var frmCulture = new frm_Culture();
@@ -446,7 +438,7 @@ namespace KTibiaX.IPChanger {
         public void CheckServerList() {
             try {
                 if (Settings.Default.ServerList == null) {
-                    var file = new FileInfo(string.Concat(Application.StartupPath, "\\",Settings.Default.AppConfigDir, "\\ServerList.kbx"));
+                    var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ServerList.kbx"));
                     if (file.Exists) {
                         var reader = new StreamReader(file.FullName);
 
@@ -477,7 +469,7 @@ namespace KTibiaX.IPChanger {
                     var file = new FileInfo(string.Concat(Application.StartupPath, "\\", Settings.Default.AppConfigDir, "\\ConfigFiles.kbx"));
                     if (file.Exists) {
                         var reader = new StreamReader(file.FullName);
-                        
+
                         var xml = reader.ReadToEnd();
                         reader.Close(); reader.Dispose();
                         var oldSettings = xml.Deserialize<TibiaCFGCollection>();
@@ -540,7 +532,7 @@ namespace KTibiaX.IPChanger {
             Settings.Default.GraphicsEngine = ddlGraphics.SelectedItem.ToString();
             Settings.Default.LoginPort = Convert.ToInt32(txtPort.Text);
             Settings.Default.Save();
-            
+
             SaveServerList();
             SaveConfigFileList();
             SaveClientVersionList();

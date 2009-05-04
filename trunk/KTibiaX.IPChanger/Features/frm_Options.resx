@@ -129,10 +129,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 55</value>
-  </data>
-  <data name="layoutControlItem12.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem12</value>
+    <value>137, 49</value>
   </data>
   <data name="txtRSA.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 56</value>
@@ -142,6 +139,10 @@
   </data>
   <data name="ckClose.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+  <data name="txtMapPath.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+    <value>Default</value>
   </data>
   <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 20</value>
@@ -156,10 +157,10 @@
     <value>OpenGL</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="ddlGraphics.Properties.Items4" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;ckFPs.Name" xml:space="preserve">
+    <value>ckFPs</value>
   </data>
   <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 20</value>
@@ -167,14 +168,14 @@
   <data name="ddlGraphics.Properties.Items6" xml:space="preserve">
     <value>DirectX 9</value>
   </data>
-  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="ddlGraphics.Properties.Items7" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="layoutControlItem10.Text" xml:space="preserve">
     <value>layoutControlItem10</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ddlGraphics.Properties.Items1" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="ddlGraphics.Properties.Items2" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -194,24 +195,26 @@
   <data name="ckFPs.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 18</value>
   </data>
-  <!--assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" /-->
   <data name="txtFPS.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
     <value>Numeric</value>
   </data>
   <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
-  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>layoutControlItem6</value>
   </data>
   <data name="txtFPS.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="txtMapPath.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
+  <data name="ckGraphics.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;ckGraphics.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;ddlGraphics.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -237,11 +240,11 @@
   <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem5</value>
   </data>
-  <data name="ckRSA.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="folderBrowserDialog1.Description" xml:space="preserve">
+    <value>OT Server Maps Directory</value>
   </data>
   <data name="&gt;&gt;ckClose.Name" xml:space="preserve">
     <value>ckClose</value>
@@ -258,8 +261,11 @@
   <data name="&gt;&gt;ckGraphics.Parent" xml:space="preserve">
     <value>layoutControl2</value>
   </data>
+  <data name="txtFPS.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;txtMapPath.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="ckMC.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -270,11 +276,11 @@
   <data name="ckFPs.Properties.Caption" xml:space="preserve">
     <value> Optmize FPS:</value>
   </data>
-  <data name="ddlGraphics.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="txtMapPath.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
     <value>None</value>
@@ -283,7 +289,7 @@
     <value>7, 158</value>
   </data>
   <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 254</value>
+    <value>4, 259</value>
   </data>
   <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem1</value>
@@ -297,26 +303,29 @@
   <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
   <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;ckMaps.Name" xml:space="preserve">
     <value>ckMaps</value>
   </data>
-  <data name="&gt;&gt;imageCollection1.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
     <value>groupControl1</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;txtMapPath.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
-    <value>layoutControlItem7</value>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
   </data>
   <data name="&gt;&gt;ckClose.Parent" xml:space="preserve">
     <value>layoutControl2</value>
@@ -325,243 +334,7 @@
     <value>layoutControlItem3</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="ckGraphics.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtFPS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 69</value>
-  </data>
-  <data name="txtFPS.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ddlGraphics.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ddlGraphics.Properties.Items7" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Advanced Options</value>
-  </data>
-  <data name="ddlGraphics.Properties.Items1" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="ckFPs.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ckMC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 18</value>
-  </data>
-  <data name="txtMapPath.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControlItem9.Text" xml:space="preserve">
-    <value>layoutControlItem9</value>
-  </data>
-  <data name="txtRSA.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;imageCollection1.Name" xml:space="preserve">
-    <value>imageCollection1</value>
-  </data>
-  <data name="txtRSA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 187</value>
-  </data>
-  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 56</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl22222.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="txtMapPath.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="imageCollection1.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
-  </data>
-  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="ckMaps.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem6</value>
-  </data>
-  <data name="txtMapPath.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
-    <value>layoutControlItem8</value>
-  </data>
-  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
-        AACpCwAAAi4GAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAF
-        rElEQVRYR8VWaVNTZxRuf0U/9Gs7/dIvnerY2pa2dq/TaZ0utlar48IqgkZQkQJCRQmCWkRJWKNB3BIW
-        waXWZbQqWpIQCAmRQkEGhmVAJiACEp+e896bm0RuiZZxemYezjnPOfc9z33ve294HsBz/6uxgMdhMJRh
-        rogyd4Khtn4gN2N4+AthOh4+V+PhHbRIKBFBAng4Qdz9XI0H6xoQUoQiQPd6+HIezigtK5nrfHHn+25M
-        Yi9htp1QBBTOjxR3zyguKRYCHj16JMOreC9xDH8tIPZSn5frXiFgx8URGfeEiDA9/w0+c4qA0rdiYXg3
-        XggoLCoUArzTXni905gmPz09TTnHUs41KSaeeny5r4cFaGp7FWyiWE2EIsC4aBMqPt4C/cJoHI3NEgIe
-        PnyoYIpiBnP+eIryKUxNyX1TlIt4SuzAS0m/qUL1LTjxeRJMX6ag+pt0HJi3Fo7S85iYnMRkECYkbmJS
-        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
-</value>
-  </data>
-  <data name="ckClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 254</value>
-  </data>
-  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 179</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;txtRSA.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;ckRSA.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="txtRSA.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="txtFPS.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ddlGraphics.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
-    <value>Combo</value>
-  </data>
-  <data name="layoutControlItem12.Text" xml:space="preserve">
-    <value>layoutControlItem12</value>
-  </data>
-  <data name="&gt;&gt;txtRSA.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="layoutControlItem13.Text" xml:space="preserve">
-    <value> OT Maps:</value>
-  </data>
-  <data name="&gt;&gt;ckMC.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
-    <value>pictureEdit1</value>
-  </data>
-  <data name="txtMapPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 20</value>
-  </data>
-  <data name="ddlGraphics.Properties.Items10" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>Save Config</value>
-  </data>
-  <data name="&gt;&gt;ckClose.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="ckGraphics.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="ddlGraphics.Properties.Items" xml:space="preserve">
-    <value>Choose a engine...</value>
-  </data>
-  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 313</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;ckClose.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ckGraphics.Name" xml:space="preserve">
-    <value>ckGraphics</value>
-  </data>
-  <data name="txtMapPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 278</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2544,20 +2317,283 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
+  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="txtFPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 69</value>
+  </data>
+  <data name="ddlGraphics.Properties.Items4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtFPS.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ddlGraphics.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Advanced Options</value>
+  </data>
+  <data name="ckClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 18</value>
+  </data>
+  <data name="ckFPs.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ckMC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 18</value>
+  </data>
+  <data name="txtMapPath.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="txtRSA.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ckMaps.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ckGraphics.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtRSA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 187</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 51</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl22222.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="txtMapPath.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
+        AAB6EAAAAjgIAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAH
+        tklEQVRYR81XeVDWxxnOtLbNZDqZTqd/dJqx0yaxmmqrM8lUm7YmrW1HwGbMWC+EOPXCFhgVFRHBo4gg
+        KAooMtyHB4RbPIAit9xHlGgALyAeVQSNFYny7T59n4Wfg8KXONN/+s08s/vbfY9n33333f1eeun/6bd5
+        8+bwLVu2wIKHhwdWr16NtWvXwtfXF7t27cLBgweRkJCA7OxsnDx5EoWFhcjNzUVycjLCwsKM7sqVK7Fw
+        4ULMnTsXS5cufWrPsiu21Kh1i/NYCtDQmTNnkJeXhxUrVuB//Tk6OiInJwclJSUGtE0/owhw8PDhw4iO
+        joafnx82bNiAVatWobe313AoLi42pAoKCtDc3PxCvLTWmDNnDtavX29sEiRhlwAnLUESWLZsGXp6eoyz
+        PXv2YN26dcZYUlLSCxF4+PAhnJyczGL8/f0NvpaAJbhx40azf9evXzfOAgMDsWbNGpMPBw4c+FoC/f39
+        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
+        /7vnfwGr/CnQHqLwCwAAAABJRU5ErkJgggs=
+</value>
+  </data>
+  <data name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="txtMapPath.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="ckClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 254</value>
+  </data>
+  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 190</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;txtRSA.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ckRSA.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="txtRSA.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
+    <value>layoutControlItem11</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>layoutControlItem12</value>
+  </data>
+  <data name="&gt;&gt;txtRSA.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value> OT Maps:</value>
+  </data>
+  <data name="ckRSA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
+    <value>pictureEdit1</value>
+  </data>
+  <data name="txtMapPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 20</value>
+  </data>
+  <data name="ddlGraphics.Properties.Items10" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="txtFPS.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ckClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="ckMC.Properties.Caption" xml:space="preserve">
+    <value> Enable Tibia Runtime Multi-Client.</value>
+  </data>
+  <data name="ddlGraphics.Properties.Items" xml:space="preserve">
+    <value>Choose a engine...</value>
+  </data>
+  <data name="ckMC.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 313</value>
+  </data>
+  <data name="&gt;&gt;ckClose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ckGraphics.Name" xml:space="preserve">
+    <value>ckGraphics</value>
+  </data>
+  <data name="ckMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtMapPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 278</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="ddlGraphics.Properties.Items5" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
   <data name="txtFPS.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="txtFPS.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 20</value>
   </data>
+  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
     <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControlItem9.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem9</value>
   </data>
   <data name="&gt;&gt;ckFPs.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -2568,11 +2604,8 @@
   <data name="layoutControl22222.CustomizationFormText" xml:space="preserve">
     <value>txtFps</value>
   </data>
-  <data name="&gt;&gt;ckFPs.Name" xml:space="preserve">
-    <value>ckFPs</value>
-  </data>
-  <data name="ddlGraphics.EditValue" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
   </data>
   <data name="txtMapPath.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2580,8 +2613,11 @@
   <data name="ckFPs.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="folderBrowserDialog1.Description" xml:space="preserve">
-    <value>OT Server Maps Directory</value>
+  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
+    <value>layoutControlItem9</value>
   </data>
   <data name="ckMaps.Properties.Caption" xml:space="preserve">
     <value> Distinct  Maps for each OTServer.</value>
@@ -2589,32 +2625,35 @@
   <data name="layoutControlItem7.CustomizationFormText" xml:space="preserve">
     <value> Default Graphics Engine: </value>
   </data>
-  <data name="ddlGraphics.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 38</value>
-  </data>
   <data name="ckMaps.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 18</value>
+  </data>
+  <data name="txtFPS.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="ckFPs.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 69</value>
   </data>
+  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
+    <value>imgLarge</value>
+  </data>
   <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="&gt;&gt;txtRSA.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
+  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
+    <value>layoutControlItem12</value>
   </data>
-  <data name="txtFPS.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
+  <data name="ckMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 100</value>
   </data>
   <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;ckRSA.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
@@ -2626,10 +2665,10 @@
     <value>frm_Options</value>
   </data>
   <data name="&gt;&gt;txtFPS.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;ddlGraphics.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;ckMC.Name" xml:space="preserve">
     <value>ckMC</value>
@@ -2640,17 +2679,17 @@
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
-  <data name="txtFPS.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="ddlGraphics.Properties.Items11" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
-  <data name="layoutControlItem6.Text" xml:space="preserve">
-    <value>layoutControlItem6</value>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 205</value>
   </data>
   <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
-  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup2</value>
+  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
   </data>
   <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -2658,50 +2697,44 @@
   <data name="&gt;&gt;ckMC.Parent" xml:space="preserve">
     <value>layoutControl2</value>
   </data>
-  <data name="ckClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 18</value>
+  <data name="&gt;&gt;txtMapPath.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>202, 300</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="layoutControlItem10.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem10</value>
   </data>
   <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="ckMaps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 100</value>
-  </data>
-  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="txtFPS.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="layoutControlItem4.Text" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
-    <value>layoutControlItem9</value>
+  <data name="ddlGraphics.EditValue" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
-    <value>btnSave</value>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
   </data>
-  <data name="ddlGraphics.Properties.Items11" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="ddlGraphics.Properties.Items5" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 168</value>
   </data>
   <data name="layoutControlItem1.Text" xml:space="preserve">
     <value>layoutControlItem1</value>
   </data>
-  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;ckFPs.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="txtFPS.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+    <value>Default</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="ddlGraphics.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -2718,6 +2751,9 @@
   <data name="ckMaps.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
   <data name="&gt;&gt;txtMapPath.Name" xml:space="preserve">
     <value>txtMapPath</value>
   </data>
@@ -2728,16 +2764,16 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="txtFPS.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
     <value>_</value>
   </data>
-  <data name="txtFPS.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="layoutControlItem12.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem12</value>
   </data>
-  <data name="layoutControlItem9.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem9</value>
+  <data name="ckGraphics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 38</value>
   </data>
   <data name="layoutControlItem11.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem11</value>
@@ -2745,14 +2781,17 @@
   <data name="ckGraphics.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 18</value>
   </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
   <data name="layoutControlItem2.Text" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
-    <value>layoutControlGroup1</value>
+  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="ckRSA.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2766,17 +2805,17 @@
   <data name="txtFPS.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtFPS.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save Config</value>
   </data>
-  <data name="layoutControlItem10.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem10</value>
+  <data name="&gt;&gt;ckMC.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>357, 313</value>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
-    <value>layoutControlItem12</value>
+  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;ckFPs.Parent" xml:space="preserve">
     <value>layoutControl2</value>
@@ -2787,23 +2826,20 @@
   <data name="&gt;&gt;ckRSA.Name" xml:space="preserve">
     <value>ckRSA</value>
   </data>
-  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 194</value>
-  </data>
   <data name="&gt;&gt;ckRSA.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
   <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
-    <value>groupControl1</value>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
   </data>
   <data name="ckClose.Properties.Caption" xml:space="preserve">
     <value> Close Program after Start Tibia.</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
-    <value>layoutControlItem11</value>
+  <data name="ddlGraphics.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
+    <value>Combo</value>
   </data>
   <data name="&gt;&gt;txtFPS.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -2814,17 +2850,14 @@
   <data name="txtFPS.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="ddlGraphics.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
-  </data>
-  <data name="ckGraphics.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 38</value>
-  </data>
   <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
     <value>layoutControlItem6</value>
   </data>
   <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem8</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;txtFPS.Name" xml:space="preserve">
     <value>txtFPS</value>
@@ -2832,17 +2865,17 @@
   <data name="ckRSA.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 18</value>
   </data>
-  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
+  <data name="txtMapPath.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
+    <value>layoutControlItem7</value>
   </data>
   <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>149, 7</value>
   </data>
   <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="ckClose.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -2850,50 +2883,41 @@
   <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
-    <value>layoutControlGroup2</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>357, 313</value>
   </data>
   <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
     <value>layoutControlItem10</value>
   </data>
-  <data name="&gt;&gt;ckMaps.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="&gt;&gt;ckMaps.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="ckMC.Properties.Caption" xml:space="preserve">
-    <value> Enable Tibia Runtime Multi-Client.</value>
-  </data>
-  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 157</value>
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
     <value>btnReset</value>
   </data>
-  <data name="ckMC.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="ddlGraphics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
   </data>
   <data name="txtMapPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>61, 7</value>
   </data>
-  <data name="txtMapPath.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
+  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="ddlGraphics.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;folderBrowserDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
   </data>
   <data name="&gt;&gt;ddlGraphics.Name" xml:space="preserve">
     <value>ddlGraphics</value>
@@ -2901,20 +2925,17 @@
   <data name="layoutControlItem11.Text" xml:space="preserve">
     <value>layoutControlItem11</value>
   </data>
-  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
+  <data name="ddlGraphics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 38</value>
   </data>
   <data name="&gt;&gt;ckGraphics.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;txtRSA.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
   </data>
   <data name="&gt;&gt;txtFPS.Parent" xml:space="preserve">
     <value>layoutControl2</value>
-  </data>
-  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
     <value>layoutControlItem13</value>
@@ -2922,7 +2943,7 @@
   <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
-  <metadata name="imageCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

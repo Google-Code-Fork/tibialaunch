@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="&gt;&gt;btnStart.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.DropDownButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.DropDownButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
@@ -130,8 +130,8 @@
   <data name="btnChecker.Description" xml:space="preserve">
     <value>Check OT Server Connection and LAG.</value>
   </data>
-  <data name="txtPath.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtPath.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnSkin.Name" xml:space="preserve">
     <value>btnSkin</value>
@@ -139,14 +139,14 @@
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="ddlGraphics.Properties.Items8" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem5</value>
   </data>
   <data name="ddlGraphics.Properties.Items9" xml:space="preserve">
     <value>OpenGL</value>
   </data>
-  <data name="txtPath.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
+  <data name="lblUpdate.Caption" xml:space="preserve">
+    <value>No updates needed!</value>
   </data>
   <data name="ddlGraphics.Properties.Items4" type="System.Int32, mscorlib">
     <value>0</value>
@@ -158,11 +158,11 @@
   <data name="ddlGraphics.Properties.Items6" xml:space="preserve">
     <value>DirectX 9</value>
   </data>
-  <data name="txtPath.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 118</value>
   </data>
   <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -173,38 +173,41 @@
   <data name="ddlGraphics.Properties.Items3" xml:space="preserve">
     <value>DirectX 5</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
   <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="&gt;&gt;txtPath.Name" xml:space="preserve">
-    <value>txtPath</value>
+  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
+    <value> Server: </value>
   </data>
   <data name="&gt;&gt;ribbonStatusBar1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
   <data name="ctrl_ConfigFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 21</value>
+    <value>132, 20</value>
   </data>
-  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem3</value>
+  <data name="&gt;&gt;txtPath.Name" xml:space="preserve">
+    <value>txtPath</value>
   </data>
-  <data name="layoutControlItem6.Text" xml:space="preserve">
-    <value> Graphics:</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
-    <value>groupControl1</value>
+  <data name="&gt;&gt;barButtonGroup2.Name" xml:space="preserve">
+    <value>barButtonGroup2</value>
   </data>
   <data name="txtPath.Properties.Mask.EditMask" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>295, 127</value>
+    <value>316, 111</value>
   </data>
   <data name="&gt;&gt;ddlGraphics.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -213,10 +216,13 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;ribbonPage1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="btnKeyrox.Caption" xml:space="preserve">
     <value>Keyrox</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value> Tibia Path:</value>
   </data>
   <data name="btnOptions.Caption" xml:space="preserve">
     <value>Advanced Options</value>
@@ -225,16 +231,16 @@
     <value>7171</value>
   </data>
   <data name="ribbonStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 24</value>
+    <value>472, 24</value>
   </data>
   <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
     <value>btnClose</value>
   </data>
-  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
+  <data name="&gt;&gt;ctrl_ConfigFile1.Name" xml:space="preserve">
+    <value>ctrl_ConfigFile1</value>
   </data>
-  <data name="txtPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -243,19 +249,22 @@
     <value>lblUpdate</value>
   </data>
   <data name="btnSkin.Description" xml:space="preserve">
-    <value>Change the current system skin.</value>
+    <value>Change the current application skin.</value>
   </data>
-  <data name="&gt;&gt;ctrl_ConfigFile1.Name" xml:space="preserve">
-    <value>ctrl_ConfigFile1</value>
+  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 32</value>
   </data>
-  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
-    <value>barButtonItem3</value>
+  <data name="btnAbout.Description" xml:space="preserve">
+    <value>Information about KTibiaX and his Author.</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
   </data>
   <data name="btnSkin.Caption" xml:space="preserve">
     <value>Change Skin</value>
+  </data>
+  <data name="txtPath.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="layoutControl3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -264,13 +273,13 @@
     <value>0</value>
   </data>
   <data name="ribbonStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 162</value>
+    <value>0, 146</value>
   </data>
   <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 69</value>
+    <value>203, 59</value>
   </data>
-  <data name="btnAbout.Description" xml:space="preserve">
-    <value>Information about KTibiaX Author.</value>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;btnChecker.Name" xml:space="preserve">
     <value>btnChecker</value>
@@ -278,20 +287,20 @@
   <data name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
     <value>defaultLookAndFeel1</value>
   </data>
-  <data name="&gt;&gt;popupMenu1.Name" xml:space="preserve">
-    <value>popupMenu1</value>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value> Server: </value>
   </data>
-  <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="barButtonGroup2.Caption" xml:space="preserve">
+    <value>barButtonGroup2</value>
   </data>
   <data name="btnLanguage.Description" xml:space="preserve">
-    <value>Change the current system language.</value>
+    <value>Change the current application language.</value>
   </data>
   <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
     <value> Tibia Path:</value>
   </data>
   <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 7</value>
+    <value>146, 7</value>
   </data>
   <data name="layoutControlItem5.Text" xml:space="preserve">
     <value>layoutControlItem5</value>
@@ -299,35 +308,23 @@
   <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
   <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
     <value>lblVersion</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl3.Name" xml:space="preserve">
-    <value>layoutControl3</value>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
     <value>layoutControlItem7</value>
   </data>
-  <data name="&gt;&gt;ctrl_ConfigFile1.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
   <data name="txtPort.Properties.Mask.EditMask" xml:space="preserve">
     <value>f0</value>
   </data>
-  <data name="&gt;&gt;imgGraph.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
   <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlItem3.Text" xml:space="preserve">
     <value>layoutControlItem3</value>
@@ -335,8 +332,14 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frm_StartClient</value>
   </data>
-  <data name="lblVersion.Caption" xml:space="preserve">
-    <value>v0.0.0000.00000</value>
+  <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="ddlGraphics.Properties.Items8" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="btnUpdates.Caption" xml:space="preserve">
     <value>Search for Updates</value>
@@ -351,7 +354,7 @@
     <value>True</value>
   </data>
   <data name="ddlGraphics.Properties.Items7" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnLanguage.Caption" xml:space="preserve">
     <value>Change Language</value>
@@ -359,38 +362,32 @@
   <data name="ddlGraphics.Properties.Items1" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;ctrl_ServerList1.Name" xml:space="preserve">
-    <value>ctrl_ServerList1</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;barButtonGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;barButtonGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;btnUpdates.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;btnOptions.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="ribbonPage1.Text" xml:space="preserve">
-    <value>ribbonPage1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
     <value>ribbonPageGroup1</value>
   </data>
-  <data name="&gt;&gt;popupMenu1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
-  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
   <data name="imgSmall.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
         dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
         bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
         YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
@@ -435,12 +432,306 @@
   <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="layoutControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 20</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
+        AAB3QwAAAtQGAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAG
+        UklEQVRYR+2WS0yUVxTHTWpt0pgmNk2TruqCpLZp2rRJm6ZttBHSKLowXZh0hRvahZiAL5CXICIvJaIL
+        wYJWCT6iJlA0JAgICggIIiAggvgCFIaHvBxg5vtO7+/KJTMoE1x010n+me+793zn/M/z3iVL/v8tMgJH
+        jhypOH36tPPKlSvOGzduOBsaGpzNzc0aPJeVlTkvXLjgzMrKcqamplYsUu3ixPbu3bs0JiZm8urVq1JV
+        VSXKqNy/f1+6u7vlwYMHcu/ePamvr5fr169LcXGxIMs3i9O+CKk1a9Ys3bNnj/P8+fOSn58vhYWFUlpa
+        qg1WVFRoowUFBXpPRUGQ5ZtFqF6ciCGQkpIi6enpEhkZKXFxcZKUlCT79+/X74C9gwcP/ncEdu/eLeHh
+        4RiYjoiI8FPPKwHPs2tm/+0joHL7h8KQglNhcj5U4emQA57fdt9DPu+NcVcCrps3b0pra6t0dHRIV1eX
+        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
+</value>
   </data>
   <data name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
     <value> Graphics:</value>
@@ -451,47 +742,56 @@
   <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
     <value>layoutControlItem8</value>
   </data>
-  <data name="ctrl_ServerList1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 7</value>
-  </data>
   <data name="openFileDialog1.Filter" xml:space="preserve">
     <value>Executable files|*.exe</value>
   </data>
   <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 149</value>
+    <value>320, 133</value>
   </data>
   <data name="btnOptions.Description" xml:space="preserve">
     <value>Launcher Advanced Options.</value>
   </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtPath.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
   <data name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
-    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;barButtonGroup1.Name" xml:space="preserve">
     <value>barButtonGroup1</value>
   </data>
+  <data name="txtPath.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="txtPort.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
     <value>_</value>
   </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
+  <data name="txtPath.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem5</value>
+  <data name="&gt;&gt;popupMenu1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
     <value>pictureEdit1</value>
   </data>
   <data name="ddlGraphics.Properties.Items10" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -502,8 +802,11 @@
   <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="txtPath.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnChecker.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="ribbonPageGroup1.Text" xml:space="preserve">
     <value>ribbonPageGroup1</value>
@@ -512,17 +815,21 @@
     <value>Choose a engine...</value>
   </data>
   <data name="txtPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 20</value>
+    <value>248, 20</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl3.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
   <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 162</value>
+    <value>472, 146</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
@@ -2507,20 +2814,29 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
-  <data name="&gt;&gt;imgSmall.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
+    <value>imgLarge</value>
   </data>
-  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;imgSmall.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
   </data>
   <data name="&gt;&gt;applicationMenu1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.Ribbon.ApplicationMenu, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;TMUpdateValues.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;popupMenu1.Name" xml:space="preserve">
+    <value>popupMenu1</value>
   </data>
   <data name="txtPort.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2529,28 +2845,34 @@
     <value>ﮒTART </value>
   </data>
   <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+    <value>53, 20</value>
   </data>
   <data name="&gt;&gt;lblUpdate.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="txtPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
   <data name="ctrl_ConfigFile1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 100</value>
+    <value>64, 87</value>
   </data>
   <data name="btnChecker.Caption" xml:space="preserve">
-    <value>OT Status Checker</value>
+    <value>OT Server Checker</value>
   </data>
-  <data name="layoutControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
+  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="ctrl_ConfigFile1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -2565,7 +2887,7 @@
     <value> Tibia.cfg: </value>
   </data>
   <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -2573,29 +2895,38 @@
   <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
     <value>layoutControl3</value>
   </data>
+  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnKeyrox.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;imgSmall.Name" xml:space="preserve">
+    <value>imgSmall</value>
+  </data>
   <data name="txtPath.EditValue" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
   <data name="btnClose.Caption" xml:space="preserve">
     <value>Close KTibiaX </value>
   </data>
   <data name="&gt;&gt;txtPath.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
+  </data>
+  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 5</value>
   </data>
   <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2603,20 +2934,20 @@
   <data name="layoutControlItem7.Text" xml:space="preserve">
     <value> Tibia.cfg: </value>
   </data>
+  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
     <value>txtPort</value>
-  </data>
-  <data name="imgGraph.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
   </data>
   <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
     <value>btnAbout</value>
   </data>
   <data name="&gt;&gt;ddlGraphics.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
-    <value>layoutControlItem5</value>
+  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
@@ -2624,14 +2955,14 @@
   <data name="ddlGraphics.Properties.Items11" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="lblUpdate.Caption" xml:space="preserve">
-    <value>No updates needed!</value>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value> Graphics:</value>
   </data>
   <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
-  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>252, 7</value>
+  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
   <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -3064,56 +3395,50 @@
 </value>
   </data>
   <data name="ddlGraphics.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 69</value>
+    <value>64, 59</value>
   </data>
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 149</value>
+    <value>128, 133</value>
   </data>
-  <data name="&gt;&gt;btnChecker.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
-    <value> Server: </value>
-  </data>
-  <!--assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" /-->
+  <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
   <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
     <value>Default</value>
   </data>
   <data name="&gt;&gt;btnKeyrox.Name" xml:space="preserve">
     <value>btnKeyrox</value>
   </data>
-  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 118</value>
-  </data>
   <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
     <value>barButtonItem1</value>
   </data>
-  <data name="layoutControlItem4.Text" xml:space="preserve">
-    <value> Server: </value>
+  <data name="&gt;&gt;ctrl_ConfigFile1.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
   <data name="ddlGraphics.EditValue" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="ddlGraphics.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 111</value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="ctrl_ServerList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 5</value>
   </data>
   <data name="txtPort.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
     <value>Numeric</value>
   </data>
   <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
   </data>
-  <data name="ddlGraphics.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>ribbonPage1</value>
   </data>
   <data name="&gt;&gt;ctrl_ServerList1.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -3140,13 +3465,13 @@
     <value>$this</value>
   </data>
   <data name="btnStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 52</value>
+    <value>109, 48</value>
   </data>
   <data name="layoutControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="&gt;&gt;btnKeyrox.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;ddlGraphics.Name" xml:space="preserve">
+    <value>ddlGraphics</value>
   </data>
   <data name="layoutControlItem2.Text" xml:space="preserve">
     <value>layoutControlItem2</value>
@@ -3154,221 +3479,20 @@
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
-  <data name="txtPath.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="imgGraph.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
-        AAD+KwAAAhoFAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAE
-        mElEQVRYR7VV/0+VVRyuv6Bvq9VtNnGtjFlkOUtUIkT5kkMaFNTYki0Jy+GWzOmmG5YoERoVUdT6wrCb
-        iKTmLFeNoRYkagp1+6VcuXtrtoVzs1arvefp85zznnNf3ksIervbw+dzPl+e57nvPfdyJYAr+Bp8PCci
-        oUbwiCBTF9P/+k4oewRvzose/kXT08CXlQsix1Ysxs+da/H3j4eAv0alnOaXcJKbGtSipn7z/HOkYn7D
-        mddqgF+/As7FgO+7gG9fBr5pTQ/IRU5yiwa1qOkMHH40O/ZHn5xpYERER7ZDCTAsYBzZ5kd7NvH8vnVI
-        dNTibGed6fvzSkfZcft2T7hFg1rUdAb6y+dBnWwRl1GoUy8CQZy0Z+lLXZ1ibMHZ91Zh4LGFDqebqvw9
-        M2dmJep9WzMa7FHTGegruw/4ukmGm6EYBYw21z2LE6Y+VJ03xgDN/P7J+uRcYEfJDvw9apBLa9o78PnD
-        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
-</value>
   </data>
   <data name="&gt;&gt;TMUpdateValues.Name" xml:space="preserve">
     <value>TMUpdateValues</value>
   </data>
-  <data name="&gt;&gt;imgGraph.Name" xml:space="preserve">
-    <value>imgGraph</value>
+  <data name="lblVersion.Caption" xml:space="preserve">
+    <value>v0.0.0000.00000</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="btnClose.Description" xml:space="preserve">
     <value>Close without execute any action.</value>
@@ -3383,10 +3507,10 @@
     <value>layoutControl3</value>
   </data>
   <data name="&gt;&gt;btnSkin.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;btnLanguage.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
     <value>layoutControlItem2</value>
@@ -3394,11 +3518,8 @@
   <data name="ddlGraphics.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
     <value>Combo</value>
   </data>
-  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
-  </data>
   <data name="&gt;&gt;ctrl_ConfigFile1.Type" xml:space="preserve">
-    <value>KTibiaX.IPChanger.Controls.Ctrl_ConfigFile, KTibiaX.IPChanger, Version=1.3.3237.39441, Culture=neutral, PublicKeyToken=null</value>
+    <value>KTibiaX.IPChanger.Controls.Ctrl_ConfigFile, KTibiaX.IPChanger, Version=1.4.3411.27105, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;applicationMenu1.Name" xml:space="preserve">
     <value>applicationMenu1</value>
@@ -3415,14 +3536,8 @@
   <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
     <value> Port: </value>
   </data>
-  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 38</value>
-  </data>
-  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;txtPath.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -3431,34 +3546,28 @@
     <value>btnUpdates</value>
   </data>
   <data name="&gt;&gt;ctrl_ServerList1.Type" xml:space="preserve">
-    <value>KTibiaX.IPChanger.Controls.Ctrl_ServerList, KTibiaX.IPChanger, Version=1.3.3237.39441, Culture=neutral, PublicKeyToken=null</value>
+    <value>KTibiaX.IPChanger.Controls.Ctrl_ServerList, KTibiaX.IPChanger, Version=1.4.3411.27105, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="layoutControlItem1.Text" xml:space="preserve">
-    <value> Tibia Path:</value>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
   </data>
-  <data name="&gt;&gt;btnUpdates.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="txtPath.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>445, 186</value>
+    <value>472, 170</value>
   </data>
   <data name="btnUpdates.Description" xml:space="preserve">
-    <value>Searchs on the internet for Updates.</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>Searchs for updates online.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>KTibiaX® Tibia Launcher 2008</value>
-  </data>
-  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 127</value>
+    <value>KTibiaX® Tibia Launcher 2009</value>
   </data>
   <data name="ddlGraphics.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 20</value>
+    <value>132, 20</value>
   </data>
   <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
     <value>layoutControlGroup3</value>
@@ -3467,67 +3576,13 @@
     <value>True</value>
   </data>
   <data name="ctrl_ServerList1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 20</value>
+    <value>188, 20</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;ddlGraphics.Name" xml:space="preserve">
-    <value>ddlGraphics</value>
-  </data>
-  <data name="&gt;&gt;imgSmall.Name" xml:space="preserve">
-    <value>imgSmall</value>
-  </data>
-  <data name="btnStart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAACnBJREFUWEetl3lU
-        U2caxgcBAQVlhwGhIoIKBxBBjELKosiwIwIqWqVaFGytiuI2I4JFq4jWWkVHccWlFZdSLBCxrIKsCoR9
-        TSBhkSUJEM1CvmcudGbOnB7q1LY5J3/knO/m/b3P+zzvvVfuL7/h80b8Rv5e2b11dyvuBsqIrNB9gXuW
-        l6VXu6mu6ZiSghJRUlTCb/ib339kVDSqEHkn8rDjWce39HN0kcF+A6HeXr288JTwiExmppbgjUBBJBXJ
-        /f4K/+fK4bfDCn5Jfl9+/DhM8mjgIbnWcZV8kr5lbEH8ApHuHl2u9zfeRzOYGYbj58RS8Z8PMt4hBZCw
-        6fFGSepAKh4MpeJW7y2SxLpAIrIjZJZfWkq0o7S6KZADNV016kKRUP5PVYMCUKQAzq57sE56s+cGbr9O
-        wfWea7jYdRGn204jri6OhKSFyIxijMSzD81mxqbHevOEPEWRRDTlTwEZB/C94Ju0+rtAaRL7Ai5xLuF8
-        53l8xTqDE60nENsYi/01+xBZEkGWJtPGtKK1hI4JjsnUWPRHRCN/XI1/AyT73vWVJrScxOn2RJxsO4lj
-        LfE40ngEB+sOIKo6CtsrI7GpeBPx+sFTZhhnKFbfrd5IGXXFuBp/yBvjAD4XfG56pHhIY+piENcUi5iG
-        wzhUdxDRzGjsqtqJSKr4lrLN2FC8HoH5gcSD4UHmnps7prZLbYRS4xBrgKX8u0fSO9g7deVXK+86X3cZ
-        i3oVRRXdO9HxzqrP8enL7dhaHo6wkjCEFoVidcFq+OT6YMXTFXD80ZGYJ5vL1PaoiWknaXeKWovU30re
-        /nZf8PnDU65du6m01NnDTjvUsIyWvFS2rWwr1W0EtpVvxSdlW6jCmya6DikMwar8AHjneE0Up2fS4ZDu
-        AKuHVph9fbZMdZ+q2Pigcd7zluezKIh3+0IofCPHYGQruLissnagbUz50GPHkMl2O4ndP+3I+ufr8dGL
-        DVhfHIq1z9ciuDBoorBPjg88nnnAleEKxwxHLE63h/VjK5inmsP4njHRSdYh0w5Mk5j83aSyvrve4FfT
-        MToqlLt+/bbyQlu/bc5uO7j7Ex5JrhZ1yJYl+BGbSzbEP8efKrgKAXn+8M31hddPXliZvRJuVGF6phOW
-        PFkC2zRbWD6yhFmqGYy/NYbebT2oX1UnKokqYxq7NQSMWobtpABCoVDu3LmLynb2wbH+QYeH7+Q1jv3U
-        PEQK6tuI+1lfWCRZwDvbC35UYW+qsMcvCtv9sAhWVNfzH8yDyXcmMLxrCJ0UHcy8PhMqF1SI8h5lEf0U
-        PYHamIqTAqSmPla0tQ3YsWpNzEh2fZcsr76bFNWykc9swoozPjA/bw7fbG8E5vrDfwLCEyufusMl0xm0
-        9CWU5Nb/7Vr/jj40b2pC9aoqpiZNJVP3TZXQTtDSqDRMnzSSXV2cKS6uqxe7ue96/aSiZayso5fkV7cj
-        92UbnlbWwjXRE3POzUEA1XlIQQCC8v0QkOtNQXjAneEG+o+OsE+zg8WDBTC6ZwSNmxpQSVaB/Hl5MmXv
-        FKlBtMGLgqYCnV+NYvyxk8q0pWGP45PSJZXdPFLZwsGLOjZyq9qQ9qIGS074wPisEVblrURosR/WFvlQ
-        BvSivOBB+cANyxl0LHviAJtHVjD91gTaN7SgcEEBclHyRDFUmR0YETh/kD84ufvH4+bqGrjYwyean908
-        IKvj9pNaVi8qmjmU/F2If9YDq+PB+OtpfQQWuuCjck+sL/sb1pZ4IKjIHX75rlQC6HDOdID999QY7plA
-        LUkNyvtUYHbQhlgs9e3Q0defx2KxJr9TMpn1CovsAmJ2HkkRl3QNk45+Hpq7+1Hd0Yub5QIcK+DDPjEU
-        OolaWF1CQ1i1KzZVuWFDpRvWlrlidbEzfPKcKBUoBR7Oh+bXGlDdqwa/pGAw2hrJcq+dQgMDs8DMzKzJ
-        lxCD8UxpmdPHPyTcLh5j9o4QLm8YLAqipmsQxwql+KpEQKyPbyaap2aQoFc22NK0FJsblyGszgkbquhY
-        U06nAGiwoWKnET8Tuvv0EJdxErXdXJRwh8jGyESRiYnd/oyMzMndn5X1bLrr8s+ZSRmNstoeAbr5w+BS
-        3xesEXxTMYYv8vnEev86opmoStY0mGNrpw3CWYuwuXkxQmsWwy3HEh9c1Ida9EzQEpzxtKkQ3SMCcIaF
-        KOWMkPCoJLGZ+dITlALKk8aPUkDVbcXO5qSsFllV5xDVPR8cSoXn7De4USebALD61J9onpxGQloNEMaZ
-        jZCGOeTDfCNikqxNZhycQfQPmCHo1nlkNHDB4QvAE0swKJaikD1KNn56Tmxq6vAFBaA0KUBWVva0D123
-        l59KrZG9aB1EU/cAOl7z8JI7iotVYzhTKiRu+w6TmXFqZFGuCplzX5moJ0wlyruUZKpbdcccju4m8QVs
-        HM0fRSV7CJ2DI+gbeYv+N1KkN4wSn+Ajb2fNWhD5jhFkK9k7rL0XffaplFE3SJisPjRxB9Dcy8PZEgmS
-        qyVk260GYhMZJFPdpSVTiZwhVt9gwjINcO/03nVZEvVkgJx+IUZy6QhqWP1o6RkCm4JofP2GXMrhksVL
-        Ng9oaxu4ZGZmTm7C4uISeQvLFZ+FhH8tulfJJ+XN3WBSMaznDKCgdRjxBWM4li8in93vImuOpcn8om+I
-        g/7xULrlSp0s5pmQJBRJyIncUeQxOaho6UYt+zUau4fwY90w2XE8XWo2zyNPW1vvg1+9AfH5fDkazXUu
-        zTGCk5jWKnvK7CMVLVzUUDGs6+rHT83DOD6ehlIpufhSQi5XvSVJFWLyTbmUkl5KLjzng1HZgZxX7RPL
-        axyipKWfXC7oI87uu0d19ebuCg/fqvLO58OjR79QsrD0PLX64zPiG6V8kl/LnYAY3wXjEEwOD5nNQtyo
-        EuNShQSXK0T4rprqurEfJQ0cPGeykPeqDXlV7Sis7SLfM/lkc9QVyVyzFc80NbXNq6tr3v243tnZKTdv
-        nvUHtnYbyiJiH0pul/MJJSk1jp+VaOBQs+0dQsfAMDp5o2ANCCZ+N3Beo6a9Z2JrFteykFPFIoymIXLw
-        TJrUyia4RV1d3ysqas/k7v+lJPfvP1AwNJy/zG7xpsZtR1IlN0t55GlNDylt+lmJcYi2viF0DfLRI6B2
-        BU9ApWUIjdzxrdmDsrZektc+SKKP3ZUuXLSWpaVltNHJia72Xo/myclXFQ0MzZ0W2q4pCdh4SpyY1ixL
-        fTVEcupfk4q2PmocA2jt41EuF1DLagQdgwJS18cnVX08kppfLQvZeFRkYelToaFpEOzo6DSDzWa//5tS
-        cvI1BV3dWaamc+mJ9ks2c9eEfy2OuZw/drWAQ76v5ZGsJj7JaRWQnHY+eVjaJku8zpBu+OSEeJH9OvYs
-        I9tz6upadl5e3irjY32v7v/3cFFR8RQvLx9VPT1j+9kmDnEWVn759g5h3fTlO0Y8Vx0SevofFDq5bBcs
-        sl/Pnrdg5TNDQ8s4TU09R2vrhVpXrlz54y8j/4HJzc2bEhm5XcXExFRfQUHZUklp5vLpqrrB06ZrBysq
-        qi6Xl59qo6WlY7huXej0lJSU9y78L05coAYPLj56AAAAAElFTkSuQmCC
-</value>
+  <data name="&gt;&gt;layoutControl3.Name" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
   <data name="txtPath.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
     <value>Default</value>
@@ -3551,10 +3606,13 @@
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;barButtonGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;ctrl_ServerList1.Name" xml:space="preserve">
+    <value>ctrl_ServerList1</value>
   </data>
   <data name="barButtonGroup1.Caption" xml:space="preserve">
     <value>barButtonGroup1</value>
@@ -3563,19 +3621,16 @@
     <value>True</value>
   </data>
   <metadata name="popupMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>540, 17</value>
+    <value>310, 17</value>
   </metadata>
-  <metadata name="applicationMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>402, 17</value>
-  </metadata>
-  <metadata name="imgGraph.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>172, 17</value>
+  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>787, 17</value>
   </metadata>
   <metadata name="TMUpdateValues.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>752, 17</value>
+    <value>556, 17</value>
   </metadata>
   <metadata name="imgSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>656, 17</value>
+    <value>691, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -3584,6 +3639,9 @@
     <value>17, 17</value>
   </metadata>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>272, 17</value>
+    <value>426, 17</value>
+  </metadata>
+  <metadata name="applicationMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
   </metadata>
 </root>

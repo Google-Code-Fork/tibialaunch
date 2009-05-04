@@ -40,7 +40,7 @@ namespace KTibiaX.IPChanger.Controls {
         #region "[rgn] Control Events     "
         private void lookUpEdit1_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e) {
             switch (e.Button.Kind) {
-                case DevExpress.XtraEditors.Controls.ButtonPredefines.Close:
+                case ButtonPredefines.Close:
                     if (CurrentServer != null) {
                         var result =
                             MessageBox.Show(Program.GetCurrentResource().GetString("strDeleteServer"), "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -51,12 +51,23 @@ namespace KTibiaX.IPChanger.Controls {
                         }
                     }
                     break;
-                case DevExpress.XtraEditors.Controls.ButtonPredefines.Plus:
+                case ButtonPredefines.Plus:
                     var frmServer = new frm_Server();
                     frmServer.ServerChange += new EventHandler<LoginServerChangeEventArgs>(frmServer_ServerChange);
                     frmServer.FormClosed += new System.Windows.Forms.FormClosedEventHandler(frmServer_FormClosed);
                     this.ParentForm.Hide();
                     frmServer.Show();
+                    break;
+
+                case ButtonPredefines.Undo:
+                    if (CurrentServer != null) {
+                        var frmEditServer = new frm_Server();
+                        frmEditServer.ServerChange += new EventHandler<LoginServerChangeEventArgs>(frmServer_ServerChange);
+                        frmEditServer.FormClosed += new System.Windows.Forms.FormClosedEventHandler(frmServer_FormClosed);
+                        this.ParentForm.Hide();
+                        frmEditServer.Show();
+                        frmEditServer.LoadServer(CurrentServer, Settings.Default.ServerList.IndexOf(CurrentServer));
+                    }
                     break;
             }
         }
@@ -76,12 +87,13 @@ namespace KTibiaX.IPChanger.Controls {
             }
         }
         private void lookUpEdit1_EditValueChanging(object sender, DevExpress.XtraEditors.Controls.ChangingEventArgs e) {
-            if (e.NewValue == null) { CurrentServer = null; DisableButton(ButtonPredefines.Close); }
+            if (e.NewValue == null) { CurrentServer = null; DisableButton(ButtonPredefines.Close); DisableButton(ButtonPredefines.Undo); }
             else {
                 var servers = (from server in DataSource where server.Ip == e.NewValue.ToString() select server);
                 if (servers.Count() > 0) {
                     CurrentServer = servers.First();
                     EnableButton(ButtonPredefines.Close);
+                    EnableButton(ButtonPredefines.Undo);
                 }
             }
             if (ServerChange != null) ServerChange(this, new LoginServerChangeEventArgs(CurrentServer));
@@ -116,8 +128,9 @@ namespace KTibiaX.IPChanger.Controls {
         /// <param name="kind">The button kind.</param>
         public void DisableButton(ButtonPredefines kind) {
             foreach (EditorButton btn in lookUpEdit1.Properties.Buttons) {
-                if (btn.Kind == kind) continue;
-                btn.Enabled = false; return;
+                if (btn.Kind == kind) {
+                    btn.Enabled = false; return;
+                }
             }
         }
 
@@ -151,8 +164,9 @@ namespace KTibiaX.IPChanger.Controls {
         /// <param name="kind">The button kind.</param>
         public void EnableButton(ButtonPredefines kind) {
             foreach (EditorButton btn in lookUpEdit1.Properties.Buttons) {
-                if (btn.Kind == kind) continue;
-                btn.Enabled = true; return;
+                if (btn.Kind == kind) {
+                    btn.Enabled = true; return;
+                }
             }
         }
     }

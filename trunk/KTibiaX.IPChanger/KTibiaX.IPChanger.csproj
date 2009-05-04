@@ -206,6 +206,12 @@
     <EmbeddedResource Include="Controls\Ctrl_ConfigFile.resx">
       <DependentUpon>Ctrl_ConfigFile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Ctrl_ServerList.en-US.resx">
+      <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Ctrl_ServerList.pt-BR.resx">
+      <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\Ctrl_ServerList.resx">
       <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -259,6 +265,9 @@
     <EmbeddedResource Include="Features\frm_Skins.resx">
       <DependentUpon>frm_Skins.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Features\frm_StartClient.en-US.resx">
+      <DependentUpon>frm_StartClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_StartClient.pt-BR.resx">
       <DependentUpon>frm_StartClient.cs</DependentUpon>
     </EmbeddedResource>
@@ -300,33 +309,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\network.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\close_32.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Crystal_Jar.ico" />
+    <None Include="Resources\ok_32.png" />
+    <None Include="Resources\caution_32.png" />
+    <None Include="Resources\copy_32.png" />
+    <None Include="Resources\copy_add_32.png" />
+    <None Include="Resources\copy_save_32.png" />
+    <None Include="Resources\copy_close_32.png" />
+    <None Include="Resources\delete_32.png" />
     <None Include="Resources\update.png" />
     <None Include="Resources\Brazil.png" />
     <None Include="Resources\United States of America%28USA%29.png" />
     <None Include="Resources\ini.png" />
     <None Include="Resources\folder.png" />
     <None Include="Resources\remove.png" />
-    <None Include="Resources\apply.png" />
-    <None Include="Resources\about.png" />
-    <None Include="Resources\delete.png" />
     <None Include="Resources\notes.png" />
     <None Include="Resources\keyrox.png" />
     <None Include="Resources\author_128.png" />
     <None Include="Resources\cmd.png" />
     <None Include="Resources\hunt_tools.png" />
     <None Include="Resources\jockey.png" />
-    <None Include="Resources\ball_red.png" />
-    <None Include="Resources\ball_green.png" />
-    <None Include="Resources\ball_yellow.png" />
-    <None Include="Resources\addbk_32.png" />
-    <None Include="Resources\addbk2_32.png" />
     <None Include="Resources\config.png" />
   </ItemGroup>
   <ItemGroup>

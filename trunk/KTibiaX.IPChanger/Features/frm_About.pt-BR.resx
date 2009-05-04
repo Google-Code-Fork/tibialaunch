@@ -119,10 +119,13 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 133</value>
+    <value>103, 133</value>
   </data>
   <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 155</value>
+    <value>107, 155</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>KTibiaX® Tibia Launcher 2009</value>
   </data>
   <data name="lblVersion.Text" xml:space="preserve">
     <value>  Versão: 1.0.0.00000 (00/00/0000)</value>
@@ -136,17 +139,14 @@
   <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
     <value>Tibia:  7.9, 7.92, 8.0, 8.10, 8.11, 8.20, 8.22, 8.30, 8.31, 8.4</value>
   </data>
-  <data name="emptySpaceItem2.Text" xml:space="preserve">
-    <value>Tibia:  7.9, 7.92, 8.0, 8.10, 8.11, 8.20, 8.22, 8.30, 8.31, 8.4</value>
-  </data>
   <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 133</value>
+    <value>283, 133</value>
   </data>
   <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 7</value>
+    <value>125, 7</value>
   </data>
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 155</value>
+    <value>287, 155</value>
   </data>
   <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>418, 168</value>

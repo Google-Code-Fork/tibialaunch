@@ -118,62 +118,59 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
         dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
         bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
         YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
         U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
-        AAAcCQAAAi4GAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAF
-        rElEQVRYR8VWaVNTZxRuf0U/9Gs7/dIvnerY2pa2dq/TaZ0utlar48IqgkZQkQJCRQmCWkRJWKNB3BIW
-        waXWZbQqWpIQCAmRQkEGhmVAJiACEp+e896bm0RuiZZxemYezjnPOfc9z33ve294HsBz/6uxgMdhMJRh
-        rogyd4Khtn4gN2N4+AthOh4+V+PhHbRIKBFBAng4Qdz9XI0H6xoQUoQiQPd6+HIezigtK5nrfHHn+25M
-        Yi9htp1QBBTOjxR3zyguKRYCHj16JMOreC9xDH8tIPZSn5frXiFgx8URGfeEiDA9/w0+c4qA0rdiYXg3
-        XggoLCoUArzTXni905gmPz09TTnHUs41KSaeeny5r4cFaGp7FWyiWE2EIsC4aBMqPt4C/cJoHI3NEgIe
-        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
+        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
+        CUVuAAAAAElFTkSuQmCCCw==
 </value>
   </data>
   <data name="btnSave.Text" xml:space="preserve">
     <value>Salvar Dados</value>
   </data>
-  <data name="imageCollection2.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="imgSmall.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
         dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
         bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
         YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
@@ -199,11 +196,46 @@
   <data name="ddlVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 100</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ddlVersion.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="ddlVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
   </data>
   <data name="txtExp.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 69</value>
+  </data>
+  <data name="txtExp.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+  <data name="txtExp.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+    <value>Default</value>
+  </data>
+  <data name="txtExp.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtExp.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExp.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtExp.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+    <value>None</value>
+  </data>
+  <data name="txtExp.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtExp.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtExp.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtExp.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtExp.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 20</value>
@@ -211,17 +243,101 @@
   <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 69</value>
   </data>
+  <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+    <value>Default</value>
+  </data>
+  <data name="txtPort.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPort.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
   </data>
   <data name="txtIP.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 38</value>
   </data>
+  <data name="txtIP.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIP.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+    <value>Default</value>
+  </data>
+  <data name="txtIP.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtIP.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIP.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIP.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+    <value>None</value>
+  </data>
+  <data name="txtIP.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtIP.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIP.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIP.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="txtIP.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 20</value>
   </data>
   <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 7</value>
+  </data>
+  <data name="txtName.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtName.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+    <value>Default</value>
+  </data>
+  <data name="txtName.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtName.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtName.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtName.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+    <value>None</value>
+  </data>
+  <data name="txtName.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtName.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtName.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtName.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 20</value>

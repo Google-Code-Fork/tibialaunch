@@ -27,13 +27,13 @@ namespace KTibiaX.IPChanger.Features {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Server));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
-            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imgLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.layoutControl2 = new DevExpress.XtraLayout.LayoutControl();
             this.btnStatus = new DevExpress.XtraEditors.SimpleButton();
-            this.imageCollection2 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imgSmall = new DevExpress.Utils.ImageCollection(this.components);
             this.ddlVersion = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.txtExp = new DevExpress.XtraEditors.TextEdit();
             this.txtPort = new DevExpress.XtraEditors.TextEdit();
@@ -52,7 +52,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
@@ -60,7 +60,7 @@ namespace KTibiaX.IPChanger.Features {
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).BeginInit();
             this.layoutControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSmall)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ddlVersion.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtExp.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPort.Properties)).BeginInit();
@@ -99,15 +99,15 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.BackgroundImage = null;
             this.btnSave.ImageIndex = 0;
-            this.btnSave.ImageList = this.imageCollection1;
+            this.btnSave.ImageList = this.imgLarge;
             this.btnSave.Name = "btnSave";
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // imageCollection1
+            // imgLarge
             // 
-            resources.ApplyResources(this.imageCollection1, "imageCollection1");
-            this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
+            resources.ApplyResources(this.imgLarge, "imgLarge");
+            this.imgLarge.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgLarge.ImageStream")));
             // 
             // groupControl2
             // 
@@ -160,14 +160,14 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.btnStatus, "btnStatus");
             this.btnStatus.BackgroundImage = null;
             this.btnStatus.ImageIndex = 0;
-            this.btnStatus.ImageList = this.imageCollection2;
+            this.btnStatus.ImageList = this.imgSmall;
             this.btnStatus.Name = "btnStatus";
             this.btnStatus.StyleController = this.layoutControl2;
             this.btnStatus.Click += new System.EventHandler(this.btnStatus_Click);
             // 
-            // imageCollection2
+            // imgSmall
             // 
-            this.imageCollection2.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection2.ImageStream")));
+            this.imgSmall.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgSmall.ImageStream")));
             // 
             // ddlVersion
             // 
@@ -406,7 +406,7 @@ namespace KTibiaX.IPChanger.Features {
             this.Name = "frm_Server";
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
@@ -414,7 +414,7 @@ namespace KTibiaX.IPChanger.Features {
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl2)).EndInit();
             this.layoutControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSmall)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ddlVersion.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtExp.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPort.Properties)).EndInit();
@@ -460,7 +460,7 @@ namespace KTibiaX.IPChanger.Features {
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
-        private DevExpress.Utils.ImageCollection imageCollection1;
-        private DevExpress.Utils.ImageCollection imageCollection2;
+        private DevExpress.Utils.ImageCollection imgLarge;
+        private DevExpress.Utils.ImageCollection imgSmall;
     }
 }
