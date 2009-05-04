@@ -27,7 +27,7 @@ namespace KTibiaX.IPChanger.Features {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_UpdateInfo));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.btnDownload = new DevExpress.XtraEditors.SimpleButton();
-            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imgLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
@@ -45,7 +45,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
@@ -86,15 +86,15 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.btnDownload, "btnDownload");
             this.btnDownload.BackgroundImage = null;
             this.btnDownload.ImageIndex = 0;
-            this.btnDownload.ImageList = this.imageCollection1;
+            this.btnDownload.ImageList = this.imgLarge;
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.StyleController = this.layoutControl1;
             this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
             // 
-            // imageCollection1
+            // imgLarge
             // 
-            resources.ApplyResources(this.imageCollection1, "imageCollection1");
-            this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
+            resources.ApplyResources(this.imgLarge, "imgLarge");
+            this.imgLarge.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgLarge.ImageStream")));
             // 
             // groupControl2
             // 
@@ -293,7 +293,7 @@ namespace KTibiaX.IPChanger.Features {
             this.Load += new System.EventHandler(this.frm_UpdateInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
@@ -335,6 +335,6 @@ namespace KTibiaX.IPChanger.Features {
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
-        private DevExpress.Utils.ImageCollection imageCollection1;
+        private DevExpress.Utils.ImageCollection imgLarge;
     }
 }

@@ -22,12 +22,25 @@ namespace KTibiaX.IPChanger.Features {
         public frm_Server() {
             InitializeComponent();
             AddEnumItems(ddlVersion, typeof(Version));
+            CurrentServerIndex = -1;
         }
 
         /// <summary>
         /// Occurs when [server change].
         /// </summary>
         public event EventHandler<LoginServerChangeEventArgs> ServerChange;
+
+        /// <summary>
+        /// Gets or sets the current server.
+        /// </summary>
+        /// <value>The current server.</value>
+        public LoginServer CurrentServer { get; set; }
+
+        /// <summary>
+        /// Gets or sets the index of the current server.
+        /// </summary>
+        /// <value>The index of the current server.</value>
+        public int CurrentServerIndex { get; set; }
 
         /// <summary>
         /// Handles the Click event of the btnSave control.
@@ -39,29 +52,28 @@ namespace KTibiaX.IPChanger.Features {
                 MessageBox.Show(Program.GetCurrentResource().GetString("strInvalidVersion"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            var server = new LoginServer() {
-                Exp = txtExp.Text,
-                Ip = txtIP.Text.Trim(),
-                Name = txtName.Text,
-                Port = txtPort.Text.Trim().ToInt32(),
-                Version = (Version)ddlVersion.Properties.Items[ddlVersion.SelectedIndex].Value.ToInt32()
-            };
+            if (CurrentServer == null) { CurrentServer = new LoginServer(); }
+            CurrentServer.Exp = txtExp.Text;
+            CurrentServer.Ip = txtIP.Text.Trim();
+            CurrentServer.Name = txtName.Text;
+            CurrentServer.Port = txtPort.Text.Trim().ToInt32();
+            CurrentServer.Version = (Version)ddlVersion.Properties.Items[ddlVersion.SelectedIndex].Value.ToInt32();
+
             var serverlist = Settings.Default.ServerList != null ? Settings.Default.ServerList : new LoginServerCollection();
-            var serverWithIP = (from inserv in serverlist
-                                where inserv.Ip.ToLower() == server.Ip.ToLower()
-                                select inserv);
+            var serverWithIP = (from inserv in serverlist where inserv.Ip.ToLower() == txtIP.Text.Trim().ToLower() && inserv.Name != txtName.Text select inserv);
+
             if (serverWithIP.Count() > 0) {
                 foreach (var innerserver in serverWithIP) {
-                    if (innerserver.Port == server.Port) {
+                    if (innerserver.Port == txtPort.Text.Trim().ToInt32()) {
                         MessageBox.Show(Program.GetCurrentResource().GetString("strIPExist"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
                 }
             }
-            serverlist.Add(server);
+            if (CurrentServerIndex == -1) { serverlist.Add(CurrentServer); } else { serverlist[CurrentServerIndex] = CurrentServer; }
             Properties.Settings.Default.ServerList = serverlist;
             Properties.Settings.Default.Save();
-            if (ServerChange != null) ServerChange(this, new LoginServerChangeEventArgs(server));
+            if (ServerChange != null) ServerChange(this, new LoginServerChangeEventArgs(CurrentServer));
             Close();
         }
 
@@ -75,6 +87,19 @@ namespace KTibiaX.IPChanger.Features {
             frmChecker.FormClosed += new FormClosedEventHandler(frmChecker_FormClosed);
             this.Hide();
             frmChecker.Show();
+        }
+
+        /// <summary>
+        /// Loads the server.
+        /// </summary>
+        public void LoadServer(LoginServer server, int index) {
+            CurrentServer = server;
+            CurrentServerIndex = index;
+            txtName.Text = CurrentServer.Name;
+            txtPort.Text = CurrentServer.Port.ToString();
+            txtExp.Text = CurrentServer.Exp.ToString();
+            txtIP.Text = CurrentServer.Ip.ToString();
+            ddlVersion.EditValue = CurrentServer.Version.GetHashCode();
         }
 
         /// <summary>

@@ -121,7 +121,7 @@
     <value>groupControl1</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
     <value>emptySpaceItem1</value>
@@ -139,14 +139,14 @@
     <value>layoutControlItem4</value>
   </data>
   <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtNotes.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
   </data>
-  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem4</value>
+  <data name="lblVersion.CustomizationFormText" xml:space="preserve">
+    <value>New Version: 0.0.0000.00000</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
@@ -155,8 +155,15 @@
   <data name="layoutControl2.Text" xml:space="preserve">
     <value>layoutControl2</value>
   </data>
-  <data name="imageCollection1.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
+  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
+    <value>imgLarge</value>
+  </data>
+  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>447, 231</value>
@@ -168,7 +175,7 @@
     <value>Release Date: </value>
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem3</value>
@@ -182,8 +189,8 @@
   <data name="btnDownload.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 174</value>
   </data>
-  <data name="txtNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 125</value>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 7</value>
   </data>
   <data name="&gt;&gt;btnDownload.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -198,10 +205,13 @@
     <value>pictureEdit1</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
   </data>
   <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 7</value>
@@ -210,13 +220,13 @@
     <value>6, 13</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;txtNotes.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;imageCollection1.Name" xml:space="preserve">
-    <value>imageCollection1</value>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
   </data>
   <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -228,7 +238,7 @@
     <value>5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
@@ -239,27 +249,23 @@
   <data name="layoutControlGroup2.Text" xml:space="preserve">
     <value>Root</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
     <value>layoutControlGroup2</value>
   </data>
-  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
     <value>281, 196</value>
   </data>
   <data name="&gt;&gt;lblReleaseDate.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
-    <value>lblVersion</value>
-  </data>
-  <data name="lblVersion.CustomizationFormText" xml:space="preserve">
-    <value>New Version: 0.0.0000.00000</value>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="btnDownload.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 53</value>
@@ -271,7 +277,7 @@
     <value>layoutControlItem2</value>
   </data>
   <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="lblReleaseDate.Text" xml:space="preserve">
     <value>00/00/0000</value>
@@ -279,59 +285,59 @@
   <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;txtNotes.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
+  <data name="txtNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 125</value>
   </data>
   <data name="lblReleaseDate.CustomizationFormText" xml:space="preserve">
     <value>Release Date: 00/00/0000</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frm_UpdateInfo</value>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
     <value>layoutControl2</value>
+  </data>
+  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem4</value>
   </data>
   <data name="layoutControlItem3.Text" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="btnDownload.Text" xml:space="preserve">
     <value>Go To Download</value>
+  </data>
+  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 218</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
   <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 7</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_UpdateInfo</value>
   </data>
   <data name="&gt;&gt;btnDownload.Name" xml:space="preserve">
     <value>btnDownload</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
-    <value>layoutControlItem2</value>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
   </data>
   <data name="&gt;&gt;lblReleaseDate.Name" xml:space="preserve">
     <value>lblReleaseDate</value>
@@ -340,7 +346,7 @@
     <value>emptySpaceItem2</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
     <value>Root</value>
@@ -348,39 +354,11 @@
   <data name="&gt;&gt;txtNotes.Name" xml:space="preserve">
     <value>txtNotes</value>
   </data>
-  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
-        AADzAwAAAu8DAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAD
-        bUlEQVRYR8VXS2sTURTWlf0b4k8RCqUJGBeRQl1oNiartqvQTVLBiJBQsVYU6kaQriqYYrE+UDtJU2iw
-        iYKRlkhKRJJiU62kWCs93u8kd3pnMtPeTBYGPs6Z8/zuuXceOU1Ep/7rDwS84tHYeQK85vPivSZz4/pH
-        Ri8kPBEwm+cfEAE9kOiaAJofll/Twcq0BbDZJ5GPxUiF07S7IoAGBxsvac+4TU0B37kzjD1jUlxPCt8L
-        Cwk0p/R9xkxfn+NZ0SaA5s33s/Tj1S3aEUDjZDLJgA4b0FybNUmAwN97UUZPBNC89ux6GxNm86V3SwRI
-        EmoMckDgd6S/NwIoVJkbp8qTcdoUUq4cjZt7TYZKYlPEyXjkggDgaQIo8PnxmAm1uVy9KuUk1BxJomsC
-        SFybiVDhYZgKM2HLynd/7fKqBwYGGNB/7rZskkTBzI3wmeiKABJWpq9QTgDSaeVofNPYZ0gS9jOxclfk
-        A6KG28Oq4y5A4NvUUAvJIUvzRqNB2zsNauxs80olAegN2OEXUCdh1hL1nEhYCCDgeeIiY1FAZ8/R3Ok8
-        qCQWb7RqPhfSTsIkAEc65qN0fJDmY4OW5rV6nWpbAvUa1beAlg57HT7YoQtfDf62XSWBmvOiPqCSMAlM
-        BM7S3Hg/46SVu634pEnI+uglH8sqAT8caD41dYfHWq1WrfgqrgHYpS6vpc0hB7VQE7XRQ8DfQUB9UaRS
-        7vvqtkp5SzrJymaFUqmU/rsgkUhQuVym8hcBSLsubYqMRCKUqx4y7DryUVP7bRiLx1xPttsE0HRhY58W
-        1v8wgYX1Ix05sXhcn0A0GqXSpxKVSg6A3cGHpm5AHdTUnsDI6Kg5gfahkYfHItVpoPnEm22B70wEUuqI
-        Gxkd0ScQDkfoQ6FIRQEQkPevKmGHn1EsctNr6W8M1p8e6dKvPYFQKGSZgPp2kzoI2CfgtgWIC4Wu6k/g
-        8vAwra7mBVZ5AmiK1asS9rzwIy4vIL8NnCTihkVN7QkEg8GOCTgR6OaJGLwU1CcQCAQot5xjyKejfRtg
-        z+VaMSZwbbe1/YELAX0Cfp+fspks47gtWEZMdtmMlTkdMpslv8+nTwCPU2MpwziOgGEYZBiIExLxuGbd
-        oExbtmwZ/mjRPgPqF44k4LQF3ZyBrgkc93Lx6tOegNc/rF7y/gFHjUKp+pOC5QAAAABJRU5ErkJgggs=
-</value>
-  </data>
   <data name="emptySpaceItem2.CustomizationFormText" xml:space="preserve">
     <value>Release Date: </value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
   </data>
   <data name="layoutControlGroup1.Text" xml:space="preserve">
     <value>layoutControlGroup1</value>
@@ -391,26 +369,17 @@
   <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 20</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
   <data name="emptySpaceItem1.Text" xml:space="preserve">
     <value>New Version: </value>
   </data>
-  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;imageCollection1.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
     <value>groupControl2</value>
   </data>
   <data name="&gt;&gt;txtNotes.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
-    <value>layoutControlItem1</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
     <value>groupControl1</value>
@@ -428,7 +397,7 @@
     <value />
   </data>
   <data name="&gt;&gt;emptySpaceItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -2417,17 +2386,17 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
-  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  <data name="&gt;&gt;txtNotes.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
   </data>
   <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 158</value>
   </data>
   <data name="&gt;&gt;btnDownload.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControl1.Text" xml:space="preserve">
     <value>layoutControl1</value>
@@ -2444,10 +2413,51 @@
   <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 20</value>
   </data>
+  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
+        AADcBgAAAtgGAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAG
+        VklEQVRYR+1XWUxVVxS11tqkaZpIW2ubRv0wLW2MTZvUNLWpafEDlTamjSRNP2iamP4UA4oyiigSZgEV
+        H8ggCCrixBQmGSMgkyKIIIooCsigoFBkeO/e1bO2PktpeQz97U127n33nrP3Omuvvc958+b9f82RgePH
+        j3918vnF5zm6mds0FdD61KlTqKioEOMz383N2yxnRUdHL01KSjJcvHgRTU1NuH79OkpKSgjAkJiYuHSW
+        7mY3/MiRI+/Hx8cbioqKJHhjYyMaGhpQX1+P/Px88BvHzM7rDEcHBQUtMagrLy8P165dE8vOzha7cuUK
+        ampqkJWVBcWQ4dChQ0tm6HZmw3bv3m0VFhZmyMjIwOXLl1FXVyfBSktLhf7MzExcunQJZWVlOH36NCIi
+        IgyhoaFWM/M+zSgV/I2AgABDSkqKBKmqqsK5c+fANDx69Ah9fX0oKCjAmTNnBMyFCxegtICQkBAD5/4n
+        EHTg6+trOHr0KIqLi2XFVDyD9Pf3Y2BgQED09PQgNzcXycnJkpK0tDSmAn5+fnMHsXnz5oU+Pj5Mu9DN
+        AAkJCXJn8CdPnuDx48fyTBBdXV2SipiYGEkDgR48eBD0QV+zYmLt2rULvLy8DCrv4uz8+fNQ6pYADDg4
+        OCgAaGSB7x4+fCggOPbw4cMsS5C54OBg0Bd9zhiEp6engROPHTsmjiIjI4XW3t5eCW42MwvmVBDEvXv3
+        RA/h4eECOioqCv7+/qDPGQFwd3c3cAKpVHUNsnD27Fl0d3f/LfhEFpiKiSDa29uRmpoqqycbqiypB9C3
+        RRAeHh6/7Nu3T1ZM5HTA4B0dHZJvM+2T7/w2GcSdO3dEB6qCWJZiStBgjClBuLm5fb93714ZHBgYiPT0
+        dKGUqzObOdi/gZkM4vbt25I6Mkom6ZsxpmPBX5UfhSPlZRYYlc5n7cBywG8+sO+lf5p6rx1Y9kKYnEPd
+        qPyDPtXq/Weqg1Wqvd43mUyibjqhsenoIVZA3u9APs0RccGuEoDGFbJs2YgoRDLIFJ44cUL6guqOsjDz
+        eAXIOCUgBaCdAMjCgwcPRIR81kLfBgqdgYNvApGLxVlcXJx0RlXz4Jzx8XGMjIyIaDmnra1N9g7uFyoF
+        KCwslGZmEYAa3G40GtHZ2Yn79+/LnXWu7X8HqNgFJFsDKSsFALskKfb29oamaWzDoqOhoSFhkFrgrllb
+        W4vt27fLOLZviwBUzxcADH737l0RI6tBi3gPaNgP5H6jmLAVAFw9y4z06rouqeBvAmDaCIDbN/cRJycn
+        7NmzZ3oAlZWVAoDB6YBlxfo2RX8A3E0Can4G6n+Fl6eH7BEsWYIhAHOOh4eHRTsE39zcLLuos7OzlCPT
+        YJEBRWs7c8ngN2/eRGtrq+TSlLoG6MsGWrcC7S4CoLy8XPq+cgjzxVQ8ffpUKocs8uREYRIcewN3TosA
+        1HlTADDwjRs3XoAw5X4HDJUD3UoHfXsVAE9UV1dL32fvUN1OgFBsrq6u2LFjB1xcXORO6qkPtmke6SwC
+        UM1DAHD1zB9B3Lp1C6Zie2C8ERgJA8bCBcDVq1dldSw5s/E3NzKeI7ifqHOklGdsbKzsETxbWASgxNIy
+        NjaGlpYWoY855LNW8iNganlhXl6e8i0nJwfrF1Rhw8vKeKe9+twWVmH9wupn9kq19AWerCwC2LJly1bm
+        n0KaaFqFyn2+LVBkp6pgIzzc3SRNLEUbqzos2mXCrnwd8bU68m/pKGzVkXBZh1OmjkXeJny7uF62dfYF
+        SwB4lPp4w4YNbkqxzaqkbk+yO+bfO3fuFHHyPLj6s1a85WPCskANKyM0fBmlYU2Mhk/V8/JgDe/6mvD5
+        F21SgmRT6WTKTmirAMQoS1KWOOFufja/T3R0dJQS5R+Uj356COv9GrJadDT06ugYBLr+AK71AWnNOr6O
+        1WDt0C8CJLvbtm2bEsBqFdRNmbcF28NvDg4O0isoqhWuI/jhpAb/Sg0n23TkdOko6NGR1alSogB4l+lY
+        4TUqYAlapXlKAPOV89eUvT6dbdq0SRoUa/3DACOcCzQkqdyXDaiVjwJN48/uRX06oq/rsA76q7va29tP
+        vRnNaNtUg2xsbIaVGdetWzf2SfAAbOMGsSV9FB4lRviWa/Ct0OBZasJvGaOwjR/EKjVGacu4ceNGo52d
+        XeefWWMymQb+FNEAAAAASUVORK5CYIIL
+</value>
+  </data>
   <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <metadata name="imageCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

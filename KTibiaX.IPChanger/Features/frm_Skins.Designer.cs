@@ -34,7 +34,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
-            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imgLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -51,7 +51,7 @@ namespace KTibiaX.IPChanger.Features {
             ((System.ComponentModel.ISupportInitialize)(this.lstSkins)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
@@ -150,15 +150,15 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.BackgroundImage = null;
             this.btnSave.ImageIndex = 0;
-            this.btnSave.ImageList = this.imageCollection1;
+            this.btnSave.ImageList = this.imgLarge;
             this.btnSave.Name = "btnSave";
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // imageCollection1
+            // imgLarge
             // 
-            resources.ApplyResources(this.imageCollection1, "imageCollection1");
-            this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
+            resources.ApplyResources(this.imgLarge, "imgLarge");
+            this.imgLarge.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgLarge.ImageStream")));
             // 
             // layoutControlGroup1
             // 
@@ -234,7 +234,7 @@ namespace KTibiaX.IPChanger.Features {
             ((System.ComponentModel.ISupportInitialize)(this.lstSkins)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
@@ -258,6 +258,6 @@ namespace KTibiaX.IPChanger.Features {
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
         private DevExpress.XtraEditors.ImageListBoxControl lstSkins;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem4;
-        private DevExpress.Utils.ImageCollection imageCollection1;
+        private DevExpress.Utils.ImageCollection imgLarge;
     }
 }

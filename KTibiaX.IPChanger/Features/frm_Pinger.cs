@@ -181,11 +181,11 @@ namespace KTibiaX.IPChanger.Features {
                     CurrentServer = xml.Deserialize<Server>();
                 }
                 StatusText = Program.GetCurrentResource().GetString("strOnline");
-                StatusImage = Properties.Resources.apply;
+                StatusImage = Properties.Resources.ok_32;
             }
             catch (SocketException) {
                 StatusText = Program.GetCurrentResource().GetString("strOffLine");
-                StatusImage = Properties.Resources.delete;
+                StatusImage = Properties.Resources.caution_32;
             }
             catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

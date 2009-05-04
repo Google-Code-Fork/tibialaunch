@@ -52,7 +52,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControl22222 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.btnReset = new DevExpress.XtraEditors.SimpleButton();
-            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imgLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -90,7 +90,7 @@ namespace KTibiaX.IPChanger.Features {
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl22222)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
@@ -336,9 +336,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem8.Control = this.ckRSA;
             resources.ApplyResources(this.layoutControlItem8, "layoutControlItem8");
-            this.layoutControlItem8.Location = new System.Drawing.Point(0, 153);
+            this.layoutControlItem8.Location = new System.Drawing.Point(0, 151);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(196, 30);
+            this.layoutControlItem8.Size = new System.Drawing.Size(196, 29);
             this.layoutControlItem8.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextToControlDistance = 0;
@@ -348,9 +348,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem9.Control = this.txtRSA;
             resources.ApplyResources(this.layoutControlItem9, "layoutControlItem9");
-            this.layoutControlItem9.Location = new System.Drawing.Point(0, 183);
+            this.layoutControlItem9.Location = new System.Drawing.Point(0, 180);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(196, 63);
+            this.layoutControlItem9.Size = new System.Drawing.Size(196, 67);
             this.layoutControlItem9.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextToControlDistance = 0;
@@ -372,9 +372,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem5.Control = this.ckMC;
             resources.ApplyResources(this.layoutControlItem5, "layoutControlItem5");
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 123);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 122);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(196, 30);
+            this.layoutControlItem5.Size = new System.Drawing.Size(196, 29);
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextToControlDistance = 0;
@@ -398,7 +398,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem6, "layoutControlItem6");
             this.layoutControlItem6.Location = new System.Drawing.Point(0, 93);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(196, 30);
+            this.layoutControlItem6.Size = new System.Drawing.Size(196, 29);
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem6.TextToControlDistance = 0;
@@ -430,9 +430,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem4.Control = this.ckClose;
             resources.ApplyResources(this.layoutControlItem4, "layoutControlItem4");
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 246);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 247);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(196, 30);
+            this.layoutControlItem4.Size = new System.Drawing.Size(196, 29);
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextToControlDistance = 0;
@@ -445,15 +445,15 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.btnReset, "btnReset");
             this.btnReset.BackgroundImage = null;
             this.btnReset.ImageIndex = 1;
-            this.btnReset.ImageList = this.imageCollection1;
+            this.btnReset.ImageList = this.imgLarge;
             this.btnReset.Name = "btnReset";
             this.btnReset.StyleController = this.layoutControl1;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // imageCollection1
+            // imgLarge
             // 
-            resources.ApplyResources(this.imageCollection1, "imageCollection1");
-            this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
+            resources.ApplyResources(this.imgLarge, "imgLarge");
+            this.imgLarge.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgLarge.ImageStream")));
             // 
             // btnSave
             // 
@@ -462,7 +462,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.BackgroundImage = null;
             this.btnSave.ImageIndex = 0;
-            this.btnSave.ImageList = this.imageCollection1;
+            this.btnSave.ImageList = this.imgLarge;
             this.btnSave.Name = "btnSave";
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -499,7 +499,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem2, "layoutControlItem2");
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(142, 190);
+            this.layoutControlItem2.Size = new System.Drawing.Size(142, 201);
             this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextToControlDistance = 0;
@@ -509,11 +509,11 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem11.Control = this.btnReset;
             resources.ApplyResources(this.layoutControlItem11, "layoutControlItem11");
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 190);
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 201);
             this.layoutControlItem11.MinSize = new System.Drawing.Size(104, 33);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
-            this.layoutControlItem11.Size = new System.Drawing.Size(142, 60);
+            this.layoutControlItem11.Size = new System.Drawing.Size(142, 54);
             this.layoutControlItem11.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem11.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem11.TextSize = new System.Drawing.Size(0, 0);
@@ -524,11 +524,11 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem12.Control = this.btnSave;
             resources.ApplyResources(this.layoutControlItem12, "layoutControlItem12");
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 250);
+            this.layoutControlItem12.Location = new System.Drawing.Point(0, 255);
             this.layoutControlItem12.MinSize = new System.Drawing.Size(48, 33);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2);
-            this.layoutControlItem12.Size = new System.Drawing.Size(142, 61);
+            this.layoutControlItem12.Size = new System.Drawing.Size(142, 56);
             this.layoutControlItem12.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem12.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
@@ -581,7 +581,7 @@ namespace KTibiaX.IPChanger.Features {
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl22222)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLarge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
@@ -620,7 +620,7 @@ namespace KTibiaX.IPChanger.Features {
         private DevExpress.XtraEditors.SimpleButton btnReset;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
-        private DevExpress.Utils.ImageCollection imageCollection1;
+        private DevExpress.Utils.ImageCollection imgLarge;
         private DevExpress.XtraEditors.ButtonEdit txtMapPath;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem13;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
