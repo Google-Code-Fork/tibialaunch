@@ -117,83 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlItem4.Text" xml:space="preserve">
-    <value>layoutControlItem4</value>
-  </data>
-  <data name="layoutControlItem2.Text" xml:space="preserve">
-    <value>layoutControlItem2</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
-    <value>layoutControlItem4</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;lstSkins.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem4</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 20</value>
+  </data>
   <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 98</value>
   </data>
-  <data name="layoutControl2.Text" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>309, 185</value>
-  </data>
-  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 185</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="layoutControlItem1.Text" xml:space="preserve">
-    <value>layoutControlItem1</value>
-  </data>
-  <data name="&gt;&gt;lstSkins.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ImageListBoxControl, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lstSkins.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 7</value>
-  </data>
-  <data name="lstSkins.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form Skins</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
     <value>pictureEdit1</value>
@@ -201,161 +138,250 @@
   <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
-    <value>layoutControlGroup2</value>
-  </data>
-  <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>groupControl2</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
-    <value>layoutControlItem1</value>
+  <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
   </data>
-  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 120</value>
   </data>
   <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
-    <value>layoutControlGroup1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="layoutControlGroup2.Text" xml:space="preserve">
-    <value>layoutControlGroup2</value>
-  </data>
-  <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
   </data>
   <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 150</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 47</value>
-  </data>
-  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
-  </data>
-  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem2</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
   <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
     <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="layoutControlItem3.Text" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 172</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup1</value>
-  </data>
-  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 135</value>
-  </data>
-  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frm_Skins</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
-    <value>layoutControlItem2</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup2</value>
-  </data>
-  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lstSkins.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 137</value>
-  </data>
-  <data name="layoutControlGroup1.Text" xml:space="preserve">
-    <value>layoutControlGroup1</value>
-  </data>
-  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
   </data>
   <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="lstSkins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
   </data>
-  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
-    <value>btnSave</value>
+  <data name="lstSkins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 137</value>
+  </data>
+  <data name="lstSkins.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstSkins.Name" xml:space="preserve">
+    <value>lstSkins</value>
+  </data>
+  <data name="&gt;&gt;lstSkins.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ImageListBoxControl, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;lstSkins.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;lstSkins.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="layoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 20</value>
+  </data>
+  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 150</value>
+  </data>
+  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl2.Text" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
     <value>groupControl1</value>
   </data>
-  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem1</value>
+  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
-    <value>imgLarge</value>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 7</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 172</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
+        AAA8CAAAAjgIAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAH
+        tklEQVRYR81XeVDWxxnOtLbNZDqZTqd/dJqx0yaxmmqrM8lUm7YmrW1HwGbMWC+EOPXCFhgVFRHBo4gg
+        KAooMtyHB4RbPIAit9xHlGgALyAeVQSNFYny7T59n4Wfg8KXONN/+s08s/vbfY9n33333f1eeun/6bd5
+        8+bwLVu2wIKHhwdWr16NtWvXwtfXF7t27cLBgweRkJCA7OxsnDx5EoWFhcjNzUVycjLCwsKM7sqVK7Fw
+        4ULMnTsXS5cufWrPsiu21Kh1i/NYCtDQmTNnkJeXhxUrVuB//Tk6OiInJwclJSUGtE0/owhw8PDhw4iO
+        joafnx82bNiAVatWobe313AoLi42pAoKCtDc3PxCvLTWmDNnDtavX29sEiRhlwAnLUESWLZsGXp6eoyz
+        PXv2YN26dcZYUlLSCxF4+PAhnJyczGL8/f0NvpaAJbhx40azf9evXzfOAgMDsWbNGpMPBw4c+FoC/f39
+        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
+        CUVuAAAAAElFTkSuQmCCCw==
+</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 135</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 47</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
     <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 185</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>309, 185</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2338,84 +2364,58 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
-  <data name="&gt;&gt;lstSkins.Name" xml:space="preserve">
-    <value>lstSkins</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="&gt;&gt;lstSkins.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form Skins</value>
   </data>
-  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 120</value>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
   </data>
-  <data name="layoutControl1.Text" xml:space="preserve">
-    <value>layoutControl1</value>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>Save Settings</value>
+  <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
+    <value>layoutControlItem4</value>
   </data>
-  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="layoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
+    <value>imgLarge</value>
   </data>
-  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
+  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
-        AAA8CAAAAjgIAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAH
-        tklEQVRYR81XeVDWxxnOtLbNZDqZTqd/dJqx0yaxmmqrM8lUm7YmrW1HwGbMWC+EOPXCFhgVFRHBo4gg
-        KAooMtyHB4RbPIAit9xHlGgALyAeVQSNFYny7T59n4Wfg8KXONN/+s08s/vbfY9n33333f1eeun/6bd5
-        8+bwLVu2wIKHhwdWr16NtWvXwtfXF7t27cLBgweRkJCA7OxsnDx5EoWFhcjNzUVycjLCwsKM7sqVK7Fw
-        4ULMnTsXS5cufWrPsiu21Kh1i/NYCtDQmTNnkJeXhxUrVuB//Tk6OiInJwclJSUGtE0/owhw8PDhw4iO
-        joafnx82bNiAVatWobe313AoLi42pAoKCtDc3PxCvLTWmDNnDtavX29sEiRhlwAnLUESWLZsGXp6eoyz
-        PXv2YN26dcZYUlLSCxF4+PAhnJyczGL8/f0NvpaAJbhx40azf9evXzfOAgMDsWbNGpMPBw4c+FoC/f39
-        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
-        CUVuAAAAAElFTkSuQmCCCw==
-</value>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
   </data>
-  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_Skins</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
 </root>

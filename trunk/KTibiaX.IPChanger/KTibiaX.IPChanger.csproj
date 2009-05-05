@@ -313,6 +313,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Crystal_Jar.ico" />
+    <None Include="Resources\services_reload_256.png" />
+    <None Include="Resources\our_works_256.png" />
+    <None Include="Resources\our_process_b_256.png" />
+    <None Include="Resources\mini_sites_256.png" />
+    <None Include="Resources\gallery_256.png" />
+    <None Include="Resources\front_page_extension_256.png" />
+    <None Include="Resources\domain_256.png" />
+    <None Include="Resources\comparison_chart_add_256.png" />
+    <None Include="Resources\whois_256.png" />
+    <None Include="Resources\web_development_256.png" />
+    <None Include="Resources\shpere_256.png" />
     <None Include="Resources\ok_32.png" />
     <None Include="Resources\caution_32.png" />
     <None Include="Resources\copy_32.png" />

@@ -15,176 +15,188 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_026A364263E73C039910F3173F50C178"
+        "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C04C2E2A6A542E1A8116969C5A66513"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C9C2784645F74C19DCB2A3B3D73DB02"
+        "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1ADD6B94D40247C264CD8414652EB0F7"
+        "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_1CD2458D931247F4A4D8CC21EE695785"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_226B50ED65AA93A2420AA564825D1324"
+        "MsmKey" = "8:_2B0AE94F316EDE3EA12451D04F2DF4C1"
+        "OwnerKey" = "8:_87AAA561272857F585E5F80E272FF2BC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2B0AE94F316EDE3EA12451D04F2DF4C1"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_338281D05629391E756CD30C3CA92988"
+        "MsmKey" = "8:_34E9893BF739C4D7B15A35B9A5604565"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_338281D05629391E756CD30C3CA92988"
-        "OwnerKey" = "8:_83BC16DE38E47160CBB9A0E191F82FB0"
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "OwnerKey" = "8:_0C9C2784645F74C19DCB2A3B3D73DB02"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_36017F85E73F47CE94A2911242FC8E38"
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "OwnerKey" = "8:_34E9893BF739C4D7B15A35B9A5604565"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "OwnerKey" = "8:_E402A86750C39307CF21096DB79A4759"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "OwnerKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "OwnerKey" = "8:_026A364263E73C039910F3173F50C178"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_46F4B0E311E9468F82C046D06532CE07"
+        "MsmKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "OwnerKey" = "8:_1ADD6B94D40247C264CD8414652EB0F7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_783D58FDBC5A413A9D97B5DBE156862E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5C0AF6E07830DF597126E7F2633F8CF7"
+        "MsmKey" = "8:_87AAA561272857F585E5F80E272FF2BC"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_83BC16DE38E47160CBB9A0E191F82FB0"
+        "MsmKey" = "8:_890906C1E00EB567397697E5F7FE76A5"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8ADC248F57CF1C8E8D6C3A593B42BF17"
+        "MsmKey" = "8:_890906C1E00EB567397697E5F7FE76A5"
+        "OwnerKey" = "8:_E402A86750C39307CF21096DB79A4759"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
+        "OwnerKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
+        "OwnerKey" = "8:_34E9893BF739C4D7B15A35B9A5604565"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
+        "OwnerKey" = "8:_E402A86750C39307CF21096DB79A4759"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
+        "OwnerKey" = "8:_890906C1E00EB567397697E5F7FE76A5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
+        "OwnerKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
+        "OwnerKey" = "8:_026A364263E73C039910F3173F50C178"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
-        "OwnerKey" = "8:_8ADC248F57CF1C8E8D6C3A593B42BF17"
+        "MsmKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
+        "OwnerKey" = "8:_026A364263E73C039910F3173F50C178"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
-        "OwnerKey" = "8:_226B50ED65AA93A2420AA564825D1324"
+        "MsmKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
+        "OwnerKey" = "8:_34E9893BF739C4D7B15A35B9A5604565"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
-        "OwnerKey" = "8:_83BC16DE38E47160CBB9A0E191F82FB0"
+        "MsmKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
+        "OwnerKey" = "8:_E402A86750C39307CF21096DB79A4759"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
+        "MsmKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9567AAE0D169A52161BE8EDC222C495E"
+        "MsmKey" = "8:_E402A86750C39307CF21096DB79A4759"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_36017F85E73F47CE94A2911242FC8E38"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_226B50ED65AA93A2420AA564825D1324"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_83BC16DE38E47160CBB9A0E191F82FB0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_8ADC248F57CF1C8E8D6C3A593B42BF17"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "OwnerKey" = "8:_5C0AF6E07830DF597126E7F2633F8CF7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_226B50ED65AA93A2420AA564825D1324"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_83BC16DE38E47160CBB9A0E191F82FB0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_338281D05629391E756CD30C3CA92988"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_8ADC248F57CF1C8E8D6C3A593B42BF17"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
-        "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BB311667E6BF4723ABA011FF95190B00"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -195,12 +207,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F205C8256075A31D7B86F37101D44E5A"
-        "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
         "MsmSig" = "8:_UNDEFINED"
@@ -208,79 +214,79 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_46F4B0E311E9468F82C046D06532CE07"
+        "OwnerKey" = "8:_0C04C2E2A6A542E1A8116969C5A66513"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BB311667E6BF4723ABA011FF95190B00"
+        "OwnerKey" = "8:_783D58FDBC5A413A9D97B5DBE156862E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F205C8256075A31D7B86F37101D44E5A"
+        "OwnerKey" = "8:_34E9893BF739C4D7B15A35B9A5604565"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9567AAE0D169A52161BE8EDC222C495E"
+        "OwnerKey" = "8:_E402A86750C39307CF21096DB79A4759"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_226B50ED65AA93A2420AA564825D1324"
+        "OwnerKey" = "8:_890906C1E00EB567397697E5F7FE76A5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_83BC16DE38E47160CBB9A0E191F82FB0"
+        "OwnerKey" = "8:_026A364263E73C039910F3173F50C178"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_338281D05629391E756CD30C3CA92988"
+        "OwnerKey" = "8:_BABC781E16FD0EE66E39A700C1330DD4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8ADC248F57CF1C8E8D6C3A593B42BF17"
+        "OwnerKey" = "8:_1ADD6B94D40247C264CD8414652EB0F7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9381E56699D4441BDEF756A3CD73B477"
+        "OwnerKey" = "8:_0C9C2784645F74C19DCB2A3B3D73DB02"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5C0AF6E07830DF597126E7F2633F8CF7"
+        "OwnerKey" = "8:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_36017F85E73F47CE94A2911242FC8E38"
+        "OwnerKey" = "8:_B994ABDD2AFB684395EAEFE9A8DDB680"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A386E05A5104EDBC5AB9DF1119D96965"
+        "OwnerKey" = "8:_87AAA561272857F585E5F80E272FF2BC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
+        "OwnerKey" = "8:_2B0AE94F316EDE3EA12451D04F2DF4C1"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -388,220 +394,14 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1CD2458D931247F4A4D8CC21EE695785"
-            {
-            "SourcePath" = "8:..\\KTibiaX.IPChanger\\Crystal_Jar.ico"
-            "TargetName" = "8:KTibiaX.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_FB7B155C7B01470EB0618E47E623B91E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_226B50ED65AA93A2420AA564825D1324"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_226B50ED65AA93A2420AA564825D1324"
-                    {
-                    "Name" = "8:DevExpress.XtraLayout.v8.2.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DevExpress.XtraLayout.v8.2.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_338281D05629391E756CD30C3CA92988"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.XtraGauges.v8.2.Core, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_338281D05629391E756CD30C3CA92988"
-                    {
-                    "Name" = "8:DevExpress.XtraGauges.v8.2.Core.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DevExpress.XtraGauges.v8.2.Core.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_36017F85E73F47CE94A2911242FC8E38"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.BonusSkins.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_36017F85E73F47CE94A2911242FC8E38"
-                    {
-                    "Name" = "8:DevExpress.BonusSkins.v8.2.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DevExpress.BonusSkins.v8.2.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_46F4B0E311E9468F82C046D06532CE07"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:KTibiaX.IPChanger.resources, Version=1.4.3269.20266, Culture=pt-BR, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_46F4B0E311E9468F82C046D06532CE07"
-                    {
-                    "Name" = "8:KTibiaX.IPChanger.resources.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\KTibiaX.IPChanger\\bin\\Release\\pt-BR\\KTibiaX.IPChanger.resources.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9E31A6EBD54A4BBFBA022319A22A6C18"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5C0AF6E07830DF597126E7F2633F8CF7"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.OfficeSkins.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5C0AF6E07830DF597126E7F2633F8CF7"
-                    {
-                    "Name" = "8:DevExpress.OfficeSkins.v8.2.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DevExpress.OfficeSkins.v8.2.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_83BC16DE38E47160CBB9A0E191F82FB0"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_83BC16DE38E47160CBB9A0E191F82FB0"
-                    {
-                    "Name" = "8:DevExpress.XtraGauges.v8.2.Win.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DevExpress.XtraGauges.v8.2.Win.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8ADC248F57CF1C8E8D6C3A593B42BF17"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_026A364263E73C039910F3173F50C178"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8ADC248F57CF1C8E8D6C3A593B42BF17"
+                    "_026A364263E73C039910F3173F50C178"
                     {
                     "Name" = "8:DevExpress.XtraBars.v8.2.dll"
                     "Attributes" = "3:512"
@@ -625,20 +425,51 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9381E56699D4441BDEF756A3CD73B477"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0C04C2E2A6A542E1A8116969C5A66513"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:KTibiaX.IPChanger.resources, Version=1.4.3412.803, Culture=pt-BR, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9381E56699D4441BDEF756A3CD73B477"
+                    "_0C04C2E2A6A542E1A8116969C5A66513"
                     {
-                    "Name" = "8:DevExpress.XtraEditors.v8.2.dll"
+                    "Name" = "8:KTibiaX.IPChanger.resources.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:DevExpress.XtraEditors.v8.2.dll"
+            "SourcePath" = "8:..\\KTibiaX.IPChanger\\bin\\Debug\\pt-BR\\KTibiaX.IPChanger.resources.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9E31A6EBD54A4BBFBA022319A22A6C18"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0C9C2784645F74C19DCB2A3B3D73DB02"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DevExpress.BonusSkins.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_0C9C2784645F74C19DCB2A3B3D73DB02"
+                    {
+                    "Name" = "8:DevExpress.BonusSkins.v8.2.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DevExpress.BonusSkins.v8.2.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
@@ -656,14 +487,65 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9567AAE0D169A52161BE8EDC222C495E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1ADD6B94D40247C264CD8414652EB0F7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DevExpress.OfficeSkins.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1ADD6B94D40247C264CD8414652EB0F7"
+                    {
+                    "Name" = "8:DevExpress.OfficeSkins.v8.2.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DevExpress.OfficeSkins.v8.2.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1CD2458D931247F4A4D8CC21EE695785"
+            {
+            "SourcePath" = "8:..\\KTibiaX.IPChanger\\Crystal_Jar.ico"
+            "TargetName" = "8:KTibiaX.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_FB7B155C7B01470EB0618E47E623B91E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2B0AE94F316EDE3EA12451D04F2DF4C1"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:KTibiaX.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9567AAE0D169A52161BE8EDC222C495E"
+                    "_2B0AE94F316EDE3EA12451D04F2DF4C1"
                     {
                     "Name" = "8:KTibiaX.Shared.dll"
                     "Attributes" = "3:512"
@@ -687,14 +569,45 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A386E05A5104EDBC5AB9DF1119D96965"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_34E9893BF739C4D7B15A35B9A5604565"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_34E9893BF739C4D7B15A35B9A5604565"
+                    {
+                    "Name" = "8:DevExpress.XtraLayout.v8.2.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DevExpress.XtraLayout.v8.2.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A386E05A5104EDBC5AB9DF1119D96965"
+                    "_64CCF2D2DCF67DAEA48AD67EC2D42DD1"
                     {
                     "Name" = "8:DevExpress.Utils.v8.2.dll"
                     "Attributes" = "3:512"
@@ -718,14 +631,107 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AF1E1FF932BA1DB5AB17DBEF73632A3D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_783D58FDBC5A413A9D97B5DBE156862E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:KTibiaX.IPChanger.resources, Version=1.4.3412.803, Culture=en-US, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_783D58FDBC5A413A9D97B5DBE156862E"
+                    {
+                    "Name" = "8:KTibiaX.IPChanger.resources.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\KTibiaX.IPChanger\\bin\\Debug\\en-US\\KTibiaX.IPChanger.resources.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_5C97D9797A184A4BA98D9622BB21CA50"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_87AAA561272857F585E5F80E272FF2BC"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:KTibiaX.IPChanger.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_87AAA561272857F585E5F80E272FF2BC"
+                    {
+                    "Name" = "8:KTibiaX.IPChanger.Data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:KTibiaX.IPChanger.Data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_890906C1E00EB567397697E5F7FE76A5"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DevExpress.XtraGauges.v8.2.Core, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_890906C1E00EB567397697E5F7FE76A5"
+                    {
+                    "Name" = "8:DevExpress.XtraGauges.v8.2.Core.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DevExpress.XtraGauges.v8.2.Core.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B994ABDD2AFB684395EAEFE9A8DDB680"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:DevExpress.Data.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_AF1E1FF932BA1DB5AB17DBEF73632A3D"
+                    "_B994ABDD2AFB684395EAEFE9A8DDB680"
                     {
                     "Name" = "8:DevExpress.Data.v8.2.dll"
                     "Attributes" = "3:512"
@@ -749,23 +755,23 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BB311667E6BF4723ABA011FF95190B00"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BABC781E16FD0EE66E39A700C1330DD4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:KTibiaX.IPChanger.resources, Version=1.4.3269.20266, Culture=en-US, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_BB311667E6BF4723ABA011FF95190B00"
+                    "_BABC781E16FD0EE66E39A700C1330DD4"
                     {
-                    "Name" = "8:KTibiaX.IPChanger.resources.dll"
+                    "Name" = "8:DevExpress.XtraEditors.v8.2.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\KTibiaX.IPChanger\\bin\\Release\\en-US\\KTibiaX.IPChanger.resources.dll"
+            "SourcePath" = "8:DevExpress.XtraEditors.v8.2.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_5C97D9797A184A4BA98D9622BB21CA50"
+            "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -777,23 +783,23 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F205C8256075A31D7B86F37101D44E5A"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E402A86750C39307CF21096DB79A4759"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:KTibiaX.IPChanger.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F205C8256075A31D7B86F37101D44E5A"
+                    "_E402A86750C39307CF21096DB79A4759"
                     {
-                    "Name" = "8:KTibiaX.IPChanger.Data.dll"
+                    "Name" = "8:DevExpress.XtraGauges.v8.2.Win.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:KTibiaX.IPChanger.Data.dll"
+            "SourcePath" = "8:DevExpress.XtraGauges.v8.2.Win.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"
@@ -944,11 +950,11 @@
         "Manufacturer" = "8:Keyrox"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://tibialaunch.googlecode.com/"
-        "Title" = "8:KTibiaX® Tibia Launcher 2008"
+        "Title" = "8:KTibiaX® Tibia Launcher 2009"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Keyrox"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:KTibiaX® Tibia Launcher 2008"
+        "ARPCOMMENTS" = "8:KTibiaX® Tibia Launcher 2009"
         "ARPURLINFOABOUT" = "8:http://code.google.com/p/tibialaunch/"
         "ARPPRODUCTICON" = "8:_1CD2458D931247F4A4D8CC21EE695785"
         "ARPIconIndex" = "3:0"
@@ -1055,7 +1061,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8635C224378C41EEBEF2AB96CB464F06"
             {
-            "Name" = "8:KTibiaX® Tibia Launcher 2008"
+            "Name" = "8:KTibiaX® Tibia Launcher 2009"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -1069,7 +1075,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8644D702F9504650B761A4BD185C6CE3"
             {
-            "Name" = "8:KTibiaX® Tibia Launcher 2008"
+            "Name" = "8:KTibiaX® Tibia Launcher 2009"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -1482,7 +1488,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EF8CA8D27EEF4E339DF6B9A87B7455BB"
             {
-            "SourcePath" = "8:..\\KTibiaX.IPChanger\\obj\\Release\\KTibiaX.IPChanger.exe"
+            "SourcePath" = "8:..\\KTibiaX.IPChanger\\obj\\Debug\\KTibiaX.IPChanger.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9D23A20715E14410BA78356F85B5FFD4"

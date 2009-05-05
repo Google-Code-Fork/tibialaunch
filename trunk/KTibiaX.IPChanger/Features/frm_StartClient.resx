@@ -130,8 +130,8 @@
   <data name="btnChecker.Description" xml:space="preserve">
     <value>Check OT Server Connection and LAG.</value>
   </data>
-  <data name="txtPath.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="txtPath.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;btnSkin.Name" xml:space="preserve">
     <value>btnSkin</value>
@@ -139,14 +139,14 @@
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem5</value>
+  <data name="ddlGraphics.Properties.Items8" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="ddlGraphics.Properties.Items9" xml:space="preserve">
     <value>OpenGL</value>
   </data>
-  <data name="lblUpdate.Caption" xml:space="preserve">
-    <value>No updates needed!</value>
+  <data name="txtPath.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
   </data>
   <data name="ddlGraphics.Properties.Items4" type="System.Int32, mscorlib">
     <value>0</value>
@@ -158,8 +158,8 @@
   <data name="ddlGraphics.Properties.Items6" xml:space="preserve">
     <value>DirectX 9</value>
   </data>
-  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 118</value>
+  <data name="txtPath.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
@@ -173,32 +173,29 @@
   <data name="ddlGraphics.Properties.Items3" xml:space="preserve">
     <value>DirectX 5</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
   <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
     <value>layoutControl1</value>
   </data>
-  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
-    <value> Server: </value>
+  <data name="&gt;&gt;txtPath.Name" xml:space="preserve">
+    <value>txtPath</value>
   </data>
   <data name="&gt;&gt;ribbonStatusBar1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
   <data name="ctrl_ConfigFile1.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 20</value>
   </data>
-  <data name="&gt;&gt;txtPath.Name" xml:space="preserve">
-    <value>txtPath</value>
+  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem3</value>
   </data>
   <data name="&gt;&gt;barButtonGroup2.Name" xml:space="preserve">
     <value>barButtonGroup2</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
   </data>
   <data name="txtPath.Properties.Mask.EditMask" xml:space="preserve">
     <value />
@@ -221,9 +218,6 @@
   <data name="btnKeyrox.Caption" xml:space="preserve">
     <value>Keyrox</value>
   </data>
-  <data name="layoutControlItem1.Text" xml:space="preserve">
-    <value> Tibia Path:</value>
-  </data>
   <data name="btnOptions.Caption" xml:space="preserve">
     <value>Advanced Options</value>
   </data>
@@ -236,11 +230,11 @@
   <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
     <value>btnClose</value>
   </data>
-  <data name="&gt;&gt;ctrl_ConfigFile1.Name" xml:space="preserve">
-    <value>ctrl_ConfigFile1</value>
+  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="txtPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -251,20 +245,17 @@
   <data name="btnSkin.Description" xml:space="preserve">
     <value>Change the current application skin.</value>
   </data>
-  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 32</value>
+  <data name="&gt;&gt;ctrl_ConfigFile1.Name" xml:space="preserve">
+    <value>ctrl_ConfigFile1</value>
   </data>
-  <data name="btnAbout.Description" xml:space="preserve">
-    <value>Information about KTibiaX and his Author.</value>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
   </data>
   <data name="btnSkin.Caption" xml:space="preserve">
     <value>Change Skin</value>
-  </data>
-  <data name="txtPath.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="layoutControl3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -278,8 +269,8 @@
   <data name="btnStart.Location" type="System.Drawing.Point, System.Drawing">
     <value>203, 59</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="btnAbout.Description" xml:space="preserve">
+    <value>Information about KTibiaX and his Author.</value>
   </data>
   <data name="&gt;&gt;btnChecker.Name" xml:space="preserve">
     <value>btnChecker</value>
@@ -287,8 +278,8 @@
   <data name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
     <value>defaultLookAndFeel1</value>
   </data>
-  <data name="layoutControlItem4.Text" xml:space="preserve">
-    <value> Server: </value>
+  <data name="&gt;&gt;popupMenu1.Name" xml:space="preserve">
+    <value>popupMenu1</value>
   </data>
   <data name="barButtonGroup2.Caption" xml:space="preserve">
     <value>barButtonGroup2</value>
@@ -308,17 +299,26 @@
   <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
   <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
     <value>lblVersion</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl3.Name" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
     <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;ctrl_ConfigFile1.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
   <data name="txtPort.Properties.Mask.EditMask" xml:space="preserve">
     <value>f0</value>
@@ -335,17 +335,11 @@
   <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="ddlGraphics.Properties.Items8" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
   <data name="btnUpdates.Caption" xml:space="preserve">
     <value>Search for Updates</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
+  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem5</value>
   </data>
   <data name="ddlGraphics.Properties.Items5" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -362,8 +356,11 @@
   <data name="ddlGraphics.Properties.Items1" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;ctrl_ServerList1.Name" xml:space="preserve">
+    <value>ctrl_ServerList1</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;barButtonGroup2.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
@@ -371,17 +368,23 @@
   <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;btnUpdates.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;barButtonGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;btnOptions.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
+  <data name="ribbonPage1.Text" xml:space="preserve">
+    <value>ribbonPage1</value>
+  </data>
   <data name="&gt;&gt;ribbonPageGroup1.Name" xml:space="preserve">
     <value>ribbonPageGroup1</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;popupMenu1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
   <data name="imgSmall.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -432,8 +435,12 @@
   <data name="btnStart.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="layoutControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
+  <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -742,6 +749,9 @@
   <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
     <value>layoutControlItem8</value>
   </data>
+  <data name="ctrl_ServerList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 5</value>
+  </data>
   <data name="openFileDialog1.Filter" xml:space="preserve">
     <value>Executable files|*.exe</value>
   </data>
@@ -750,12 +760,6 @@
   </data>
   <data name="btnOptions.Description" xml:space="preserve">
     <value>Launcher Advanced Options.</value>
-  </data>
-  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="txtPath.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
   </data>
   <data name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
     <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
@@ -766,20 +770,17 @@
   <data name="&gt;&gt;barButtonGroup1.Name" xml:space="preserve">
     <value>barButtonGroup1</value>
   </data>
-  <data name="txtPath.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="txtPort.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
     <value>_</value>
   </data>
-  <data name="txtPath.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
   </data>
   <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;popupMenu1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
@@ -802,11 +803,8 @@
   <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="&gt;&gt;btnChecker.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="txtPath.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="ribbonPageGroup1.Text" xml:space="preserve">
     <value>ribbonPageGroup1</value>
@@ -817,9 +815,6 @@
   <data name="txtPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 20</value>
   </data>
-  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
   <data name="&gt;&gt;layoutControl3.Parent" xml:space="preserve">
     <value>groupControl2</value>
   </data>
@@ -829,9 +824,8 @@
   <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2814,17 +2808,11 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
-  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
-    <value>imgLarge</value>
-  </data>
   <data name="&gt;&gt;imgSmall.Type" xml:space="preserve">
     <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
-    <value>barButtonItem3</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
-    <value>layoutControlItem5</value>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
@@ -2835,8 +2823,8 @@
   <data name="&gt;&gt;TMUpdateValues.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;popupMenu1.Name" xml:space="preserve">
-    <value>popupMenu1</value>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value> Graphics:</value>
   </data>
   <data name="txtPort.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2859,9 +2847,6 @@
   <data name="&gt;&gt;layoutControl3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="txtPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>32, 32</value>
   </data>
@@ -2871,8 +2856,8 @@
   <data name="btnChecker.Caption" xml:space="preserve">
     <value>OT Server Checker</value>
   </data>
-  <data name="ribbonControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
+  <data name="layoutControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 20</value>
   </data>
   <data name="ctrl_ConfigFile1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -2886,29 +2871,20 @@
   <data name="layoutControlItem7.CustomizationFormText" xml:space="preserve">
     <value> Tibia.cfg: </value>
   </data>
-  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
   <data name="&gt;&gt;btnStart.Parent" xml:space="preserve">
     <value>layoutControl3</value>
   </data>
   <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
     <value>layoutControl3</value>
   </data>
-  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnKeyrox.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;imgSmall.Name" xml:space="preserve">
-    <value>imgSmall</value>
-  </data>
-  <data name="txtPath.EditValue" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
+    <value>imgLarge</value>
   </data>
   <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="btnClose.Caption" xml:space="preserve">
     <value>Close KTibiaX </value>
@@ -2925,17 +2901,11 @@
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
   </data>
-  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 5</value>
-  </data>
   <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="layoutControlItem7.Text" xml:space="preserve">
     <value> Tibia.cfg: </value>
-  </data>
-  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
     <value>txtPort</value>
@@ -2946,23 +2916,23 @@
   <data name="&gt;&gt;ddlGraphics.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.ImageComboBoxEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
-  <data name="ddlGraphics.Properties.Items11" type="System.Int32, mscorlib">
-    <value>-1</value>
+  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="layoutControlItem6.Text" xml:space="preserve">
-    <value> Graphics:</value>
+  <data name="lblUpdate.Caption" xml:space="preserve">
+    <value>No updates needed!</value>
   </data>
   <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
-  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
+  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 5</value>
   </data>
   <data name="pictureEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -3400,8 +3370,14 @@
   <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 133</value>
   </data>
-  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;btnChecker.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
+  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
+    <value> Server: </value>
+  </data>
+  <data name="txtPort.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
   <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
@@ -3410,23 +3386,26 @@
   <data name="&gt;&gt;btnKeyrox.Name" xml:space="preserve">
     <value>btnKeyrox</value>
   </data>
+  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 118</value>
+  </data>
   <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
     <value>barButtonItem1</value>
   </data>
-  <data name="&gt;&gt;ctrl_ConfigFile1.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value> Server: </value>
   </data>
   <data name="ddlGraphics.EditValue" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="ddlGraphics.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
   </data>
-  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 111</value>
+  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="ctrl_ServerList1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 5</value>
+  <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="txtPort.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
     <value>Numeric</value>
@@ -3434,11 +3413,11 @@
   <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="ribbonPage1.Text" xml:space="preserve">
-    <value>ribbonPage1</value>
+  <data name="ddlGraphics.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;ctrl_ServerList1.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -3470,14 +3449,17 @@
   <data name="layoutControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="&gt;&gt;ddlGraphics.Name" xml:space="preserve">
-    <value>ddlGraphics</value>
+  <data name="&gt;&gt;btnKeyrox.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="layoutControlItem2.Text" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
+  </data>
+  <data name="txtPath.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;btnStart.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -3491,14 +3473,14 @@
   <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>472, 170</value>
+  </data>
   <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="btnClose.Description" xml:space="preserve">
     <value>Close without execute any action.</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
-    <value>ribbonControl1</value>
   </data>
   <data name="layoutControlItem8.Text" xml:space="preserve">
     <value> Port: </value>
@@ -3518,8 +3500,14 @@
   <data name="ddlGraphics.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
     <value>Combo</value>
   </data>
+  <data name="txtPath.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
   <data name="&gt;&gt;ctrl_ConfigFile1.Type" xml:space="preserve">
-    <value>KTibiaX.IPChanger.Controls.Ctrl_ConfigFile, KTibiaX.IPChanger, Version=1.4.3411.27105, Culture=neutral, PublicKeyToken=null</value>
+    <value>KTibiaX.IPChanger.Controls.Ctrl_ConfigFile, KTibiaX.IPChanger, Version=1.4.3412.283, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;applicationMenu1.Name" xml:space="preserve">
     <value>applicationMenu1</value>
@@ -3536,8 +3524,14 @@
   <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
     <value> Port: </value>
   </data>
-  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 32</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;txtPath.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -3546,25 +3540,31 @@
     <value>btnUpdates</value>
   </data>
   <data name="&gt;&gt;ctrl_ServerList1.Type" xml:space="preserve">
-    <value>KTibiaX.IPChanger.Controls.Ctrl_ServerList, KTibiaX.IPChanger, Version=1.4.3411.27105, Culture=neutral, PublicKeyToken=null</value>
+    <value>KTibiaX.IPChanger.Controls.Ctrl_ServerList, KTibiaX.IPChanger, Version=1.4.3412.283, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value> Tibia Path:</value>
   </data>
-  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;btnUpdates.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="txtPath.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>472, 170</value>
+  <data name="ddlGraphics.Properties.Items11" type="System.Int32, mscorlib">
+    <value>-1</value>
   </data>
   <data name="btnUpdates.Description" xml:space="preserve">
     <value>Searchs for updates online.</value>
   </data>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>KTibiaX® Tibia Launcher 2009</value>
+  </data>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 111</value>
   </data>
   <data name="ddlGraphics.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 20</value>
@@ -3581,8 +3581,11 @@
   <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;layoutControl3.Name" xml:space="preserve">
-    <value>layoutControl3</value>
+  <data name="&gt;&gt;ddlGraphics.Name" xml:space="preserve">
+    <value>ddlGraphics</value>
+  </data>
+  <data name="&gt;&gt;imgSmall.Name" xml:space="preserve">
+    <value>imgSmall</value>
   </data>
   <data name="txtPath.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
     <value>Default</value>
@@ -3596,8 +3599,8 @@
   <data name="&gt;&gt;ctrl_ServerList1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="txtPort.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="&gt;&gt;ribbonStatusBar1.Name" xml:space="preserve">
     <value>ribbonStatusBar1</value>
@@ -3608,11 +3611,8 @@
   <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
-  <data name="&gt;&gt;barButtonGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonGroup, DevExpress.XtraBars.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;ctrl_ServerList1.Name" xml:space="preserve">
-    <value>ctrl_ServerList1</value>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
   </data>
   <data name="barButtonGroup1.Caption" xml:space="preserve">
     <value>barButtonGroup1</value>
@@ -3622,6 +3622,9 @@
   </data>
   <metadata name="popupMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>310, 17</value>
+  </metadata>
+  <metadata name="applicationMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
   </metadata>
   <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>787, 17</value>
@@ -3640,8 +3643,5 @@
   </metadata>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>426, 17</value>
-  </metadata>
-  <metadata name="applicationMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>172, 17</value>
   </metadata>
 </root>
