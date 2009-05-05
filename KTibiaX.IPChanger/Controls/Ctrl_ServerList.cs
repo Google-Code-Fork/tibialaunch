@@ -17,6 +17,7 @@ namespace KTibiaX.IPChanger.Controls {
             foreach (LookUpColumnInfo col in lookUpEdit1.Properties.Columns) {
                 width += col.Width;
             }
+            DisableButton(ButtonPredefines.Close); DisableButton(ButtonPredefines.Undo);
             lookUpEdit1.Properties.PopupWidth = width;
             lookUpEdit1.Properties.NullText = Program.GetCurrentResource().GetString("strSelectServer");
         }

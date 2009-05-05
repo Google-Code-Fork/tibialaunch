@@ -60,62 +60,44 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // layoutControl1
             // 
-            this.layoutControl1.AccessibleDescription = null;
-            this.layoutControl1.AccessibleName = null;
-            resources.ApplyResources(this.layoutControl1, "layoutControl1");
-            this.layoutControl1.BackgroundImage = null;
             this.layoutControl1.Controls.Add(this.groupControl2);
             this.layoutControl1.Controls.Add(this.groupControl1);
             this.layoutControl1.Controls.Add(this.btnSave);
-            this.layoutControl1.Font = null;
+            resources.ApplyResources(this.layoutControl1, "layoutControl1");
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
             // 
             // groupControl2
             // 
-            this.groupControl2.AccessibleDescription = null;
-            this.groupControl2.AccessibleName = null;
-            resources.ApplyResources(this.groupControl2, "groupControl2");
             this.groupControl2.Controls.Add(this.pictureEdit1);
+            resources.ApplyResources(this.groupControl2, "groupControl2");
             this.groupControl2.Name = "groupControl2";
             // 
             // pictureEdit1
             // 
             resources.ApplyResources(this.pictureEdit1, "pictureEdit1");
-            this.pictureEdit1.BackgroundImage = null;
-            this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.config;
+            this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.web_development_256;
             this.pictureEdit1.Name = "pictureEdit1";
-            this.pictureEdit1.Properties.AccessibleDescription = null;
-            this.pictureEdit1.Properties.AccessibleName = null;
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             // 
             // groupControl1
             // 
-            this.groupControl1.AccessibleDescription = null;
-            this.groupControl1.AccessibleName = null;
-            resources.ApplyResources(this.groupControl1, "groupControl1");
             this.groupControl1.Controls.Add(this.layoutControl2);
+            resources.ApplyResources(this.groupControl1, "groupControl1");
             this.groupControl1.Name = "groupControl1";
             // 
             // layoutControl2
             // 
-            this.layoutControl2.AccessibleDescription = null;
-            this.layoutControl2.AccessibleName = null;
-            resources.ApplyResources(this.layoutControl2, "layoutControl2");
-            this.layoutControl2.BackgroundImage = null;
             this.layoutControl2.Controls.Add(this.lstSkins);
-            this.layoutControl2.Font = null;
+            resources.ApplyResources(this.layoutControl2, "layoutControl2");
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.Root = this.layoutControlGroup2;
             // 
             // lstSkins
             // 
-            this.lstSkins.AccessibleDescription = null;
-            this.lstSkins.AccessibleName = null;
             resources.ApplyResources(this.lstSkins, "lstSkins");
-            this.lstSkins.BackgroundImage = null;
             this.lstSkins.Name = "lstSkins";
             this.lstSkins.StyleController = this.layoutControl2;
             this.lstSkins.SelectedIndexChanged += new System.EventHandler(this.lstSkins_SelectedIndexChanged);
@@ -145,12 +127,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // btnSave
             // 
-            this.btnSave.AccessibleDescription = null;
-            this.btnSave.AccessibleName = null;
-            resources.ApplyResources(this.btnSave, "btnSave");
-            this.btnSave.BackgroundImage = null;
             this.btnSave.ImageIndex = 0;
             this.btnSave.ImageList = this.imgLarge;
+            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
             this.btnSave.StyleController = this.layoutControl1;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -214,8 +193,6 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // frm_Skins
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.layoutControl1);

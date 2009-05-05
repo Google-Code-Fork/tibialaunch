@@ -68,25 +68,18 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // layoutControl1
             // 
-            this.layoutControl1.AccessibleDescription = null;
-            this.layoutControl1.AccessibleName = null;
-            resources.ApplyResources(this.layoutControl1, "layoutControl1");
-            this.layoutControl1.BackgroundImage = null;
             this.layoutControl1.Controls.Add(this.btnDownload);
             this.layoutControl1.Controls.Add(this.groupControl2);
             this.layoutControl1.Controls.Add(this.groupControl1);
-            this.layoutControl1.Font = null;
+            resources.ApplyResources(this.layoutControl1, "layoutControl1");
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
             // 
             // btnDownload
             // 
-            this.btnDownload.AccessibleDescription = null;
-            this.btnDownload.AccessibleName = null;
-            resources.ApplyResources(this.btnDownload, "btnDownload");
-            this.btnDownload.BackgroundImage = null;
             this.btnDownload.ImageIndex = 0;
             this.btnDownload.ImageList = this.imgLarge;
+            resources.ApplyResources(this.btnDownload, "btnDownload");
             this.btnDownload.Name = "btnDownload";
             this.btnDownload.StyleController = this.layoutControl1;
             this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
@@ -98,50 +91,36 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // groupControl2
             // 
-            this.groupControl2.AccessibleDescription = null;
-            this.groupControl2.AccessibleName = null;
-            resources.ApplyResources(this.groupControl2, "groupControl2");
             this.groupControl2.Controls.Add(this.pictureEdit1);
+            resources.ApplyResources(this.groupControl2, "groupControl2");
             this.groupControl2.Name = "groupControl2";
             // 
             // pictureEdit1
             // 
             resources.ApplyResources(this.pictureEdit1, "pictureEdit1");
-            this.pictureEdit1.BackgroundImage = null;
-            this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.update;
+            this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.whois_256;
             this.pictureEdit1.Name = "pictureEdit1";
-            this.pictureEdit1.Properties.AccessibleDescription = null;
-            this.pictureEdit1.Properties.AccessibleName = null;
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             // 
             // groupControl1
             // 
-            this.groupControl1.AccessibleDescription = null;
-            this.groupControl1.AccessibleName = null;
-            resources.ApplyResources(this.groupControl1, "groupControl1");
             this.groupControl1.Controls.Add(this.layoutControl2);
+            resources.ApplyResources(this.groupControl1, "groupControl1");
             this.groupControl1.Name = "groupControl1";
             // 
             // layoutControl2
             // 
-            this.layoutControl2.AccessibleDescription = null;
-            this.layoutControl2.AccessibleName = null;
-            resources.ApplyResources(this.layoutControl2, "layoutControl2");
-            this.layoutControl2.BackgroundImage = null;
             this.layoutControl2.Controls.Add(this.txtNotes);
-            this.layoutControl2.Font = null;
+            resources.ApplyResources(this.layoutControl2, "layoutControl2");
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.Root = this.layoutControlGroup2;
             // 
             // txtNotes
             // 
             resources.ApplyResources(this.txtNotes, "txtNotes");
-            this.txtNotes.BackgroundImage = null;
             this.txtNotes.Name = "txtNotes";
-            this.txtNotes.Properties.AccessibleDescription = null;
-            this.txtNotes.Properties.AccessibleName = null;
             this.txtNotes.Properties.AllowFocused = false;
             this.txtNotes.Properties.Appearance.BackColor = System.Drawing.Color.White;
             this.txtNotes.Properties.Appearance.Font = new System.Drawing.Font("Arial", 7.5F, System.Drawing.FontStyle.Bold);
@@ -283,8 +262,6 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // frm_UpdateInfo
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.layoutControl1);
