@@ -1,0 +1,11 @@
+#labels Featured
+<table border="0">
+<tr>
+<td>
+KTibiaX® Tibia Launcher
+</td>
+<td>
+<img src="http://tibialaunch.googlecode.com/svn/trunk/Images/2009-1/box1.gif" />
+</td>
+<tr>
+</table>
