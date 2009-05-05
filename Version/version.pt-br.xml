@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <SystemVersion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Version>1.4.3269.20266</Version>
-	<ReleaseDate>2008-12-13T00:00:00</ReleaseDate>
-	<UpdateDescription>* Suporte para a nova vesão do Tibia (8.4){0}{0}</UpdateDescription>
+	<Version>1.5.3412.20614</Version>
+	<ReleaseDate>2009-05-05T00:00:00</ReleaseDate>
+	<UpdateDescription>[Você não perderá suas configurações ao atualizar]{0}{0}{0}* Suporte para nova versão do Tibia (8.42){0}{0}* Funcionalidade que permite editar os servidores existentes{0}{0}* Melhoria na interface do sistema{0}{0}* Melhoria na detecção de versão dos clientes{0}{0}* Alguns bugs corrigidos{0}{0}</UpdateDescription>
 </SystemVersion>
