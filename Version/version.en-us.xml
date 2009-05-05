@@ -2,5 +2,5 @@
 <SystemVersion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Version>1.5.3412.20614</Version>
 	<ReleaseDate>2009-05-05T00:00:00</ReleaseDate>
-	<UpdateDescription>[You will not loose you settings after update]{0}{0}{0}* Support for new Tibia Version (8.42){0}{0}* Ability to edit existing servers{0}{0}* System interface improvement{0}{0}* Client version detection improvement{0}{0}* A few bug fixes{0}{0}</UpdateDescription>
+	<UpdateDescription>[You will not lose your settings after update]{0}{0}{0}* Support for new Tibia Version (8.42){0}{0}* Ability to edit existing servers{0}{0}* System interface improvement{0}{0}* Client version detection improvement{0}{0}* A few bug fixes{0}{0}</UpdateDescription>
 </SystemVersion>
