@@ -7,5 +7,5 @@ KTibiaX® Tibia Launcher
 <td>
 <img src="http://tibialaunch.googlecode.com/svn/trunk/Images/2009-1/box1.gif" />
 </td>
-<tr>
+</tr>
 </table>
