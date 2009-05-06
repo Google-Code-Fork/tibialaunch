@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Keyrox")]
 [assembly: AssemblyProduct("KTibiaX® Tibia Launcher")]
-[assembly: AssemblyCopyright("Copyright © Keyrox 2008")]
+[assembly: AssemblyCopyright("Copyright © Keyrox 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.4.*")]
-[assembly: AssemblyFileVersion("1.4.0.0")]
+[assembly: AssemblyVersion("1.5.*")]
+[assembly: AssemblyFileVersion("1.5.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("en-US")]
