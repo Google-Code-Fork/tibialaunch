@@ -57,6 +57,7 @@
     <Compile Include="DTO\Players.cs" />
     <Compile Include="DTO\Server.cs" />
     <Compile Include="DTO\ServerInfo.cs" />
+    <Compile Include="EventArgs\ProcessEventArgs.cs" />
     <Compile Include="EventArgs\SystemVersionEventArgs.cs" />
     <Compile Include="EventArgs\TibiaCFGEventArgs.cs" />
     <Compile Include="Objects\SystemVersion.cs" />
