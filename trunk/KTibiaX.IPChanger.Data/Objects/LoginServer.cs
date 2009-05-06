@@ -20,5 +20,8 @@ namespace KTibiaX.IPChanger.Data {
         [XmlAttribute]
         public Version Version { get; set; }
 
+        [XmlAttribute]
+        public bool IsOtServer { get; set; }
+
     }
 }

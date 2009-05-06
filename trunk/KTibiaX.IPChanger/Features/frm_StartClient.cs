@@ -71,6 +71,8 @@ namespace KTibiaX.IPChanger {
         private uint LoginMax { get { return 10; } }
         private uint LoginStep { get { return 112; } }
         private uint PortStep { get { return 100; } }
+
+        public event EventHandler<ProcessEventArgs> ClientOpenComplete;
         #endregion
 
         /// <summary>
@@ -208,6 +210,10 @@ namespace KTibiaX.IPChanger {
             clients.Add(new ClientPath() { Path = txtPath.Text, Version = MemoryAddress.Version });
             Settings.Default.ClientList = clients; Settings.Default.Save();
             #endregion
+
+            //Fires the Client Started Events.
+            CurrentServer.IsOtServer = isotserver;
+            if (ClientOpenComplete != null) { ClientOpenComplete(this, new ProcessEventArgs(TibiaClient, CurrentServer)); }
 
             //Close program if necessary.
             if (Settings.Default.CloseAfterStart) Close();
