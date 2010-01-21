@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,8 +124,8 @@
   <data name="lblStatus.Text" xml:space="preserve">
     <value>Não Checado...</value>
   </data>
-  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v9.3" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
         MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
@@ -224,8 +224,8 @@
   <data name="txtAuthor.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="txtAuthor.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="txtAuthor.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtAuthor.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -237,7 +237,7 @@
   <data name="txtAuthor.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtAuthor.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtAuthor.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtAuthor.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -255,7 +255,7 @@
   <data name="txtMap.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtMap.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtMap.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtMap.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -267,7 +267,7 @@
   <data name="txtMap.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtMap.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtMap.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtMap.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -285,7 +285,7 @@
   <data name="txtMonsters.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtMonsters.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtMonsters.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtMonsters.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -297,7 +297,7 @@
   <data name="txtMonsters.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtMonsters.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtMonsters.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtMonsters.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -315,7 +315,7 @@
   <data name="txtPeek.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtPeek.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtPeek.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtPeek.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -327,7 +327,7 @@
   <data name="txtPeek.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtPeek.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtPeek.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtPeek.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -345,7 +345,7 @@
   <data name="txtMax.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtMax.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtMax.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtMax.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -357,7 +357,7 @@
   <data name="txtMax.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtMax.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtMax.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtMax.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -375,7 +375,7 @@
   <data name="txtPlayers.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtPlayers.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtPlayers.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtPlayers.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -387,7 +387,7 @@
   <data name="txtPlayers.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtPlayers.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtPlayers.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtPlayers.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -405,7 +405,7 @@
   <data name="txtClient.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtClient.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtClient.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtClient.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -417,7 +417,7 @@
   <data name="txtClient.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtClient.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtClient.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtClient.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -460,7 +460,7 @@
   <data name="txtEmail.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtEmail.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtEmail.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtEmail.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -472,7 +472,7 @@
   <data name="txtEmail.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtEmail.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtEmail.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtEmail.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -496,7 +496,7 @@
   <data name="txtOwner.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtOwner.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtOwner.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtOwner.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -508,7 +508,7 @@
   <data name="txtOwner.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtOwner.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtOwner.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtOwner.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -532,7 +532,7 @@
   <data name="txtLocation.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtLocation.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtLocation.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtLocation.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -544,7 +544,7 @@
   <data name="txtLocation.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtLocation.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtLocation.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtLocation.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -568,7 +568,7 @@
   <data name="txtUrl.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtUrl.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtUrl.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtUrl.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -580,7 +580,7 @@
   <data name="txtUrl.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtUrl.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtUrl.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtUrl.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -604,7 +604,7 @@
   <data name="txtServer.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtServer.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtServer.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtServer.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -616,7 +616,7 @@
   <data name="txtServer.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtServer.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtServer.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtServer.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -640,7 +640,7 @@
   <data name="txtVersion.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtVersion.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtVersion.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtVersion.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -652,7 +652,7 @@
   <data name="txtVersion.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtVersion.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtVersion.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtVersion.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -676,7 +676,7 @@
   <data name="txtUpTime.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtUpTime.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtUpTime.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtUpTime.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -688,7 +688,7 @@
   <data name="txtUpTime.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtUpTime.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtUpTime.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtUpTime.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
@@ -721,7 +721,7 @@
   <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtPort.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -748,7 +748,7 @@
   <data name="txtIp.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtIp.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
+  <data name="txtIp.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
     <value>Default</value>
   </data>
   <data name="txtIp.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
@@ -760,7 +760,7 @@
   <data name="txtIp.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtIp.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
+  <data name="txtIp.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>None</value>
   </data>
   <data name="txtIp.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">

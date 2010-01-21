@@ -90,7 +90,7 @@ namespace KTibiaX.IPChanger.Features {
                 MessageBox.Show(Program.GetCurrentResource().GetString("strConfigFileNotFoundfrm"), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            var configDir = new DirectoryInfo(string.Concat(Application.StartupPath, "\\",Settings.Default.ConfigFilesDir));
+            var configDir = new DirectoryInfo(string.Concat(Program.ApplicationPath, "\\", Settings.Default.ConfigFilesDir));
             if(!configDir.Exists) configDir.Create();
             var localFile = string.Concat(configDir, "\\Tibia", DateTime.Now.ToOADate().ToString().Replace(".",""), ".cfg");
             file.CopyTo(localFile);
