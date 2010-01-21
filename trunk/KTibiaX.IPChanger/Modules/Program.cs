@@ -35,6 +35,11 @@ namespace KTibiaX.IPChanger {
         }
 
         /// <summary>
+        /// The path used to load the application configuration.
+        /// </summary>
+        public static string ApplicationPath = Application.StartupPath;
+
+        /// <summary>
         /// Gets the build date.
         /// </summary>
         /// <param name="asm">The asm.</param>

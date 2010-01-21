@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,8 +125,8 @@
   <data name="lookUpEdit1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="lookUpEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
+  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="lookUpEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Combo</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons1" xml:space="preserve">
@@ -145,11 +145,11 @@
   <data name="lookUpEdit1.Properties.Buttons5" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="lookUpEdit1.Properties.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v8.2">
+  <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="lookUpEdit1.Properties.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v9.3">
     <value>MiddleCenter</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons7" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
+  <data name="lookUpEdit1.Properties.Buttons7" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Undo</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons8" xml:space="preserve">
@@ -167,8 +167,8 @@
   <data name="lookUpEdit1.Properties.Buttons12" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <assembly alias="DevExpress.Data.v8.2" name="DevExpress.Data.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="lookUpEdit1.Properties.Buttons13" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v8.2">
+  <assembly alias="DevExpress.Data.v9.3" name="DevExpress.Data.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="lookUpEdit1.Properties.Buttons13" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v9.3">
     <value>Center</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons14" xml:space="preserve">
@@ -183,7 +183,7 @@
   <data name="toolTipTitleItem2.Text" xml:space="preserve">
     <value>You can change any information</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons15" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
+  <data name="lookUpEdit1.Properties.Buttons15" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Plus</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons16" xml:space="preserve">
@@ -201,7 +201,7 @@
   <data name="lookUpEdit1.Properties.Buttons20" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons21" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v8.2">
+  <data name="lookUpEdit1.Properties.Buttons21" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v9.3">
     <value>Center</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons22" xml:space="preserve">
@@ -216,7 +216,7 @@
   <data name="toolTipTitleItem4.Text" xml:space="preserve">
     <value>You can also check if this OT Server is online</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons23" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v8.2">
+  <data name="lookUpEdit1.Properties.Buttons23" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Close</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons24" xml:space="preserve">
@@ -234,7 +234,7 @@
   <data name="lookUpEdit1.Properties.Buttons28" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons29" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v8.2">
+  <data name="lookUpEdit1.Properties.Buttons29" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v9.3">
     <value>Center</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons30" xml:space="preserve">
@@ -271,7 +271,7 @@
     <value>lookUpEdit1</value>
   </data>
   <data name="&gt;&gt;lookUpEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
   <data name="&gt;&gt;lookUpEdit1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -292,6 +292,6 @@
     <value>Ctrl_ServerList</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,1092 +117,1045 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;txtMax.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="progressBarControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 75</value>
   </data>
-  <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtOwner.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="layoutControlItem1.Text" xml:space="preserve">
-    <value>layoutControlItem1</value>
-  </data>
-  <data name="&gt;&gt;txtPlayers.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;txtClient.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
+  <data name="progressBarControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 16</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gcInfo.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtIp.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
-    <value>layoutControlItem8</value>
-  </data>
-  <data name="&gt;&gt;txtLocation.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="txtPeek.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlGroup4.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup4</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="txtUrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 38</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtIp.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtMonsters.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="layoutControlItem5.Text" xml:space="preserve">
-    <value>layoutControlItem5</value>
-  </data>
-  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 69</value>
-  </data>
-  <data name="txtAuthor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 193</value>
-  </data>
-  <data name="layoutControlItem19.Text" xml:space="preserve">
-    <value> Max: </value>
-  </data>
-  <data name="txtLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 100</value>
-  </data>
-  <data name="layoutControlItem11.Text" xml:space="preserve">
-    <value> Version: </value>
-  </data>
-  <data name="txtPeek.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtEmail.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="DevExpress.XtraEditors.v8.2" name="DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="txtOwner.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtServer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 7</value>
-  </data>
-  <data name="txtAuthor.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>581, 330</value>
-  </data>
-  <data name="txtMap.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="layoutControlItem7.CustomizationFormText" xml:space="preserve">
-    <value> Client: </value>
-  </data>
-  <data name="btnCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 7</value>
-  </data>
-  <data name="layoutControlItem22.Text" xml:space="preserve">
-    <value>layoutControlItem22</value>
-  </data>
-  <data name="layoutControlGroup3.Text" xml:space="preserve">
-    <value>layoutControlGroup3</value>
-  </data>
-  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
-    <value>lblStatus</value>
-  </data>
-  <data name="gcInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 77</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="layoutControlItem15.Text" xml:space="preserve">
-    <value> UpTime: </value>
-  </data>
-  <data name="txtVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 131</value>
-  </data>
-  <data name="txtIp.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;txtVersion.Name" xml:space="preserve">
-    <value>txtVersion</value>
-  </data>
-  <data name="&gt;&gt;txtIp.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>581, 330</value>
-  </data>
-  <data name="txtIp.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="layoutControl4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 128</value>
-  </data>
-  <data name="txtServer.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;arcScaleSpindleCapComponent1.Name" xml:space="preserve">
-    <value>arcScaleSpindleCapComponent1</value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtAuthor.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="txtVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 162</value>
-  </data>
-  <data name="&gt;&gt;gcInfo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="gcLag.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 156</value>
-  </data>
-  <data name="&gt;&gt;txtMotd.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtLocation.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControlItem24.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem24</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frm_Pinger</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtServer.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="layoutControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 225</value>
-  </data>
-  <data name="txtClient.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem4.Text" xml:space="preserve">
-    <value>layoutControlItem4</value>
-  </data>
-  <data name="txtPort.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem14.Name" xml:space="preserve">
-    <value>layoutControlItem14</value>
-  </data>
-  <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem1</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtClient.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;layoutControl3.Parent" xml:space="preserve">
-    <value>gcStatus</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
-    <value>layoutControlItem5</value>
-  </data>
-  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>32, 32</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtVersion.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="layoutControlItem18.CustomizationFormText" xml:space="preserve">
-    <value> Players: </value>
-  </data>
-  <data name="txtMap.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtUrl.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem14.CustomizationFormText" xml:space="preserve">
-    <value> Location: </value>
-  </data>
-  <data name="&gt;&gt;arcScaleEffectLayerComponent1.Name" xml:space="preserve">
-    <value>arcScaleEffectLayerComponent1</value>
-  </data>
-  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem17.Name" xml:space="preserve">
-    <value>layoutControlItem17</value>
-  </data>
   <data name="progressBarControl1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="&gt;&gt;txtUrl.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtLocation.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem6</value>
-  </data>
-  <data name="layoutControlItem19.CustomizationFormText" xml:space="preserve">
-    <value> Max: </value>
-  </data>
-  <data name="layoutControl3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gcInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 247</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;arcScaleComponent2.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup1</value>
-  </data>
-  <data name="&gt;&gt;txtMotd.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
-    <value>layoutControlItem16</value>
-  </data>
-  <data name="txtMax.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="gcInfo.Text" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="txtLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 20</value>
-  </data>
-  <data name="groupControl4.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem15.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="&gt;&gt;txtClient.Name" xml:space="preserve">
-    <value>txtClient</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
-    <value>layoutControlItem11</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtClient.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;gcStatus.Name" xml:space="preserve">
-    <value>gcStatus</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;arcScaleComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;arcScaleComponent2.Name" xml:space="preserve">
-    <value>arcScaleComponent2</value>
-  </data>
-  <data name="layoutControlItem3.Text" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtMap.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtMonsters.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlItem23.Text" xml:space="preserve">
-    <value> Map: </value>
-  </data>
-  <data name="&gt;&gt;gaugeControl1.Name" xml:space="preserve">
-    <value>gaugeControl1</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;txtPeek.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
-    <value>layoutControlItem10</value>
-  </data>
-  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="gaugeControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 7</value>
-  </data>
-  <data name="&gt;&gt;txtMotd.Name" xml:space="preserve">
-    <value>txtMotd</value>
-  </data>
-  <data name="txtLocation.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="txtMax.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtServer.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControl1.Text" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;txtMap.Name" xml:space="preserve">
-    <value>txtMap</value>
-  </data>
-  <data name="layoutControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="layoutControlItem9.Text" xml:space="preserve">
-    <value>layoutControlItem9</value>
-  </data>
-  <data name="gaugeControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txtPort.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;TMUpd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
-    <value>layoutControlItem13</value>
-  </data>
-  <data name="gcStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 77</value>
-  </data>
-  <data name="gcLag.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 168</value>
-  </data>
-  <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtServer.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControl5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
-  </data>
-  <data name="&gt;&gt;layoutControl3.Name" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="layoutControlItem16.Text" xml:space="preserve">
-    <value> Owner: </value>
-  </data>
-  <data name="&gt;&gt;txtOwner.Name" xml:space="preserve">
-    <value>txtOwner</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="layoutControlItem21.CustomizationFormText" xml:space="preserve">
-    <value> Monsters: </value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem16.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="gcLag.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="layoutControlItem7.Text" xml:space="preserve">
-    <value> Client: </value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
-    <value>layoutControlGroup1</value>
-  </data>
-  <data name="gcStatus.Text" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="txtPlayers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 20</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
-    <value>layoutControlItem12</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem23.Name" xml:space="preserve">
-    <value>layoutControlItem23</value>
-  </data>
-  <data name="&gt;&gt;circularGauge1.Name" xml:space="preserve">
-    <value>circularGauge1</value>
-  </data>
-  <data name="layoutControlGroup4.Text" xml:space="preserve">
-    <value>layoutControlGroup4</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtServer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 20</value>
-  </data>
-  <data name="&gt;&gt;gcLag.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtClient.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="layoutControlItem12.Text" xml:space="preserve">
-    <value>Server: </value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="gcStatus.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControl5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 225</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtOwner.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtMap.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="layoutControlItem2.Text" xml:space="preserve">
-    <value> Server IP: </value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 7</value>
-  </data>
-  <data name="txtPlayers.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControlGroup2.Text" xml:space="preserve">
-    <value>layoutControlGroup2</value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtPeek.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnCheck.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="lblStatus.CustomizationFormText" xml:space="preserve">
-    <value>Not Checked...</value>
-  </data>
-  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup2</value>
-  </data>
-  <data name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
-    <value>defaultLookAndFeel1</value>
-  </data>
-  <data name="&gt;&gt;txtUrl.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem20.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
-    <value>layoutControlItem7</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 69</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 20</value>
-  </data>
-  <data name="&gt;&gt;txtClient.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtMax.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtClient.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtOwner.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="txtMap.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem6.Text" xml:space="preserve">
-    <value>layoutControlItem6</value>
-  </data>
-  <data name="&gt;&gt;TMLag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gcLag.Text" xml:space="preserve">
-    <value>Lag</value>
-  </data>
-  <data name="txtClient.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtMonsters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="&gt;&gt;txtMax.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="&gt;&gt;txtUpTime.Name" xml:space="preserve">
-    <value>txtUpTime</value>
-  </data>
-  <data name="txtClient.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;gcLag.Name" xml:space="preserve">
-    <value>gcLag</value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup5.Name" xml:space="preserve">
-    <value>layoutControlGroup5</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem16.CustomizationFormText" xml:space="preserve">
-    <value> Owner: </value>
-  </data>
-  <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtAuthor.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtMonsters.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
-    <value>imgLarge</value>
-  </data>
-  <data name="&gt;&gt;gcInfo.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="txtServer.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="&gt;&gt;txtIp.Parent" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem25.Name" xml:space="preserve">
-    <value>layoutControlItem25</value>
-  </data>
-  <data name="txtPeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="&gt;&gt;btnCheck.Name" xml:space="preserve">
-    <value>btnCheck</value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
-    <value>layoutControlGroup4</value>
-  </data>
-  <data name="&gt;&gt;layoutControl5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtOwner.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;TMUpd.Name" xml:space="preserve">
-    <value>TMUpd</value>
-  </data>
-  <data name="txtOwner.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 100</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;layoutControl4.Name" xml:space="preserve">
-    <value>layoutControl4</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem14.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;gcLag.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="txtPort.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>Numeric</value>
-  </data>
-  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 59</value>
-  </data>
-  <data name="txtServer.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem24.Name" xml:space="preserve">
-    <value>layoutControlItem24</value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
-    <value>layoutControlGroup3</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem19.Name" xml:space="preserve">
-    <value>layoutControlItem19</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="txtServer.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;progressBarControl1.Parent" xml:space="preserve">
-    <value>layoutControl4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
-    <value>layoutControlItem1</value>
-  </data>
-  <data name="&gt;&gt;layoutControl5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem17.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;gcInfo.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtIp.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem20.Text" xml:space="preserve">
-    <value> Peak: </value>
-  </data>
-  <data name="txtVersion.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;txtMotd.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="&gt;&gt;txtMap.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;TMLag.Name" xml:space="preserve">
-    <value>TMLag</value>
-  </data>
-  <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
-    <value>layoutControlGroup2</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem18.Name" xml:space="preserve">
-    <value>layoutControlItem18</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem13.Text" xml:space="preserve">
-    <value> Url: </value>
-  </data>
-  <data name="btnCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 59</value>
-  </data>
-  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtPeek.Name" xml:space="preserve">
-    <value>txtPeek</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;progressBarControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtAuthor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;progressBarControl1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TMChk.Name" xml:space="preserve">
-    <value>TMChk</value>
-  </data>
-  <data name="layoutControlItem24.Text" xml:space="preserve">
-    <value>layoutControlItem24</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
-  </data>
-  <data name="txtMax.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="&gt;&gt;txtVersion.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="layoutControlItem17.Text" xml:space="preserve">
-    <value> Email: </value>
-  </data>
-  <data name="&gt;&gt;txtLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControl4.Parent" xml:space="preserve">
-    <value>groupControl4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem21.Name" xml:space="preserve">
-    <value>layoutControlItem21</value>
-  </data>
-  <data name="txtMonsters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 131</value>
-  </data>
-  <data name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
-    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtAuthor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;btnCheck.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;arcScaleBackgroundLayerComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlGroup1.Text" xml:space="preserve">
-    <value>layoutControlGroup1</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtIp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
-  </data>
-  <data name="txtMap.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControlGroup5.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;arcScaleNeedleComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupControl4.Text" xml:space="preserve">
-    <value>Options</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem20.Name" xml:space="preserve">
-    <value>layoutControlItem20</value>
-  </data>
-  <data name="txtVersion.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;arcScaleNeedleComponent1.Name" xml:space="preserve">
-    <value>arcScaleNeedleComponent1</value>
-  </data>
-  <data name="txtServer.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtPeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 100</value>
-  </data>
-  <data name="lblStatus.Text" xml:space="preserve">
-    <value>Not Checked...</value>
-  </data>
-  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
-    <value>txtPort</value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtIp.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;arcScaleComponent1.Name" xml:space="preserve">
-    <value>arcScaleComponent1</value>
-  </data>
-  <data name="&gt;&gt;txtServer.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="layoutControlGroup5.Text" xml:space="preserve">
-    <value>layoutControlGroup5</value>
-  </data>
-  <data name="txtClient.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtMap.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtMax.Name" xml:space="preserve">
-    <value>txtMax</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;gaugeControl1.Parent" xml:space="preserve">
-    <value>gcLag</value>
-  </data>
-  <data name="layoutControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;gaugeControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtUpTime.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;layoutControl3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtUpTime.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;arcScaleSpindleCapComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtIp.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtPort.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="&gt;&gt;txtClient.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
-    <value>layoutControl4</value>
-  </data>
-  <data name="groupControl4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 150</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtUpTime.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
-    <value>layoutControlItem3</value>
-  </data>
-  <data name="layoutControl4.Text" xml:space="preserve">
-    <value>layoutControl4</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtMap.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;progressBarControl1.Name" xml:space="preserve">
     <value>progressBarControl1</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem22.Name" xml:space="preserve">
+  <data name="&gt;&gt;progressBarControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;progressBarControl1.Parent" xml:space="preserve">
+    <value>layoutControl4</value>
+  </data>
+  <data name="&gt;&gt;progressBarControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 40</value>
+  </data>
+  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
+    <value>pictureEdit1</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>layoutControl4</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="layoutControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="layoutControlGroup4.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="lblStatus.CustomizationFormText" xml:space="preserve">
+    <value>Not Checked...</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Not Checked...</value>
+  </data>
+  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </data>
+  <data name="layoutControlItem24.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem24</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>layoutControlItem24</value>
+  </data>
+  <data name="layoutControlGroup4.Text" xml:space="preserve">
+    <value>layoutControlGroup4</value>
+  </data>
+  <data name="layoutControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 104</value>
+  </data>
+  <data name="layoutControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl4.Text" xml:space="preserve">
+    <value>layoutControl4</value>
+  </data>
+  <data name="&gt;&gt;layoutControl4.Name" xml:space="preserve">
+    <value>layoutControl4</value>
+  </data>
+  <data name="&gt;&gt;layoutControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControl4.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;layoutControl4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 128</value>
+  </data>
+  <data name="groupControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupControl4.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Name" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>427, 17</value>
+  </metadata>
+  <data name="btnCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 12</value>
+  </data>
+  <data name="btnCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 75</value>
+  </data>
+  <data name="btnCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnCheck.Text" xml:space="preserve">
+    <value>Check OT</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.Name" xml:space="preserve">
+    <value>btnCheck</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;btnCheck.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 156</value>
+  </data>
+  <data name="txtAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.Name" xml:space="preserve">
+    <value>txtAuthor</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 132</value>
+  </data>
+  <data name="txtMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtMap.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtMap.Name" xml:space="preserve">
+    <value>txtMap</value>
+  </data>
+  <data name="&gt;&gt;txtMap.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtMap.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtMap.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtMonsters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 108</value>
+  </data>
+  <data name="txtMonsters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtMonsters.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtMonsters.Name" xml:space="preserve">
+    <value>txtMonsters</value>
+  </data>
+  <data name="&gt;&gt;txtMonsters.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtMonsters.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtMonsters.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtPeek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 84</value>
+  </data>
+  <data name="txtPeek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtPeek.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtPeek.Name" xml:space="preserve">
+    <value>txtPeek</value>
+  </data>
+  <data name="&gt;&gt;txtPeek.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtPeek.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtPeek.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 60</value>
+  </data>
+  <data name="txtMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtMax.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtMax.Name" xml:space="preserve">
+    <value>txtMax</value>
+  </data>
+  <data name="&gt;&gt;txtMax.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtMax.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtMax.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 36</value>
+  </data>
+  <data name="txtPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtPlayers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtPlayers.Name" xml:space="preserve">
+    <value>txtPlayers</value>
+  </data>
+  <data name="&gt;&gt;txtPlayers.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtPlayers.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtPlayers.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 12</value>
+  </data>
+  <data name="txtClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="txtClient.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtClient.Name" xml:space="preserve">
+    <value>txtClient</value>
+  </data>
+  <data name="&gt;&gt;txtClient.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtClient.Parent" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;txtClient.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="layoutControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="layoutControlGroup5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup5</value>
+  </data>
+  <data name="layoutControlItem18.CustomizationFormText" xml:space="preserve">
+    <value> Players: </value>
+  </data>
+  <data name="layoutControlItem18.Text" xml:space="preserve">
+    <value> Players: </value>
+  </data>
+  <data name="layoutControlItem19.CustomizationFormText" xml:space="preserve">
+    <value> Max: </value>
+  </data>
+  <data name="layoutControlItem19.Text" xml:space="preserve">
+    <value> Max: </value>
+  </data>
+  <data name="layoutControlItem7.CustomizationFormText" xml:space="preserve">
+    <value> Client: </value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value> Client: </value>
+  </data>
+  <data name="layoutControlItem20.CustomizationFormText" xml:space="preserve">
+    <value> Peek: </value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value> Peak: </value>
+  </data>
+  <data name="layoutControlItem21.CustomizationFormText" xml:space="preserve">
+    <value> Monsters: </value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value> Monsters: </value>
+  </data>
+  <data name="layoutControlItem23.CustomizationFormText" xml:space="preserve">
+    <value> Map: </value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value> Map: </value>
+  </data>
+  <data name="layoutControlItem25.CustomizationFormText" xml:space="preserve">
+    <value> Author: </value>
+  </data>
+  <data name="layoutControlItem25.Text" xml:space="preserve">
+    <value> Author: </value>
+  </data>
+  <data name="layoutControlGroup5.Text" xml:space="preserve">
+    <value>layoutControlGroup5</value>
+  </data>
+  <data name="layoutControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 192</value>
+  </data>
+  <data name="layoutControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl5.Text" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl5.Name" xml:space="preserve">
+    <value>layoutControl5</value>
+  </data>
+  <data name="&gt;&gt;layoutControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControl5.Parent" xml:space="preserve">
+    <value>gcInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutControl5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gcInfo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gcInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 91</value>
+  </data>
+  <data name="gcInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 216</value>
+  </data>
+  <data name="gcInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gcInfo.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="&gt;&gt;gcInfo.Name" xml:space="preserve">
+    <value>gcInfo</value>
+  </data>
+  <data name="&gt;&gt;gcInfo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;gcInfo.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcInfo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Name" xml:space="preserve">
+    <value>gaugeControl1</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Parent" xml:space="preserve">
+    <value>gcLag</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gcLag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 144</value>
+  </data>
+  <data name="gcLag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 163</value>
+  </data>
+  <data name="gcLag.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gcLag.Text" xml:space="preserve">
+    <value>Lag</value>
+  </data>
+  <data name="&gt;&gt;gcLag.Name" xml:space="preserve">
+    <value>gcLag</value>
+  </data>
+  <data name="&gt;&gt;gcLag.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;gcLag.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcLag.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtMotd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 132</value>
+  </data>
+  <data name="txtMotd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 48</value>
+  </data>
+  <data name="txtMotd.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtMotd.Name" xml:space="preserve">
+    <value>txtMotd</value>
+  </data>
+  <data name="&gt;&gt;txtMotd.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtMotd.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtMotd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 60</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
+    <value>txtEmail</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtOwner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 84</value>
+  </data>
+  <data name="txtOwner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="txtOwner.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.Name" xml:space="preserve">
+    <value>txtOwner</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtOwner.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 84</value>
+  </data>
+  <data name="txtLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="txtLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtLocation.Name" xml:space="preserve">
+    <value>txtLocation</value>
+  </data>
+  <data name="&gt;&gt;txtLocation.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtLocation.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtLocation.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 36</value>
+  </data>
+  <data name="txtUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="txtUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtUrl.Name" xml:space="preserve">
+    <value>txtUrl</value>
+  </data>
+  <data name="&gt;&gt;txtUrl.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtUrl.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtUrl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 12</value>
+  </data>
+  <data name="txtServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="txtServer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtServer.Name" xml:space="preserve">
+    <value>txtServer</value>
+  </data>
+  <data name="&gt;&gt;txtServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtServer.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtServer.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 108</value>
+  </data>
+  <data name="txtVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="txtVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Name" xml:space="preserve">
+    <value>txtVersion</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtUpTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 108</value>
+  </data>
+  <data name="txtUpTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
+  </data>
+  <data name="txtUpTime.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtUpTime.Name" xml:space="preserve">
+    <value>txtUpTime</value>
+  </data>
+  <data name="&gt;&gt;txtUpTime.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtUpTime.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;txtUpTime.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="layoutControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="layoutControlItem11.CustomizationFormText" xml:space="preserve">
+    <value> Version: </value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value> Version: </value>
+  </data>
+  <data name="layoutControlItem12.CustomizationFormText" xml:space="preserve">
+    <value>Server: </value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Server: </value>
+  </data>
+  <data name="layoutControlItem13.CustomizationFormText" xml:space="preserve">
+    <value> Url: </value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value> Url: </value>
+  </data>
+  <data name="layoutControlItem16.CustomizationFormText" xml:space="preserve">
+    <value> Owner: </value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value> Owner: </value>
+  </data>
+  <data name="layoutControlItem14.CustomizationFormText" xml:space="preserve">
+    <value> Location: </value>
+  </data>
+  <data name="layoutControlItem14.Text" xml:space="preserve">
+    <value> Location: </value>
+  </data>
+  <data name="layoutControlItem22.CustomizationFormText" xml:space="preserve">
     <value>layoutControlItem22</value>
+  </data>
+  <data name="layoutControlItem22.Text" xml:space="preserve">
+    <value>layoutControlItem22</value>
+  </data>
+  <data name="layoutControlItem15.CustomizationFormText" xml:space="preserve">
+    <value> UpTime: </value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value> UpTime: </value>
+  </data>
+  <data name="layoutControlItem17.CustomizationFormText" xml:space="preserve">
+    <value> Email: </value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value> Email: </value>
+  </data>
+  <data name="layoutControlGroup3.Text" xml:space="preserve">
+    <value>layoutControlGroup3</value>
+  </data>
+  <data name="layoutControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 192</value>
+  </data>
+  <data name="layoutControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl3.Text" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;layoutControl3.Name" xml:space="preserve">
+    <value>layoutControl3</value>
+  </data>
+  <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControl3.Parent" xml:space="preserve">
+    <value>gcStatus</value>
+  </data>
+  <data name="&gt;&gt;layoutControl3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gcStatus.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gcStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 91</value>
+  </data>
+  <data name="gcStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 216</value>
+  </data>
+  <data name="gcStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gcStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;gcStatus.Name" xml:space="preserve">
+    <value>gcStatus</value>
+  </data>
+  <data name="&gt;&gt;gcStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;gcStatus.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;gcStatus.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtPort.EditValue" xml:space="preserve">
+    <value>7171</value>
+  </data>
+  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 12</value>
+  </data>
+  <data name="txtPort.Properties.Mask.EditMask" xml:space="preserve">
+    <value>####</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="txtPort.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>Numeric</value>
+  </data>
+  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
+    <value>txtPort</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtIp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="txtIp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="txtIp.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtIp.Name" xml:space="preserve">
+    <value>txtIp</value>
+  </data>
+  <data name="&gt;&gt;txtIp.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;txtIp.Parent" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;txtIp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="layoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 22</value>
+  </data>
+  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
+    <value> Server: </value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value> Server IP: </value>
+  </data>
+  <data name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 51</value>
+  </data>
+  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl2.Text" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
+    <value>layoutControl2</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 12</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 75</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Params</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </data>
+  <data name="layoutControlItem9.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>layoutControlItem9</value>
+  </data>
+  <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>layoutControlItem8</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="layoutControlItem10.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 319</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>427, 17</value>
+  </metadata>
+  <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v9.3" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY5LjMsIFZlcnNpb249OS4zLjIu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04ZDMzMmRhODZmZTg4OGFiDAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
+        AABmEwAAAmcJAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAI
+        5UlEQVRYR9VXe1BU1xl3Mp1MJtNJO0lbOzZpm5iaFF8oSn0mGEHNqNEqIk0nwSdRq1DlEXkYCCqKCtGI
+        EQQBNRhfPBaRx/JyAUVBVARjUWBdcHkvCyzLPu4999fv7IIVV0z6+Kd35jf37P3uPb/f953vfN/ZESP+
+        b66QkBe25pgdQ4rFwF1XmOzrm0x9qpYxjq8qWVuwguX55LEIjzTBaURI0U/+Z37ZhdS8+Ndz4rowhXg3
+        7oaIM3cYSh5KeKgFDIIVfFyqknC2RkJMpYSAArF+WbLoyb/9r4RMO2p29EwVyo5eE1HTwsAkCYxJ6DcD
+        esLgXWcCeo1At8GKnPsSokoY3E+ZFFOjzFP+IxGT9huXbTpr0sprRQiiBInIOcyCZCHj5EbynpP30O+u
+        fqBTD7TpgOZeQEVRiS1jWBFjbHsnzPjRvyVidJhx6ZrjBsOdZpE8Js8HwAWYSICOCCkQJAgQaMC97iDy
+        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
+</value>
+  </data>
+  <data name="gaugeControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="gaugeControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 172</value>
+  </data>
+  <data name="gaugeControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Name" xml:space="preserve">
+    <value>gaugeControl1</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.Parent" xml:space="preserve">
+    <value>gcLag</value>
+  </data>
+  <data name="&gt;&gt;gaugeControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="defaultLookAndFeel1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="TMLag.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
+  </metadata>
+  <metadata name="TMChk.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>256, 17</value>
+  </metadata>
+  <metadata name="TMUpd.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>341, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 319</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3185,689 +3138,274 @@
         AAAABwAAwA8AAPA/AAA=
 </value>
   </data>
-  <data name="&gt;&gt;arcScaleEffectLayerComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 20</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txtUrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 20</value>
-  </data>
-  <data name="txtUpTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 20</value>
-  </data>
-  <data name="&gt;&gt;txtVersion.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
-    <value> Server: </value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="layoutControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="txtMax.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="groupControl4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 7</value>
-  </data>
-  <data name="&gt;&gt;gcInfo.Name" xml:space="preserve">
-    <value>gcInfo</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtAuthor.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="txtClient.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtPort.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;txtUrl.Name" xml:space="preserve">
-    <value>txtUrl</value>
-  </data>
-  <data name="txtMonsters.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 37</value>
-  </data>
-  <data name="&gt;&gt;txtServer.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txtOwner.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtUrl.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtMax.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;txtMap.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="&gt;&gt;txtPlayers.Parent" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="txtClient.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtOwner.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="txtMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="&gt;&gt;txtUpTime.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlItem11.CustomizationFormText" xml:space="preserve">
-    <value> Version: </value>
-  </data>
-  <data name="txtMotd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 57</value>
-  </data>
-  <data name="&gt;&gt;btnCheck.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
-    <value>pictureEdit1</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtMonsters.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtPlayers.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtPlayers.Name" xml:space="preserve">
-    <value>txtPlayers</value>
-  </data>
-  <data name="txtServer.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtClient.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="txtIp.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem25.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtClient.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtMap.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="layoutControl4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="layoutControlItem25.CustomizationFormText" xml:space="preserve">
-    <value> Author: </value>
-  </data>
-  <data name="layoutControlItem18.Text" xml:space="preserve">
-    <value> Players: </value>
-  </data>
-  <data name="layoutControlItem10.Text" xml:space="preserve">
-    <value>layoutControlItem10</value>
-  </data>
-  <data name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem4</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem19.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControlItem8.Text" xml:space="preserve">
-    <value>layoutControlItem8</value>
-  </data>
-  <data name="layoutControlItem9.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem9</value>
-  </data>
-  <data name="&gt;&gt;txtAuthor.Name" xml:space="preserve">
-    <value>txtAuthor</value>
-  </data>
-  <data name="&gt;&gt;gcStatus.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtUpTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 131</value>
-  </data>
-  <data name="&gt;&gt;arcScaleBackgroundLayerComponent1.Name" xml:space="preserve">
-    <value>arcScaleBackgroundLayerComponent1</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem24.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="txtMap.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControl5.Name" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="layoutControlItem21.Text" xml:space="preserve">
-    <value> Monsters: </value>
-  </data>
-  <data name="txtAuthor.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="layoutControlItem23.CustomizationFormText" xml:space="preserve">
-    <value> Map: </value>
-  </data>
-  <data name="&gt;&gt;layoutControlGroup5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="layoutControl5.Text" xml:space="preserve">
-    <value>layoutControl5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem18.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="layoutControlItem14.Text" xml:space="preserve">
-    <value> Location: </value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
-    <value>layoutControlItem6</value>
-  </data>
-  <data name="txtServer.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtOwner.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem15.CustomizationFormText" xml:space="preserve">
-    <value> UpTime: </value>
-  </data>
-  <data name="txtPlayers.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="gaugeControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 172</value>
-  </data>
-  <data name="txtMap.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="layoutControlItem20.CustomizationFormText" xml:space="preserve">
-    <value> Peek: </value>
-  </data>
-  <data name="&gt;&gt;txtMonsters.Name" xml:space="preserve">
-    <value>txtMonsters</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
-    <value>layoutControlItem2</value>
-  </data>
-  <data name="layoutControl3.Text" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="&gt;&gt;txtServer.Name" xml:space="preserve">
-    <value>txtServer</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtLocation.Name" xml:space="preserve">
-    <value>txtLocation</value>
-  </data>
-  <data name="gcStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="layoutControlItem22.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem22</value>
-  </data>
-  <data name="layoutControlItem25.Text" xml:space="preserve">
-    <value> Author: </value>
-  </data>
-  <data name="txtLocation.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.Name" xml:space="preserve">
-    <value>groupControl4</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="txtPort.EditValue" xml:space="preserve">
-    <value>7171</value>
-  </data>
-  <data name="&gt;&gt;layoutControl4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 7</value>
-  </data>
-  <data name="layoutControlItem13.CustomizationFormText" xml:space="preserve">
-    <value> Url: </value>
-  </data>
-  <data name="txtUpTime.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>OT Server Status Checker</value>
   </data>
-  <data name="txtIp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 7</value>
+  <data name="&gt;&gt;layoutControlGroup4.Name" xml:space="preserve">
+    <value>layoutControlGroup4</value>
   </data>
-  <data name="txtVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="layoutControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
   </data>
-  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
-    <value>layoutControl1</value>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="txtMax.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;layoutControlItem24.Name" xml:space="preserve">
+    <value>layoutControlItem24</value>
   </data>
-  <data name="&gt;&gt;txtPeek.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;layoutControlItem24.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
+  <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
+    <value>imgLarge</value>
+  </data>
+  <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Name" xml:space="preserve">
+    <value>layoutControlGroup5</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem18.Name" xml:space="preserve">
+    <value>layoutControlItem18</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem18.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem19.Name" xml:space="preserve">
+    <value>layoutControlItem19</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem19.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem20.Name" xml:space="preserve">
+    <value>layoutControlItem20</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem20.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem21.Name" xml:space="preserve">
+    <value>layoutControlItem21</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem21.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem23.Name" xml:space="preserve">
+    <value>layoutControlItem23</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem23.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem25.Name" xml:space="preserve">
+    <value>layoutControlItem25</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem25.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;circularGauge1.Name" xml:space="preserve">
+    <value>circularGauge1</value>
+  </data>
+  <data name="&gt;&gt;circularGauge1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;arcScaleBackgroundLayerComponent1.Name" xml:space="preserve">
+    <value>arcScaleBackgroundLayerComponent1</value>
+  </data>
+  <data name="&gt;&gt;arcScaleBackgroundLayerComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;arcScaleComponent1.Name" xml:space="preserve">
+    <value>arcScaleComponent1</value>
+  </data>
+  <data name="&gt;&gt;arcScaleComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;arcScaleEffectLayerComponent1.Name" xml:space="preserve">
+    <value>arcScaleEffectLayerComponent1</value>
+  </data>
+  <data name="&gt;&gt;arcScaleEffectLayerComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;arcScaleNeedleComponent1.Name" xml:space="preserve">
+    <value>arcScaleNeedleComponent1</value>
+  </data>
+  <data name="&gt;&gt;arcScaleNeedleComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;arcScaleComponent2.Name" xml:space="preserve">
+    <value>arcScaleComponent2</value>
+  </data>
+  <data name="&gt;&gt;arcScaleComponent2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;arcScaleSpindleCapComponent1.Name" xml:space="preserve">
+    <value>arcScaleSpindleCapComponent1</value>
+  </data>
+  <data name="&gt;&gt;arcScaleSpindleCapComponent1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
   </data>
-  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
-    <value>layoutControlItem9</value>
+  <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="&gt;&gt;gcStatus.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
+    <value>layoutControlItem11</value>
   </data>
-  <data name="layoutControlItem10.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem10</value>
+  <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="txtPort.Properties.Mask.EditMask" xml:space="preserve">
-    <value>####</value>
+  <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
+    <value>layoutControlItem12</value>
   </data>
-  <data name="txtIp.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
+    <value>layoutControlItem13</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
+    <value>layoutControlItem16</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem16.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem14.Name" xml:space="preserve">
+    <value>layoutControlItem14</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem22.Name" xml:space="preserve">
+    <value>layoutControlItem22</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem22.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
   <data name="&gt;&gt;layoutControlItem15.Name" xml:space="preserve">
     <value>layoutControlItem15</value>
   </data>
-  <data name="btnCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;layoutControlItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="txtMap.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;layoutControlItem17.Name" xml:space="preserve">
+    <value>layoutControlItem17</value>
   </data>
-  <data name="layoutControlItem12.CustomizationFormText" xml:space="preserve">
-    <value>Server: </value>
+  <data name="&gt;&gt;layoutControlItem17.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="txtMax.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem21.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="layoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
   </data>
-  <data name="&gt;&gt;gaugeControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="&gt;&gt;txtPeek.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
   </data>
-  <data name="&gt;&gt;gcStatus.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="layoutControlItem17.CustomizationFormText" xml:space="preserve">
-    <value> Email: </value>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
   </data>
-  <data name="&gt;&gt;txtMonsters.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;txtServer.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="txtServer.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnCheck.Text" xml:space="preserve">
-    <value>Check OT</value>
-  </data>
-  <data name="txtPlayers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 38</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
-  </data>
-  <data name="gcStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 247</value>
-  </data>
-  <data name="groupControl1.Text" xml:space="preserve">
-    <value>Params</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;circularGauge1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge, DevExpress.XtraGauges.v8.2.Win, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;gcLag.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="txtMax.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5" />
-  <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjYu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj00OWQ5MGMxNGQyNDI3MWI1DAMAAABRU3lz
-        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
-        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
-        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
-        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAgAAAAIAAAAAkFAAAADwUA
-        AABmEwAAAmcJAACJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAI
-        5UlEQVRYR9VXe1BU1xl3Mp1MJtNJO0lbOzZpm5iaFF8oSn0mGEHNqNEqIk0nwSdRq1DlEXkYCCqKCtGI
-        EQQBNRhfPBaRx/JyAUVBVARjUWBdcHkvCyzLPu4999fv7IIVV0z6+Kd35jf37P3uPb/f953vfN/ZESP+
-        b66QkBe25pgdQ4rFwF1XmOzrm0x9qpYxjq8qWVuwguX55LEIjzTBaURI0U/+Z37ZhdS8+Ndz4rowhXg3
-        7oaIM3cYSh5KeKgFDIIVfFyqknC2RkJMpYSAArF+WbLoyb/9r4RMO2p29EwVyo5eE1HTwsAkCYxJ6DcD
-        esLgXWcCeo1At8GKnPsSokoY3E+ZFFOjzFP+IxGT9huXbTpr0sprRQiiBInIOcyCZCHj5EbynpP30O+u
-        fqBTD7TpgOZeQEVRiS1jWBFjbHsnzPjRvyVidJhx6ZrjBsOdZpE8Js8HwAWYSICOCCkQJAgQaMC97iDy
-        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
-</value>
-  </data>
-  <data name="&gt;&gt;txtIp.Name" xml:space="preserve">
-    <value>txtIp</value>
-  </data>
-  <data name="txtUrl.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="layoutControl2.Text" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;txtAuthor.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
-    <value>txtEmail</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem23.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="txtUpTime.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtVersion.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtClient.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 7</value>
-  </data>
-  <data name="&gt;&gt;txtUrl.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="txtLocation.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txtMax.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtEmail.Properties.Mask.EditMask" xml:space="preserve">
-    <value />
-  </data>
-  <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem8</value>
-  </data>
-  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 59</value>
-  </data>
-  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControlItem22.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
-    <value>layoutControl2</value>
-  </data>
-  <data name="txtIp.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtMax.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="txtPeek.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v8.2">
-    <value>None</value>
-  </data>
-  <data name="txtMotd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 162</value>
-  </data>
-  <data name="txtMax.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="progressBarControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 18</value>
-  </data>
-  <data name="txtIp.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtIp.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
-  </data>
-  <data name="progressBarControl1.Properties.AutoHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;TMChk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gcInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtMotd.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="txtPlayers.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
-  <data name="progressBarControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 106</value>
+  <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="&gt;&gt;layoutControl5.Parent" xml:space="preserve">
-    <value>gcInfo</value>
+  <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
+    <value>layoutControlItem9</value>
   </data>
-  <data name="txtLocation.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v8.2">
-    <value>Default</value>
+  <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <data name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlItem5</value>
+  <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
+    <value>layoutControlItem8</value>
   </data>
-  <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.6.0, Culture=neutral, PublicKeyToken=49d90c14d24271b5</value>
+  <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
   </data>
-  <metadata name="TMLag.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>172, 17</value>
-  </metadata>
-  <metadata name="imgLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>427, 17</value>
-  </metadata>
-  <metadata name="TMUpd.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>341, 17</value>
-  </metadata>
-  <metadata name="TMChk.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>256, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="defaultLookAndFeel1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
+    <value>layoutControlItem10</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
+    <value>defaultLookAndFeel1</value>
+  </data>
+  <data name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
+    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
+  <data name="&gt;&gt;TMLag.Name" xml:space="preserve">
+    <value>TMLag</value>
+  </data>
+  <data name="&gt;&gt;TMLag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TMChk.Name" xml:space="preserve">
+    <value>TMChk</value>
+  </data>
+  <data name="&gt;&gt;TMChk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TMUpd.Name" xml:space="preserve">
+    <value>TMUpd</value>
+  </data>
+  <data name="&gt;&gt;TMUpd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_Pinger</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+  </data>
 </root>
