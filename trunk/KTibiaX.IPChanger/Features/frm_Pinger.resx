@@ -132,7 +132,7 @@
     <value>progressBarControl1</value>
   </data>
   <data name="&gt;&gt;progressBarControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.ProgressBarControl, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;progressBarControl1.Parent" xml:space="preserve">
     <value>layoutControl4</value>
@@ -153,7 +153,7 @@
     <value>pictureEdit1</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
     <value>layoutControl4</value>
@@ -205,7 +205,7 @@
     <value>layoutControl4</value>
   </data>
   <data name="&gt;&gt;layoutControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControl4.Parent" xml:space="preserve">
     <value>groupControl4</value>
@@ -229,7 +229,7 @@
     <value>groupControl4</value>
   </data>
   <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -256,7 +256,7 @@
     <value>btnCheck</value>
   </data>
   <data name="&gt;&gt;btnCheck.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;btnCheck.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -277,7 +277,7 @@
     <value>txtAuthor</value>
   </data>
   <data name="&gt;&gt;txtAuthor.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtAuthor.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -298,7 +298,7 @@
     <value>txtMap</value>
   </data>
   <data name="&gt;&gt;txtMap.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtMap.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -319,7 +319,7 @@
     <value>txtMonsters</value>
   </data>
   <data name="&gt;&gt;txtMonsters.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtMonsters.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -340,7 +340,7 @@
     <value>txtPeek</value>
   </data>
   <data name="&gt;&gt;txtPeek.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtPeek.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -361,7 +361,7 @@
     <value>txtMax</value>
   </data>
   <data name="&gt;&gt;txtMax.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtMax.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -382,7 +382,7 @@
     <value>txtPlayers</value>
   </data>
   <data name="&gt;&gt;txtPlayers.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtPlayers.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -403,7 +403,7 @@
     <value>txtClient</value>
   </data>
   <data name="&gt;&gt;txtClient.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtClient.Parent" xml:space="preserve">
     <value>layoutControl5</value>
@@ -478,7 +478,7 @@
     <value>layoutControl5</value>
   </data>
   <data name="&gt;&gt;layoutControl5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControl5.Parent" xml:space="preserve">
     <value>gcInfo</value>
@@ -505,7 +505,7 @@
     <value>gcInfo</value>
   </data>
   <data name="&gt;&gt;gcInfo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gcInfo.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -517,7 +517,7 @@
     <value>gaugeControl1</value>
   </data>
   <data name="&gt;&gt;gaugeControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gaugeControl1.Parent" xml:space="preserve">
     <value>gcLag</value>
@@ -541,7 +541,7 @@
     <value>gcLag</value>
   </data>
   <data name="&gt;&gt;gcLag.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gcLag.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -562,7 +562,7 @@
     <value>txtMotd</value>
   </data>
   <data name="&gt;&gt;txtMotd.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.MemoEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtMotd.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -583,7 +583,7 @@
     <value>txtEmail</value>
   </data>
   <data name="&gt;&gt;txtEmail.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -604,7 +604,7 @@
     <value>txtOwner</value>
   </data>
   <data name="&gt;&gt;txtOwner.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtOwner.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -625,7 +625,7 @@
     <value>txtLocation</value>
   </data>
   <data name="&gt;&gt;txtLocation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtLocation.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -646,7 +646,7 @@
     <value>txtUrl</value>
   </data>
   <data name="&gt;&gt;txtUrl.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtUrl.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -667,7 +667,7 @@
     <value>txtServer</value>
   </data>
   <data name="&gt;&gt;txtServer.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtServer.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -688,7 +688,7 @@
     <value>txtVersion</value>
   </data>
   <data name="&gt;&gt;txtVersion.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtVersion.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -709,7 +709,7 @@
     <value>txtUpTime</value>
   </data>
   <data name="&gt;&gt;txtUpTime.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtUpTime.Parent" xml:space="preserve">
     <value>layoutControl3</value>
@@ -790,7 +790,7 @@
     <value>layoutControl3</value>
   </data>
   <data name="&gt;&gt;layoutControl3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControl3.Parent" xml:space="preserve">
     <value>gcStatus</value>
@@ -817,7 +817,7 @@
     <value>gcStatus</value>
   </data>
   <data name="&gt;&gt;gcStatus.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gcStatus.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -834,7 +834,7 @@
   <data name="txtPort.Properties.Mask.EditMask" xml:space="preserve">
     <value>####</value>
   </data>
-  <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="txtPort.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
     <value>Numeric</value>
   </data>
@@ -848,7 +848,7 @@
     <value>txtPort</value>
   </data>
   <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
     <value>layoutControl2</value>
@@ -869,7 +869,7 @@
     <value>txtIp</value>
   </data>
   <data name="&gt;&gt;txtIp.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;txtIp.Parent" xml:space="preserve">
     <value>layoutControl2</value>
@@ -914,7 +914,7 @@
     <value>layoutControl2</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControl2.Parent" xml:space="preserve">
     <value>groupControl1</value>
@@ -938,7 +938,7 @@
     <value>groupControl1</value>
   </data>
   <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
     <value>layoutControl1</value>
@@ -1007,7 +1007,7 @@
     <value>layoutControl1</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1021,7 +1021,7 @@
   <data name="imgLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>32, 32</value>
   </data>
-  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab" />
+  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v9.3" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY5LjMsIFZlcnNpb249OS4zLjIu
@@ -1128,7 +1128,7 @@
     <value>gaugeControl1</value>
   </data>
   <data name="&gt;&gt;gaugeControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.GaugeControl, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;gaugeControl1.Parent" xml:space="preserve">
     <value>gcLag</value>
@@ -3148,241 +3148,241 @@
     <value>layoutControlGroup4</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
     <value>lblStatus</value>
   </data>
   <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
     <value>layoutControlItem5</value>
   </data>
   <data name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem24.Name" xml:space="preserve">
     <value>layoutControlItem24</value>
   </data>
   <data name="&gt;&gt;layoutControlItem24.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;imgLarge.Name" xml:space="preserve">
     <value>imgLarge</value>
   </data>
   <data name="&gt;&gt;imgLarge.Type" xml:space="preserve">
-    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup5.Name" xml:space="preserve">
     <value>layoutControlGroup5</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup5.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem18.Name" xml:space="preserve">
     <value>layoutControlItem18</value>
   </data>
   <data name="&gt;&gt;layoutControlItem18.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem19.Name" xml:space="preserve">
     <value>layoutControlItem19</value>
   </data>
   <data name="&gt;&gt;layoutControlItem19.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Name" xml:space="preserve">
     <value>layoutControlItem7</value>
   </data>
   <data name="&gt;&gt;layoutControlItem7.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem20.Name" xml:space="preserve">
     <value>layoutControlItem20</value>
   </data>
   <data name="&gt;&gt;layoutControlItem20.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem21.Name" xml:space="preserve">
     <value>layoutControlItem21</value>
   </data>
   <data name="&gt;&gt;layoutControlItem21.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem23.Name" xml:space="preserve">
     <value>layoutControlItem23</value>
   </data>
   <data name="&gt;&gt;layoutControlItem23.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem25.Name" xml:space="preserve">
     <value>layoutControlItem25</value>
   </data>
   <data name="&gt;&gt;layoutControlItem25.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;circularGauge1.Name" xml:space="preserve">
     <value>circularGauge1</value>
   </data>
   <data name="&gt;&gt;circularGauge1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;arcScaleBackgroundLayerComponent1.Name" xml:space="preserve">
     <value>arcScaleBackgroundLayerComponent1</value>
   </data>
   <data name="&gt;&gt;arcScaleBackgroundLayerComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;arcScaleComponent1.Name" xml:space="preserve">
     <value>arcScaleComponent1</value>
   </data>
   <data name="&gt;&gt;arcScaleComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;arcScaleEffectLayerComponent1.Name" xml:space="preserve">
     <value>arcScaleEffectLayerComponent1</value>
   </data>
   <data name="&gt;&gt;arcScaleEffectLayerComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;arcScaleNeedleComponent1.Name" xml:space="preserve">
     <value>arcScaleNeedleComponent1</value>
   </data>
   <data name="&gt;&gt;arcScaleNeedleComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;arcScaleComponent2.Name" xml:space="preserve">
     <value>arcScaleComponent2</value>
   </data>
   <data name="&gt;&gt;arcScaleComponent2.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;arcScaleSpindleCapComponent1.Name" xml:space="preserve">
     <value>arcScaleSpindleCapComponent1</value>
   </data>
   <data name="&gt;&gt;arcScaleSpindleCapComponent1.Type" xml:space="preserve">
-    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent, DevExpress.XtraGauges.v9.3.Win, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem11.Name" xml:space="preserve">
     <value>layoutControlItem11</value>
   </data>
   <data name="&gt;&gt;layoutControlItem11.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem12.Name" xml:space="preserve">
     <value>layoutControlItem12</value>
   </data>
   <data name="&gt;&gt;layoutControlItem12.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem13.Name" xml:space="preserve">
     <value>layoutControlItem13</value>
   </data>
   <data name="&gt;&gt;layoutControlItem13.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem16.Name" xml:space="preserve">
     <value>layoutControlItem16</value>
   </data>
   <data name="&gt;&gt;layoutControlItem16.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem14.Name" xml:space="preserve">
     <value>layoutControlItem14</value>
   </data>
   <data name="&gt;&gt;layoutControlItem14.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem22.Name" xml:space="preserve">
     <value>layoutControlItem22</value>
   </data>
   <data name="&gt;&gt;layoutControlItem22.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem15.Name" xml:space="preserve">
     <value>layoutControlItem15</value>
   </data>
   <data name="&gt;&gt;layoutControlItem15.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem17.Name" xml:space="preserve">
     <value>layoutControlItem17</value>
   </data>
   <data name="&gt;&gt;layoutControlItem17.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
     <value>layoutControlGroup2</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
     <value>layoutControlItem2</value>
   </data>
   <data name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
     <value>layoutControlItem3</value>
   </data>
   <data name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
     <value>layoutControlGroup1</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
     <value>layoutControlItem4</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem9.Name" xml:space="preserve">
     <value>layoutControlItem9</value>
   </data>
   <data name="&gt;&gt;layoutControlItem9.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem8.Name" xml:space="preserve">
     <value>layoutControlItem8</value>
   </data>
   <data name="&gt;&gt;layoutControlItem8.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
     <value>layoutControlItem1</value>
   </data>
   <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
     <value>layoutControlItem6</value>
   </data>
   <data name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;layoutControlItem10.Name" xml:space="preserve">
     <value>layoutControlItem10</value>
   </data>
   <data name="&gt;&gt;layoutControlItem10.Type" xml:space="preserve">
-    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
     <value>defaultLookAndFeel1</value>
   </data>
   <data name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
-    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;TMLag.Name" xml:space="preserve">
     <value>TMLag</value>
@@ -3406,6 +3406,6 @@
     <value>frm_Pinger</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
 </root>

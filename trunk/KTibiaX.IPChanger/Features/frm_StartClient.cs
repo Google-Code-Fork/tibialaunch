@@ -181,7 +181,7 @@ namespace KTibiaX.IPChanger {
                     return;
                 }
             }
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(2000);
             //Write the new login server.
             if (!string.IsNullOrEmpty(ctrl_ServerList1.CurrentIP)) {
                 var pointer = MemoryAddress.LoginServer;
@@ -215,7 +215,7 @@ namespace KTibiaX.IPChanger {
             #endregion
 
             //Fires the Client Started Events.
-            CurrentServer.IsOtServer = isotserver;
+            if (CurrentServer != null) { CurrentServer.IsOtServer = isotserver; }
             if (ClientOpenComplete != null) { ClientOpenComplete(this, new ProcessEventArgs(TibiaClient, CurrentServer)); }
 
             //Close program if necessary.
