@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="strClientNotFound" xml:space="preserve">
-    <value>Tibia Client not found!</value>
+    <value>Tibia client not found!</value>
   </data>
   <data name="strConfigFileNotFound" xml:space="preserve">
     <value>Custom config file not found!\nRecord removed.</value>
@@ -196,7 +196,7 @@
     <value>Checking updates...</value>
   </data>
   <data name="strNoUpdates" xml:space="preserve">
-    <value>No updates needed!</value>
+    <value>Version is up to date!</value>
   </data>
   <data name="strUpdateError" xml:space="preserve">
     <value>Could not check updates.</value>
@@ -212,5 +212,8 @@
   </data>
   <data name="strMustRestart" xml:space="preserve">
     <value>You must restart the application to the changes take effect.</value>
+  </data>
+  <data name="strLagNotSupported" xml:space="preserve">
+    <value>Could not check</value>
   </data>
 </root>

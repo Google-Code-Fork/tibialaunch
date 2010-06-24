@@ -35,7 +35,7 @@ namespace KTibiaX.IPChanger.Features {
         /// <param name="sender">The source of the event.</param>
         /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
         private void frm_Pinger_Load(object sender, EventArgs e) {
-            StatusImage = Properties.Resources.remove;
+            StatusImage = Properties.Resources.statusNo;
             StatusText = Program.GetCurrentResource().GetString("strNotChecked");
         }
 
@@ -144,8 +144,8 @@ namespace KTibiaX.IPChanger.Features {
                     else { PingValues.RemoveAt(0); }
                 }
             }
-            else {
-                gcLag.Text = string.Concat("Lag -", Program.GetCurrentResource().GetString("strLagChecking"));
+            else if (StatusText != Program.GetCurrentResource().GetString("strOffLine")) {
+                gcLag.Text = string.Concat("Lag - ", Program.GetCurrentResource().GetString("strLagChecking"));
                 arcScaleComponent1.Value = 0;
             }
         }
@@ -158,15 +158,14 @@ namespace KTibiaX.IPChanger.Features {
         #endregion
 
         #region "[rgn] Get Server Info  "
-        private void ThreadSInfo_Action() {
-            GetServerInfo(txtIp.Text, txtPort.Text.ToInt32());
-        }
-        private void GetServerInfo(string server, int port) {
+        private string CurrentServerIP { get; set; }
+        private int CurrentServerPort { get; set; }
+        private void GetServerInfo() {
             try {
                 MustClearControls = true;
 
                 var packet = new byte[] { 0x06, 0x00, 0xFF, 0xFF, 0x69, 0x6E, 0x66, 0x6F };
-                tcp = new TcpClient(server, port);
+                tcp = new TcpClient(CurrentServerIP, CurrentServerPort);
                 stream = tcp.GetStream();
 
                 stream.Write(packet, 0, packet.Length);
@@ -177,17 +176,23 @@ namespace KTibiaX.IPChanger.Features {
 
                 var result = buffer.Redim(len);
                 var xml = GetString(result);
+                Thread.Sleep(1000);
                 if (!string.IsNullOrEmpty(xml)) {
                     CurrentServer = xml.Deserialize<Server>();
                 }
                 StatusText = Program.GetCurrentResource().GetString("strOnline");
-                StatusImage = Properties.Resources.ok_32;
+                StatusImage = Properties.Resources.statusOk;
+
+                PingerConnected = true;
+                LastOnlineServer = txtIp.Text.Trim();
+                TMChk.Stop();
+                StatusPosition = 100;
             }
             catch (SocketException) {
-                StatusText = Program.GetCurrentResource().GetString("strOffLine");
-                StatusImage = Properties.Resources.caution_32;
+                SetErrorState();
             }
             catch (Exception ex) {
+                SetErrorState();
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -254,19 +259,21 @@ namespace KTibiaX.IPChanger.Features {
             LastOnlineServer = string.Empty;
             TMPing = new System.Threading.Timer(new TimerCallback(TMPing_Callback), null, 0, 1500);
 
-            StatusImage = Properties.Resources.remove;
+            StatusImage = Properties.Resources.statusChecking;
             StatusText = Program.GetCurrentResource().GetString("strLagChecking");
             progressBarControl1.Position = 0;
             TMChk.Start();
             TMLag.Start();
 
-            ThreadSInfo = new Thread(ThreadSInfo_Action);
-            ThreadSInfo.IsBackground = true;
-            ThreadSInfo.Start();
-
             ThreadCheck = new Thread(THCheck);
             ThreadCheck.IsBackground = true;
             ThreadCheck.Start();
+
+            CurrentServerIP = txtIp.Text;
+            CurrentServerPort = txtPort.Text.ToInt32();
+            ThreadSInfo = new Thread(GetServerInfo);
+            ThreadSInfo.IsBackground = true;
+            ThreadSInfo.Start();
         }
 
         /// <summary>
@@ -277,12 +284,6 @@ namespace KTibiaX.IPChanger.Features {
                 Thread.Sleep(500);
                 var session = new KTibiaX.IPChanger.Data.OTPinger.Session(txtIp.Text.Trim(), txtPort.Text.Trim().ToInt32());
                 session.Connect();
-
-                Thread.Sleep(500);
-                PingerConnected = session.IsConnected;
-                LastOnlineServer = txtIp.Text.Trim();
-                TMChk.Stop();
-                StatusPosition = 100;
             }
             catch (SocketException) {
                 SetErrorState();
@@ -299,9 +300,14 @@ namespace KTibiaX.IPChanger.Features {
         /// </summary>
         private void SetErrorState() {
             TMChk.Stop();
+            if (TMPing != null) { TMPing.Change(System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite); TMPing.Dispose(); }
             LastOnlineServer = string.Empty;
             PingerConnected = false;
             StatusPosition = 100;
+            System.Threading.Thread.Sleep(500);
+            LagHeaderValue = string.Concat("Lag - ", Program.GetCurrentResource().GetString("strUnavaliable"));
+            StatusImage = Properties.Resources.statusNo;
+            StatusText = Program.GetCurrentResource().GetString("strOffLine");
         }
 
         /// <summary>

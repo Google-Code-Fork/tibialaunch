@@ -48,7 +48,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="AppSkin" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Black</Value>
+      <Value Profile="(Default)">Seven</Value>
     </Setting>
     <Setting Name="OTMapPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

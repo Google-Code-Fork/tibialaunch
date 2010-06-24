@@ -277,21 +277,21 @@ namespace KTibiaX.IPChanger {
             var frmAbout = new frm_About();
             this.Hide();
             frmAbout.FormClosed += new FormClosedEventHandler(frmAbout_FormClosed);
-            frmAbout.ShowDialog();
+            frmAbout.Show();
         }
         private void frmAbout_FormClosed(object sender, FormClosedEventArgs e) {
-            this.ShowDialog();
+            this.Show();
         }
         private void btnChecker_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             frm_Pinger frmChecker;
             frmChecker = CurrentServer != null ? new frm_Pinger(CurrentServer.Ip, CurrentServer.Port.ToString()) : new frm_Pinger();
             this.Hide();
             frmChecker.FormClosed += new FormClosedEventHandler(frmChecker_FormClosed);
-            frmChecker.ShowDialog();
+            frmChecker.Show();
 
         }
         private void frmChecker_FormClosed(object sender, FormClosedEventArgs e) {
-            this.ShowDialog();
+            this.Show();
         }
         private void btnClose_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             Application.ExitThread();
@@ -300,19 +300,19 @@ namespace KTibiaX.IPChanger {
             var frmSkin = new frm_Skins();
             frmSkin.FormClosed += new FormClosedEventHandler(frmSkin_FormClosed);
             this.Hide();
-            frmSkin.ShowDialog();
+            frmSkin.Show();
         }
         private void frmSkin_FormClosed(object sender, FormClosedEventArgs e) {
             this.defaultLookAndFeel1.LookAndFeel.SetSkinStyle(Settings.Default.AppSkin);
             this.Refresh(); this.Update();
-            this.ShowDialog();
+            this.Show();
         }
         private void btnOptions_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             var frmOptions = new frm_Options();
             frmOptions.FormClosed += frmOptions_FormClosed;
             frmOptions.OptionsChanged += frmOptions_OptionsChanged;
             this.Hide();
-            frmOptions.ShowDialog();
+            frmOptions.Show();
         }
         private void frmOptions_OptionsChanged(object sender, IPCOptionsEventArgs e) {
             if (Settings.Default.GraphicsEngine != "") {
@@ -323,7 +323,7 @@ namespace KTibiaX.IPChanger {
             }
         }
         private void frmOptions_FormClosed(object sender, FormClosedEventArgs e) {
-            this.ShowDialog();
+            this.Show();
         }
         private void btnKeyrox_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             //var url = Program.GetCurrentResource().GetString("strUrl");
@@ -333,17 +333,17 @@ namespace KTibiaX.IPChanger {
             var frmAbout = new frm_About();
             this.Hide();
             frmAbout.FormClosed += new FormClosedEventHandler(frmAbout_FormClosed);
-            frmAbout.ShowDialog();
+            frmAbout.Show();
         }
         private void btnLanguage_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             var frmCulture = new frm_Culture();
             frmCulture.FormClosed += new FormClosedEventHandler(frmCulture_FormClosed);
             this.Hide();
-            frmCulture.ShowDialog();
+            frmCulture.Show();
         }
         private void frmCulture_FormClosed(object sender, FormClosedEventArgs e) {
             MessageBox.Show(Program.GetCurrentResource().GetString("strMustRestart"), "KTibiaX", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.ShowDialog();
+            this.Show();
         }
         private void lblVersion_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
             var url = Program.GetCurrentResource().GetString("strUrl");
@@ -367,7 +367,7 @@ namespace KTibiaX.IPChanger {
             MustHideMainForm = true;
         }
         private void frmInfo_FormClosed(object sender, FormClosedEventArgs e) {
-            this.ShowDialog();
+            this.Show();
         }
         private void TMUpdateValues_Tick(object sender, EventArgs e) {
             if (MustHideMainForm) {
@@ -375,7 +375,7 @@ namespace KTibiaX.IPChanger {
                 frmInfo.FormClosed += new FormClosedEventHandler(frmInfo_FormClosed);
                 this.Hide();
                 MustHideMainForm = false;
-                frmInfo.ShowDialog();
+                frmInfo.Show();
             }
             if (lblUpdate.Caption != UpdateLabelText) { lblUpdate.Caption = UpdateLabelText; }
         }

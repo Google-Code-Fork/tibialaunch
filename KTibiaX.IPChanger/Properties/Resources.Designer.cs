@@ -60,6 +60,20 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap app {
+            get {
+                object obj = ResourceManager.GetObject("app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap appIco {
+            get {
+                object obj = ResourceManager.GetObject("appIco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Brazil {
             get {
                 object obj = ResourceManager.GetObject("Brazil", resourceCulture);
@@ -77,27 +91,6 @@ namespace KTibiaX.IPChanger.Properties {
         internal static System.Drawing.Bitmap close_32 {
             get {
                 object obj = ResourceManager.GetObject("close_32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap cmd {
-            get {
-                object obj = ResourceManager.GetObject("cmd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap comparison_chart_add_256 {
-            get {
-                object obj = ResourceManager.GetObject("comparison_chart_add_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap config {
-            get {
-                object obj = ResourceManager.GetObject("config", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -130,65 +123,9 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap domain_256 {
+        internal static System.Drawing.Bitmap folder {
             get {
-                object obj = ResourceManager.GetObject("domain_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap en_us {
-            get {
-                object obj = ResourceManager.GetObject("en-us", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap en_us_b {
-            get {
-                object obj = ResourceManager.GetObject("en-us-b", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap en_us_f {
-            get {
-                object obj = ResourceManager.GetObject("en-us-f", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap en_us_nn {
-            get {
-                object obj = ResourceManager.GetObject("en-us-nn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap front_page_extension_256 {
-            get {
-                object obj = ResourceManager.GetObject("front_page_extension_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap gallery_256 {
-            get {
-                object obj = ResourceManager.GetObject("gallery_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap hunt_tools {
-            get {
-                object obj = ResourceManager.GetObject("hunt_tools", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap ini {
-            get {
-                object obj = ResourceManager.GetObject("ini", resourceCulture);
+                object obj = ResourceManager.GetObject("folder", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -200,72 +137,30 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap mini_sites_256 {
+        internal static System.Drawing.Bitmap search {
             get {
-                object obj = ResourceManager.GetObject("mini_sites_256", resourceCulture);
+                object obj = ResourceManager.GetObject("search", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap notes {
+        internal static System.Drawing.Bitmap statusChecking {
             get {
-                object obj = ResourceManager.GetObject("notes", resourceCulture);
+                object obj = ResourceManager.GetObject("statusChecking", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap ok_32 {
+        internal static System.Drawing.Bitmap statusNo {
             get {
-                object obj = ResourceManager.GetObject("ok_32", resourceCulture);
+                object obj = ResourceManager.GetObject("statusNo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap our_process_b_256 {
+        internal static System.Drawing.Bitmap statusOk {
             get {
-                object obj = ResourceManager.GetObject("our_process_b_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap our_works_256 {
-            get {
-                object obj = ResourceManager.GetObject("our_works_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap remove {
-            get {
-                object obj = ResourceManager.GetObject("remove", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap services_reload_256 {
-            get {
-                object obj = ResourceManager.GetObject("services_reload_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap shpere_256 {
-            get {
-                object obj = ResourceManager.GetObject("shpere_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap tback {
-            get {
-                object obj = ResourceManager.GetObject("tback", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap update {
-            get {
-                object obj = ResourceManager.GetObject("update", resourceCulture);
+                object obj = ResourceManager.GetObject("statusOk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,20 +168,6 @@ namespace KTibiaX.IPChanger.Properties {
         internal static System.Drawing.Bitmap USA {
             get {
                 object obj = ResourceManager.GetObject("USA", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap web_development_256 {
-            get {
-                object obj = ResourceManager.GetObject("web_development_256", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap whois_256 {
-            get {
-                object obj = ResourceManager.GetObject("whois_256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

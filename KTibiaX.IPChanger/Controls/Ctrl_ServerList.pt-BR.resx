@@ -148,7 +148,9 @@
     <value>Lista de Servidores</value>
   </data>
   <data name="toolTipItem8.Text" xml:space="preserve">
-    <value>Aqui você pode digitar, selecionar, adicionar ou remover servidores à lista. Para utilizar os servidores oficiais, não selecione nenhum, ou pressione delete para remover a seleção.</value>
+    <value>Aqui você pode digitar, selecionar, adicionar ou remover servidores à lista. 
+
+Para utilizar os servidores oficiais, não selecione nenhum, ou pressione a tecla [Delete] para voltar a selação para os servidores oficiais.</value>
   </data>
   <data name="toolTipTitleItem16.Text" xml:space="preserve">
     <value>Operações de Inclusão, Edição e Remoção</value>

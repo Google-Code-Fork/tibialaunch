@@ -38,6 +38,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -57,31 +58,44 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.groupControl1);
+            this.layoutControl1.AccessibleDescription = null;
+            this.layoutControl1.AccessibleName = null;
             resources.ApplyResources(this.layoutControl1, "layoutControl1");
+            this.layoutControl1.BackgroundImage = null;
+            this.layoutControl1.Controls.Add(this.groupControl1);
+            this.layoutControl1.Font = null;
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.layoutControl2);
+            this.groupControl1.AccessibleDescription = null;
+            this.groupControl1.AccessibleName = null;
             resources.ApplyResources(this.groupControl1, "groupControl1");
+            this.groupControl1.Controls.Add(this.layoutControl2);
             this.groupControl1.Name = "groupControl1";
             // 
             // layoutControl2
             // 
+            this.layoutControl2.AccessibleDescription = null;
+            this.layoutControl2.AccessibleName = null;
+            resources.ApplyResources(this.layoutControl2, "layoutControl2");
+            this.layoutControl2.BackgroundImage = null;
             this.layoutControl2.Controls.Add(this.btnSave);
             this.layoutControl2.Controls.Add(this.ddlCulture);
             this.layoutControl2.Controls.Add(this.imgCulture);
-            resources.ApplyResources(this.layoutControl2, "layoutControl2");
+            this.layoutControl2.Font = null;
             this.layoutControl2.Name = "layoutControl2";
             this.layoutControl2.Root = this.layoutControlGroup2;
             // 
             // btnSave
             // 
+            this.btnSave.AccessibleDescription = null;
+            this.btnSave.AccessibleName = null;
+            resources.ApplyResources(this.btnSave, "btnSave");
+            this.btnSave.BackgroundImage = null;
             this.btnSave.ImageIndex = 0;
             this.btnSave.ImageList = this.imgLarge;
-            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
             this.btnSave.StyleController = this.layoutControl2;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -94,20 +108,30 @@ namespace KTibiaX.IPChanger.Features {
             // ddlCulture
             // 
             resources.ApplyResources(this.ddlCulture, "ddlCulture");
+            this.ddlCulture.BackgroundImage = null;
             this.ddlCulture.Name = "ddlCulture";
+            this.ddlCulture.Properties.AccessibleDescription = null;
+            this.ddlCulture.Properties.AccessibleName = null;
+            this.ddlCulture.Properties.AutoHeight = ((bool)(resources.GetObject("ddlCulture.Properties.AutoHeight")));
             this.ddlCulture.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(((DevExpress.XtraEditors.Controls.ButtonPredefines)(resources.GetObject("ddlCulture.Properties.Buttons"))))});
+            this.ddlCulture.Properties.GlyphAlignment = ((DevExpress.Utils.HorzAlignment)(resources.GetObject("ddlCulture.Properties.GlyphAlignment")));
             this.ddlCulture.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem(resources.GetString("ddlCulture.Properties.Items"), ((object)(resources.GetObject("ddlCulture.Properties.Items1"))), ((int)(resources.GetObject("ddlCulture.Properties.Items2")))),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem(resources.GetString("ddlCulture.Properties.Items3"), ((object)(resources.GetObject("ddlCulture.Properties.Items4"))), ((int)(resources.GetObject("ddlCulture.Properties.Items5"))))});
+            this.ddlCulture.Properties.NullValuePrompt = resources.GetString("ddlCulture.Properties.NullValuePrompt");
+            this.ddlCulture.Properties.NullValuePromptShowForEmptyValue = ((bool)(resources.GetObject("ddlCulture.Properties.NullValuePromptShowForEmptyValue")));
             this.ddlCulture.StyleController = this.layoutControl2;
             this.ddlCulture.SelectedIndexChanged += new System.EventHandler(this.ddlCulture_SelectedIndexChanged);
             // 
             // imgCulture
             // 
-            this.imgCulture.EditValue = global::KTibiaX.IPChanger.Properties.Resources.USA;
             resources.ApplyResources(this.imgCulture, "imgCulture");
+            this.imgCulture.BackgroundImage = null;
+            this.imgCulture.EditValue = global::KTibiaX.IPChanger.Properties.Resources.USA;
             this.imgCulture.Name = "imgCulture";
+            this.imgCulture.Properties.AccessibleDescription = null;
+            this.imgCulture.Properties.AccessibleName = null;
             this.imgCulture.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.imgCulture.Properties.Appearance.Options.UseBackColor = true;
             this.imgCulture.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -122,7 +146,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem3});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(320, 63);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(332, 60);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // layoutControlItem2
@@ -131,7 +155,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem2, "layoutControlItem2");
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(41, 43);
+            this.layoutControlItem2.Size = new System.Drawing.Size(43, 40);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextToControlDistance = 0;
             this.layoutControlItem2.TextVisible = false;
@@ -140,20 +164,20 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutddl.Control = this.ddlCulture;
             resources.ApplyResources(this.layoutddl, "layoutddl");
-            this.layoutddl.Location = new System.Drawing.Point(41, 0);
+            this.layoutddl.Location = new System.Drawing.Point(43, 0);
             this.layoutddl.Name = "layoutddl";
-            this.layoutddl.Size = new System.Drawing.Size(162, 43);
+            this.layoutddl.Size = new System.Drawing.Size(168, 40);
             this.layoutddl.TextLocation = DevExpress.Utils.Locations.Top;
-            this.layoutddl.TextSize = new System.Drawing.Size(149, 13);
+            this.layoutddl.TextSize = new System.Drawing.Size(141, 13);
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.btnSave;
             resources.ApplyResources(this.layoutControlItem3, "layoutControlItem3");
-            this.layoutControlItem3.Location = new System.Drawing.Point(203, 0);
+            this.layoutControlItem3.Location = new System.Drawing.Point(211, 0);
             this.layoutControlItem3.MinSize = new System.Drawing.Size(91, 33);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(97, 43);
+            this.layoutControlItem3.Size = new System.Drawing.Size(101, 40);
             this.layoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextToControlDistance = 0;
@@ -166,7 +190,8 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem1});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(348, 111);
+            this.layoutControlGroup1.Padding = new DevExpress.XtraLayout.Utils.Padding(3, 3, 3, 3);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(348, 102);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
@@ -175,13 +200,19 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem1, "layoutControlItem1");
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(328, 91);
+            this.layoutControlItem1.Size = new System.Drawing.Size(340, 94);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextToControlDistance = 0;
             this.layoutControlItem1.TextVisible = false;
             // 
+            // defaultLookAndFeel1
+            // 
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Seven";
+            // 
             // frm_Culture
             // 
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.layoutControl1);
@@ -222,5 +253,6 @@ namespace KTibiaX.IPChanger.Features {
         private DevExpress.XtraEditors.SimpleButton btnSave;
         private DevExpress.Utils.ImageCollection imgLarge;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
+        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
     }
 }
