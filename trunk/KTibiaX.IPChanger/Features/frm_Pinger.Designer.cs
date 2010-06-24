@@ -60,7 +60,6 @@ namespace KTibiaX.IPChanger.Features {
             this.arcScaleComponent1 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent();
             this.arcScaleEffectLayerComponent1 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent();
             this.arcScaleNeedleComponent1 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent();
-            this.arcScaleComponent2 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent();
             this.arcScaleSpindleCapComponent1 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent();
             this.gcStatus = new DevExpress.XtraEditors.GroupControl();
             this.layoutControl3 = new DevExpress.XtraLayout.LayoutControl();
@@ -95,7 +94,6 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.TMLag = new System.Windows.Forms.Timer(this.components);
             this.TMChk = new System.Windows.Forms.Timer(this.components);
             this.TMUpd = new System.Windows.Forms.Timer(this.components);
@@ -138,7 +136,6 @@ namespace KTibiaX.IPChanger.Features {
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleEffectLayerComponent1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleNeedleComponent1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleSpindleCapComponent1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcStatus)).BeginInit();
             this.gcStatus.SuspendLayout();
@@ -213,7 +210,7 @@ namespace KTibiaX.IPChanger.Features {
             // 
             // pictureEdit1
             // 
-            this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.remove;
+            this.pictureEdit1.EditValue = global::KTibiaX.IPChanger.Properties.Resources.statusNo;
             resources.ApplyResources(this.pictureEdit1, "pictureEdit1");
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -230,7 +227,8 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem24});
             this.layoutControlGroup4.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup4.Name = "layoutControlGroup4";
-            this.layoutControlGroup4.Size = new System.Drawing.Size(177, 104);
+            this.layoutControlGroup4.Padding = new DevExpress.XtraLayout.Utils.Padding(9, 9, 0, 3);
+            this.layoutControlGroup4.Size = new System.Drawing.Size(177, 98);
             this.layoutControlGroup4.TextVisible = false;
             // 
             // lblStatus
@@ -242,9 +240,9 @@ namespace KTibiaX.IPChanger.Features {
             this.lblStatus.AppearanceItemCaption.Options.UseTextOptions = true;
             this.lblStatus.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             resources.ApplyResources(this.lblStatus, "lblStatus");
-            this.lblStatus.Location = new System.Drawing.Point(0, 44);
+            this.lblStatus.Location = new System.Drawing.Point(0, 55);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(157, 18);
+            this.lblStatus.Size = new System.Drawing.Size(157, 19);
             this.lblStatus.TextSize = new System.Drawing.Size(0, 0);
             this.lblStatus.TextVisible = true;
             // 
@@ -254,7 +252,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem5, "layoutControlItem5");
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(157, 44);
+            this.layoutControlItem5.Size = new System.Drawing.Size(157, 55);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextToControlDistance = 0;
             this.layoutControlItem5.TextVisible = false;
@@ -263,10 +261,10 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem24.Control = this.progressBarControl1;
             resources.ApplyResources(this.layoutControlItem24, "layoutControlItem24");
-            this.layoutControlItem24.Location = new System.Drawing.Point(0, 62);
+            this.layoutControlItem24.Location = new System.Drawing.Point(0, 74);
             this.layoutControlItem24.Name = "layoutControlItem24";
             this.layoutControlItem24.Padding = new DevExpress.XtraLayout.Utils.Padding(3, 3, 3, 3);
-            this.layoutControlItem24.Size = new System.Drawing.Size(157, 22);
+            this.layoutControlItem24.Size = new System.Drawing.Size(157, 19);
             this.layoutControlItem24.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem24.TextToControlDistance = 0;
             this.layoutControlItem24.TextVisible = false;
@@ -275,7 +273,7 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.btnCheck.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.btnCheck.Appearance.Options.UseFont = true;
-            this.btnCheck.ImageIndex = 1;
+            this.btnCheck.ImageIndex = 0;
             this.btnCheck.ImageList = this.imgLarge;
             resources.ApplyResources(this.btnCheck, "btnCheck");
             this.btnCheck.Name = "btnCheck";
@@ -286,6 +284,7 @@ namespace KTibiaX.IPChanger.Features {
             // 
             resources.ApplyResources(this.imgLarge, "imgLarge");
             this.imgLarge.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgLarge.ImageStream")));
+            this.imgLarge.Images.SetKeyName(0, "onebit_23.png");
             // 
             // gcInfo
             // 
@@ -382,7 +381,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem25});
             this.layoutControlGroup5.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup5.Name = "layoutControlGroup5";
-            this.layoutControlGroup5.Size = new System.Drawing.Size(141, 192);
+            this.layoutControlGroup5.Size = new System.Drawing.Size(141, 189);
             this.layoutControlGroup5.TextVisible = false;
             // 
             // layoutControlItem18
@@ -469,7 +468,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem25, "layoutControlItem25");
             this.layoutControlItem25.Location = new System.Drawing.Point(0, 144);
             this.layoutControlItem25.Name = "layoutControlItem25";
-            this.layoutControlItem25.Size = new System.Drawing.Size(121, 28);
+            this.layoutControlItem25.Size = new System.Drawing.Size(121, 25);
             this.layoutControlItem25.TextSize = new System.Drawing.Size(54, 13);
             // 
             // gcLag
@@ -491,89 +490,67 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.circularGauge1.BackgroundLayers.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent[] {
             this.arcScaleBackgroundLayerComponent1});
-            this.circularGauge1.Bounds = new System.Drawing.Rectangle(6, 6, 149, 160);
+            this.circularGauge1.Bounds = new System.Drawing.Rectangle(6, 6, 197, 173);
             this.circularGauge1.EffectLayers.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent[] {
             this.arcScaleEffectLayerComponent1});
-            this.circularGauge1.Name = "";
+            this.circularGauge1.Name = "circularGauge1";
             this.circularGauge1.Needles.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent[] {
             this.arcScaleNeedleComponent1});
             this.circularGauge1.Scales.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent[] {
-            this.arcScaleComponent1,
-            this.arcScaleComponent2});
+            this.arcScaleComponent1});
             this.circularGauge1.SpindleCaps.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent[] {
             this.arcScaleSpindleCapComponent1});
             // 
             // arcScaleBackgroundLayerComponent1
             // 
             this.arcScaleBackgroundLayerComponent1.ArcScale = this.arcScaleComponent1;
-            this.arcScaleBackgroundLayerComponent1.Name = "arcScaleBackgroundLayerComponent1";
-            this.arcScaleBackgroundLayerComponent1.ScaleCenterPos = new DevExpress.XtraGauges.Core.Base.PointF2D(0.5F, 0.61F);
-            this.arcScaleBackgroundLayerComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.BackgroundLayerShapeType.CircularThreeFourth_Style8;
-            this.arcScaleBackgroundLayerComponent1.Size = new System.Drawing.SizeF(250F, 203F);
+            this.arcScaleBackgroundLayerComponent1.Name = "bg1";
+            this.arcScaleBackgroundLayerComponent1.ScaleCenterPos = new DevExpress.XtraGauges.Core.Base.PointF2D(0.5F, 0.615F);
+            this.arcScaleBackgroundLayerComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.BackgroundLayerShapeType.CircularThreeFourth_Style9;
+            this.arcScaleBackgroundLayerComponent1.Size = new System.Drawing.SizeF(246F, 200F);
             this.arcScaleBackgroundLayerComponent1.ZOrder = 1000;
             // 
             // arcScaleComponent1
             // 
-            this.arcScaleComponent1.AppearanceTickmarkText.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.arcScaleComponent1.AppearanceTickmarkText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:Silver");
+            this.arcScaleComponent1.AppearanceTickmarkText.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.arcScaleComponent1.AppearanceTickmarkText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:Black");
             this.arcScaleComponent1.Center = new DevExpress.XtraGauges.Core.Base.PointF2D(125F, 140F);
-            this.arcScaleComponent1.EndAngle = 30F;
+            this.arcScaleComponent1.EndAngle = 30.5F;
             this.arcScaleComponent1.MajorTickCount = 9;
             this.arcScaleComponent1.MajorTickmark.FormatString = "{0:F0}";
-            this.arcScaleComponent1.MajorTickmark.ShapeOffset = -9.5F;
-            this.arcScaleComponent1.MajorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style8_5;
-            this.arcScaleComponent1.MajorTickmark.TextOffset = -20F;
+            this.arcScaleComponent1.MajorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style9_2;
+            this.arcScaleComponent1.MajorTickmark.TextOffset = 18F;
             this.arcScaleComponent1.MajorTickmark.TextOrientation = DevExpress.XtraGauges.Core.Model.LabelOrientation.LeftToRight;
-            this.arcScaleComponent1.MaxValue = 500F;
+            this.arcScaleComponent1.MaxValue = 400F;
             this.arcScaleComponent1.MinorTickCount = 4;
-            this.arcScaleComponent1.MinorTickmark.ShapeOffset = -9.5F;
-            this.arcScaleComponent1.MinorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style8_4;
-            this.arcScaleComponent1.Name = "arcScaleComponent1";
-            this.arcScaleComponent1.RadiusX = 98F;
-            this.arcScaleComponent1.RadiusY = 98F;
-            this.arcScaleComponent1.StartAngle = -210F;
+            this.arcScaleComponent1.MinorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style9_1;
+            this.arcScaleComponent1.Name = "scale1";
+            this.arcScaleComponent1.RadiusX = 77F;
+            this.arcScaleComponent1.RadiusY = 77F;
+            this.arcScaleComponent1.StartAngle = -210.5F;
+            this.arcScaleComponent1.Value = 20F;
             // 
             // arcScaleEffectLayerComponent1
             // 
             this.arcScaleEffectLayerComponent1.ArcScale = this.arcScaleComponent1;
-            this.arcScaleEffectLayerComponent1.Name = "arcScaleEffectLayerComponent1";
-            this.arcScaleEffectLayerComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.EffectLayerShapeType.CircularThreeFourth_Style8;
-            this.arcScaleEffectLayerComponent1.Size = new System.Drawing.SizeF(220F, 100F);
+            this.arcScaleEffectLayerComponent1.Name = "effect1";
+            this.arcScaleEffectLayerComponent1.Shader = new DevExpress.XtraGauges.Core.Drawing.OpacityShader("Opacity[0.75]");
+            this.arcScaleEffectLayerComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.EffectLayerShapeType.CircularThreeFourth_Style9;
+            this.arcScaleEffectLayerComponent1.Size = new System.Drawing.SizeF(222F, 100F);
             this.arcScaleEffectLayerComponent1.ZOrder = -1000;
             // 
             // arcScaleNeedleComponent1
             // 
             this.arcScaleNeedleComponent1.ArcScale = this.arcScaleComponent1;
-            this.arcScaleNeedleComponent1.Name = "arcScaleNeedleComponent1";
-            this.arcScaleNeedleComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.NeedleShapeType.CircularFull_Style8;
+            this.arcScaleNeedleComponent1.Name = "needle1";
+            this.arcScaleNeedleComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.NeedleShapeType.CircularFull_Style9;
             this.arcScaleNeedleComponent1.ZOrder = -50;
-            // 
-            // arcScaleComponent2
-            // 
-            this.arcScaleComponent2.AppearanceTickmarkText.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.arcScaleComponent2.AppearanceTickmarkText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:Silver");
-            this.arcScaleComponent2.Center = new DevExpress.XtraGauges.Core.Base.PointF2D(125F, 140F);
-            this.arcScaleComponent2.EndAngle = -30F;
-            this.arcScaleComponent2.MajorTickCount = 7;
-            this.arcScaleComponent2.MajorTickmark.FormatString = "{0:F0}";
-            this.arcScaleComponent2.MajorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style8_2;
-            this.arcScaleComponent2.MajorTickmark.TextOffset = -12F;
-            this.arcScaleComponent2.MajorTickmark.TextOrientation = DevExpress.XtraGauges.Core.Model.LabelOrientation.LeftToRight;
-            this.arcScaleComponent2.MaxValue = 700F;
-            this.arcScaleComponent2.MinorTickCount = 4;
-            this.arcScaleComponent2.MinorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style8_1;
-            this.arcScaleComponent2.MinValue = 100F;
-            this.arcScaleComponent2.Name = "arcScaleComponent2";
-            this.arcScaleComponent2.RadiusX = 50F;
-            this.arcScaleComponent2.RadiusY = 50F;
-            this.arcScaleComponent2.StartAngle = -210F;
-            this.arcScaleComponent2.Value = 100F;
             // 
             // arcScaleSpindleCapComponent1
             // 
             this.arcScaleSpindleCapComponent1.ArcScale = this.arcScaleComponent1;
-            this.arcScaleSpindleCapComponent1.Name = "arcScaleSpindleCapComponent1";
-            this.arcScaleSpindleCapComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.SpindleCapShapeType.CircularFull_Style8;
+            this.arcScaleSpindleCapComponent1.Name = "cap1";
+            this.arcScaleSpindleCapComponent1.ShapeType = DevExpress.XtraGauges.Core.Model.SpindleCapShapeType.CircularFull_Style9;
             this.arcScaleSpindleCapComponent1.Size = new System.Drawing.SizeF(35F, 35F);
             this.arcScaleSpindleCapComponent1.ZOrder = -100;
             // 
@@ -683,7 +660,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem17});
             this.layoutControlGroup3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup3.Name = "layoutControlGroup3";
-            this.layoutControlGroup3.Size = new System.Drawing.Size(238, 192);
+            this.layoutControlGroup3.Size = new System.Drawing.Size(238, 189);
             this.layoutControlGroup3.TextVisible = false;
             // 
             // layoutControlItem11
@@ -737,7 +714,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem22, "layoutControlItem22");
             this.layoutControlItem22.Location = new System.Drawing.Point(0, 120);
             this.layoutControlItem22.Name = "layoutControlItem22";
-            this.layoutControlItem22.Size = new System.Drawing.Size(218, 52);
+            this.layoutControlItem22.Size = new System.Drawing.Size(218, 49);
             this.layoutControlItem22.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem22.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem22.TextToControlDistance = 0;
@@ -803,7 +780,8 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem3});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(238, 51);
+            this.layoutControlGroup2.Padding = new DevExpress.XtraLayout.Utils.Padding(9, 9, 9, 0);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(238, 42);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // layoutControlItem2
@@ -812,18 +790,20 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem2, "layoutControlItem2");
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(173, 31);
+            this.layoutControlItem2.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 0);
+            this.layoutControlItem2.Size = new System.Drawing.Size(169, 31);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(55, 13);
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.txtPort;
             resources.ApplyResources(this.layoutControlItem3, "layoutControlItem3");
-            this.layoutControlItem3.Location = new System.Drawing.Point(173, 0);
+            this.layoutControlItem3.Location = new System.Drawing.Point(169, 0);
             this.layoutControlItem3.MaxSize = new System.Drawing.Size(0, 31);
             this.layoutControlItem3.MinSize = new System.Drawing.Size(40, 31);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(45, 31);
+            this.layoutControlItem3.Padding = new DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 0);
+            this.layoutControlItem3.Size = new System.Drawing.Size(49, 31);
             this.layoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem3.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -849,9 +829,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem4.Control = this.gcStatus;
             resources.ApplyResources(this.layoutControlItem4, "layoutControlItem4");
-            this.layoutControlItem4.Location = new System.Drawing.Point(185, 79);
+            this.layoutControlItem4.Location = new System.Drawing.Point(185, 76);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(246, 220);
+            this.layoutControlItem4.Size = new System.Drawing.Size(246, 223);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextToControlDistance = 0;
             this.layoutControlItem4.TextVisible = false;
@@ -874,9 +854,9 @@ namespace KTibiaX.IPChanger.Features {
             // 
             this.layoutControlItem8.Control = this.gcInfo;
             resources.ApplyResources(this.layoutControlItem8, "layoutControlItem8");
-            this.layoutControlItem8.Location = new System.Drawing.Point(431, 79);
+            this.layoutControlItem8.Location = new System.Drawing.Point(431, 76);
             this.layoutControlItem8.Name = "layoutControlItem8";
-            this.layoutControlItem8.Size = new System.Drawing.Size(149, 220);
+            this.layoutControlItem8.Size = new System.Drawing.Size(149, 223);
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextToControlDistance = 0;
             this.layoutControlItem8.TextVisible = false;
@@ -887,7 +867,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem1, "layoutControlItem1");
             this.layoutControlItem1.Location = new System.Drawing.Point(185, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(246, 79);
+            this.layoutControlItem1.Size = new System.Drawing.Size(246, 76);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextToControlDistance = 0;
             this.layoutControlItem1.TextVisible = false;
@@ -899,7 +879,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem6.Location = new System.Drawing.Point(431, 0);
             this.layoutControlItem6.MinSize = new System.Drawing.Size(127, 67);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(149, 79);
+            this.layoutControlItem6.Size = new System.Drawing.Size(149, 76);
             this.layoutControlItem6.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem6.TextToControlDistance = 0;
@@ -915,10 +895,6 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextToControlDistance = 0;
             this.layoutControlItem10.TextVisible = false;
-            // 
-            // defaultLookAndFeel1
-            // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Black";
             // 
             // TMLag
             // 
@@ -983,7 +959,6 @@ namespace KTibiaX.IPChanger.Features {
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleEffectLayerComponent1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleNeedleComponent1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleSpindleCapComponent1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcStatus)).EndInit();
             this.gcStatus.ResumeLayout(false);
@@ -1042,16 +1017,8 @@ namespace KTibiaX.IPChanger.Features {
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup3;
         private DevExpress.XtraEditors.SimpleButton btnCheck;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
-        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
         private DevExpress.XtraEditors.GroupControl gcLag;
         private DevExpress.XtraGauges.Win.GaugeControl gaugeControl1;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge circularGauge1;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent arcScaleBackgroundLayerComponent1;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent1;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent arcScaleEffectLayerComponent1;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent arcScaleNeedleComponent1;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent2;
-        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent arcScaleSpindleCapComponent1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
         private DevExpress.XtraEditors.TextEdit txtPort;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
@@ -1102,5 +1069,11 @@ namespace KTibiaX.IPChanger.Features {
         private System.Windows.Forms.Timer TMChk;
         private System.Windows.Forms.Timer TMUpd;
         private DevExpress.Utils.ImageCollection imgLarge;
+        private DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge circularGauge1;
+        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleBackgroundLayerComponent arcScaleBackgroundLayerComponent1;
+        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent1;
+        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleEffectLayerComponent arcScaleEffectLayerComponent1;
+        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleNeedleComponent arcScaleNeedleComponent1;
+        private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleSpindleCapComponent arcScaleSpindleCapComponent1;
     }
 }

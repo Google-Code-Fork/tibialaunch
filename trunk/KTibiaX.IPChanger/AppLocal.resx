@@ -196,7 +196,7 @@
     <value>Checking updates...</value>
   </data>
   <data name="strNoUpdates" xml:space="preserve">
-    <value>No updates needed!</value>
+    <value>Version is up to date!</value>
   </data>
   <data name="strUpdateError" xml:space="preserve">
     <value>Could not check updates.</value>

@@ -12,7 +12,7 @@
     <AssemblyName>KTibiaX.IPChanger</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <ApplicationIcon>MTG_Red.ico</ApplicationIcon>
+    <ApplicationIcon>MTG_Blue.ico</ApplicationIcon>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -42,6 +42,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -137,6 +138,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppImages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppImages.resx</DependentUpon>
+    </Compile>
     <Compile Include="AppLocal.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -224,6 +230,10 @@
     <Compile Include="Modules\ProcessTools.cs" />
     <Compile Include="Modules\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AppImages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppImages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="AppLocal.en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppLocal.en-US.Designer.cs</LastGenOutput>
@@ -255,13 +265,8 @@
       <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Features\frm_About.en-US.resx">
-      <DependentUpon>frm_About.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_About.pt-BR.resx">
       <DependentUpon>frm_About.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_About.resx">
       <DependentUpon>frm_About.cs</DependentUpon>
@@ -269,11 +274,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Culture.en-US.resx">
       <DependentUpon>frm_Culture.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Culture.pt-BR.resx">
       <DependentUpon>frm_Culture.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Culture.resx">
       <DependentUpon>frm_Culture.cs</DependentUpon>
@@ -281,7 +284,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Options.pt-BR.resx">
       <DependentUpon>frm_Options.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Options.resx">
       <DependentUpon>frm_Options.cs</DependentUpon>
@@ -289,11 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Pinger.en-US.resx">
       <DependentUpon>frm_Pinger.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Pinger.pt-BR.resx">
       <DependentUpon>frm_Pinger.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Pinger.resx">
       <DependentUpon>frm_Pinger.cs</DependentUpon>
@@ -301,7 +301,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Server.pt-BR.resx">
       <DependentUpon>frm_Server.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Server.resx">
       <DependentUpon>frm_Server.cs</DependentUpon>
@@ -309,19 +308,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Skins.pt-BR.resx">
       <DependentUpon>frm_Skins.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_Skins.resx">
       <DependentUpon>frm_Skins.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Features\frm_StartClient.en-US.resx">
-      <DependentUpon>frm_StartClient.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_StartClient.pt-BR.resx">
       <DependentUpon>frm_StartClient.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_StartClient.resx">
       <DependentUpon>frm_StartClient.cs</DependentUpon>
@@ -329,7 +322,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_TibiaConfig.pt-BR.resx">
       <DependentUpon>frm_TibiaConfig.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_TibiaConfig.resx">
       <DependentUpon>frm_TibiaConfig.cs</DependentUpon>
@@ -337,7 +329,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_UpdateInfo.pt-BR.resx">
       <DependentUpon>frm_UpdateInfo.cs</DependentUpon>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Features\frm_UpdateInfo.resx">
       <DependentUpon>frm_UpdateInfo.cs</DependentUpon>
@@ -369,44 +360,28 @@
     <None Include="Resources\close_32.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Crystal_Jar.ico" />
-    <Content Include="MTG_Red.ico" />
-    <None Include="Resources\tback.png" />
-    <None Include="Resources\en-us-nn.png" />
-    <None Include="Resources\en-us-b.png" />
-    <None Include="Resources\en-us-f.png" />
-    <None Include="Resources\en-us.png" />
-    <None Include="Resources\services_reload_256.png" />
-    <None Include="Resources\our_works_256.png" />
-    <None Include="Resources\our_process_b_256.png" />
-    <None Include="Resources\mini_sites_256.png" />
-    <None Include="Resources\gallery_256.png" />
-    <None Include="Resources\front_page_extension_256.png" />
-    <None Include="Resources\domain_256.png" />
-    <None Include="Resources\comparison_chart_add_256.png" />
-    <None Include="Resources\whois_256.png" />
-    <None Include="Resources\web_development_256.png" />
-    <None Include="Resources\shpere_256.png" />
-    <None Include="Resources\ok_32.png" />
+    <Content Include="MTG_Blue.ico" />
+    <None Include="Resources\onebit_26.png" />
+    <None Include="Resources\onebit_26 %282%29.png" />
+    <None Include="Resources\onebit_25 %282%29.png" />
+    <None Include="Resources\bluewhales 033.png" />
+    <None Include="Resources\bluewhales 014.png" />
+    <None Include="Resources\bluewhales 010.png" />
+    <None Include="Resources\bluewhales 009.png" />
+    <None Include="Resources\bluewhales 001.png" />
+    <None Include="Resources\857Icon.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\folder1.png" />
+    <None Include="Resources\app.png" />
     <None Include="Resources\caution_32.png" />
     <None Include="Resources\copy_32.png" />
     <None Include="Resources\copy_add_32.png" />
     <None Include="Resources\copy_save_32.png" />
     <None Include="Resources\copy_close_32.png" />
     <None Include="Resources\delete_32.png" />
-    <None Include="Resources\update.png" />
     <None Include="Resources\Brazil.png" />
     <None Include="Resources\United States of America%28USA%29.png" />
-    <None Include="Resources\ini.png" />
-    <None Include="Resources\folder.png" />
-    <None Include="Resources\remove.png" />
-    <None Include="Resources\notes.png" />
     <None Include="Resources\keyrox.png" />
-    <None Include="Resources\author_128.png" />
-    <None Include="Resources\cmd.png" />
-    <None Include="Resources\hunt_tools.png" />
-    <None Include="Resources\jockey.png" />
-    <None Include="Resources\config.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KTibiaX.IPChanger.Data\KTibiaX.IPChanger.Data.csproj">

@@ -117,103 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="strClientNotFound" xml:space="preserve">
-    <value>Cliente do Tibia não encontrado!</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bluewhales001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bluewhales 001.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="strConfigFileNotFound" xml:space="preserve">
-    <value>Arquivo de Configuração não encontrado!/nO registro foi removido.</value>
+  <data name="bluewhales009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bluewhales 009.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="strConfigFileNotFoundfrm" xml:space="preserve">
-    <value>Arquivo de Configuração não encontrado!</value>
+  <data name="bluewhales010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bluewhales 010.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="strInvalidAddress" xml:space="preserve">
-    <value>Endereço Inválido!</value>
+  <data name="bluewhales014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bluewhales 014.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="strInvalidDescription" xml:space="preserve">
-    <value>Descrição Inválida!</value>
-  </data>
-  <data name="strInvalidVersion" xml:space="preserve">
-    <value>Versão do Tibia Inválida!</value>
-  </data>
-  <data name="strIPExist" xml:space="preserve">
-    <value>Este IP já existe!</value>
-  </data>
-  <data name="strLagChecking" xml:space="preserve">
-    <value>Checando...</value>
-  </data>
-  <data name="strLanguage" xml:space="preserve">
-    <value>Selecione a lingua desejada:</value>
-  </data>
-  <data name="strMapError" xml:space="preserve">
-    <value>Diretório Mapa de OTServers não encontrado/nDiretório restaurado para :</value>
-  </data>
-  <data name="strNotChecked" xml:space="preserve">
-    <value>Não Checado!</value>
-  </data>
-  <data name="strOffLine" xml:space="preserve">
-    <value>Servidor Off Line!</value>
-  </data>
-  <data name="strOnline" xml:space="preserve">
-    <value>Servidor Online!</value>
-  </data>
-  <data name="strSelect" xml:space="preserve">
-    <value>Selecione</value>
-  </data>
-  <data name="strStartFail" xml:space="preserve">
-    <value>Não foi possível iniciar o Tibia.exe</value>
-  </data>
-  <data name="strUnavaliable" xml:space="preserve">
-    <value>Não Disponível</value>
-  </data>
-  <data name="strUrl" xml:space="preserve">
-    <value>http://codeplex.com/tibialaunch</value>
-  </data>
-  <data name="strVersion" xml:space="preserve">
-    <value> Versão: </value>
-  </data>
-  <data name="strVersionConflict" xml:space="preserve">
-    <value>Versão do Servidor é diferente da Versão do Arquivo de Configuração!</value>
-  </data>
-  <data name="strVersionNotSupported" xml:space="preserve">
-    <value>Essa versão do Tibia não é suportada!</value>
-  </data>
-  <data name="strDefault" xml:space="preserve">
-    <value>[Padrão]</value>
-  </data>
-  <data name="strDeleteServer" xml:space="preserve">
-    <value>Apagar Servidor!\nVocê tem Certeza?</value>
-  </data>
-  <data name="strSelectServer" xml:space="preserve">
-    <value>[Selecione um Servidor]</value>
-  </data>
-  <data name="strShure" xml:space="preserve">
-    <value>Você tem certeza?</value>
-  </data>
-  <data name="strUpdateURL" xml:space="preserve">
-    <value>http://tibialaunch.googlecode.com/svn/trunk/Version/version.pt-br.xml</value>
-  </data>
-  <data name="strCheckingUpdate" xml:space="preserve">
-    <value>Verificando atualizações...</value>
-  </data>
-  <data name="strNewVersion" xml:space="preserve">
-    <value>Nova Versão:</value>
-  </data>
-  <data name="strNoUpdates" xml:space="preserve">
-    <value>Nenhum update disponível!</value>
-  </data>
-  <data name="strReleaseDate" xml:space="preserve">
-    <value>Data de Release: </value>
-  </data>
-  <data name="strUpdateError" xml:space="preserve">
-    <value>Não foi possível checar.</value>
-  </data>
-  <data name="strUpdateFound" xml:space="preserve">
-    <value>Existe uma nova versão!</value>
-  </data>
-  <data name="strMustRestart" xml:space="preserve">
-    <value>É necessário reiniciar a aplicação para que as mudanças façam efeito.</value>
-  </data>
-  <data name="strLagNotSupported" xml:space="preserve">
-    <value>Não foi possível verificar</value>
+  <data name="bluewhales033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bluewhales 033.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
