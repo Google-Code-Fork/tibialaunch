@@ -240,9 +240,9 @@ namespace KTibiaX.IPChanger.Features {
             this.lblStatus.AppearanceItemCaption.Options.UseTextOptions = true;
             this.lblStatus.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             resources.ApplyResources(this.lblStatus, "lblStatus");
-            this.lblStatus.Location = new System.Drawing.Point(0, 55);
+            this.lblStatus.Location = new System.Drawing.Point(0, 54);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(157, 19);
+            this.lblStatus.Size = new System.Drawing.Size(157, 20);
             this.lblStatus.TextSize = new System.Drawing.Size(0, 0);
             this.lblStatus.TextVisible = true;
             // 
@@ -252,7 +252,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem5, "layoutControlItem5");
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(157, 55);
+            this.layoutControlItem5.Size = new System.Drawing.Size(157, 54);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextToControlDistance = 0;
             this.layoutControlItem5.TextVisible = false;

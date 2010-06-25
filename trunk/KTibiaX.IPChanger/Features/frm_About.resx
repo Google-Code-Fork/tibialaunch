@@ -213,6 +213,9 @@
   <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
     <value>layoutControlGroup2</value>
   </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
   <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
     <value>376, 114</value>
   </data>
