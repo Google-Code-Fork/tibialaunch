@@ -6,6 +6,7 @@ using KTibiaX.IPChanger.Features;
 using System.Resources;
 using KTibiaX.Shared.Objects;
 using System.IO;
+using IWshRuntimeLibrary;
 
 namespace KTibiaX.IPChanger {
     static class Program {
@@ -23,14 +24,13 @@ namespace KTibiaX.IPChanger {
             DevExpress.UserSkins.OfficeSkins.Register();
             DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(Settings.Default.AppSkin);
 
-            if (string.IsNullOrEmpty(Settings.Default.Culture)) {
-                Application.Run(new frm_Culture());
-            }
-            if (!string.IsNullOrEmpty(Settings.Default.Culture)) {
-                Application.ExitThread();
-            }
+            if (string.IsNullOrEmpty(Settings.Default.Culture)) { Application.Run(new frm_Culture()); }
+            if (!string.IsNullOrEmpty(Settings.Default.Culture)) { Application.ExitThread(); }
+
             System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.CreateSpecificCulture(Settings.Default.Culture);
             System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.CreateSpecificCulture(Settings.Default.Culture);
+
+            CreateShortCut();
             Application.Run(new frm_StartClient());
         }
 
@@ -54,6 +54,23 @@ namespace KTibiaX.IPChanger {
         /// <returns></returns>
         public static ResourceManager GetCurrentResource() {
             return new ResourceManager("KTibiaX.IPChanger.AppLocal", typeof(frm_StartClient).Assembly);
+        }
+
+        /// <summary>
+        /// Create the application shortcut if it does not exist yet.
+        /// </summary>
+        public static void CreateShortCut() {
+            var WshShell = new WshShellClass();
+            var linkDir = new FileInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "KTibiaX IPChanger.lnk"));
+
+            if (!linkDir.Exists) {
+                var MyShortcut = (IWshRuntimeLibrary.IWshShortcut)WshShell.CreateShortcut(linkDir.FullName);
+                MyShortcut.WorkingDirectory = new FileInfo(Application.ExecutablePath).Directory.FullName;
+                MyShortcut.TargetPath = Application.ExecutablePath;
+                MyShortcut.Description = "KTibiaX IPChanger v2.10";
+                MyShortcut.IconLocation = Path.Combine(new FileInfo(Application.ExecutablePath).Directory.FullName, "KTibiaX.IPChanger.ico");
+                MyShortcut.Save();
+            }
         }
     }
 }
