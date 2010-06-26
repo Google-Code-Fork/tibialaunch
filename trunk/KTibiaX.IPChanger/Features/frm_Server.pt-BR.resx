@@ -120,6 +120,9 @@
   <data name="btnSave.Text" xml:space="preserve">
     <value>Salvar Servidor</value>
   </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Dados do Servidor</value>
+  </data>
   <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v9.3" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -209,8 +212,8 @@
         LK919Fv0t/9k8VP7gOVAx3Wr6103rG90Dy4fPDPkMHT+puvNS7e8bl27veL24HDo8J2R6JHRO+w7U3dT
         7r64l3lv4f7GB+gHRQ+lHlY8UnzU8LPuz22jlqOnx1zH+h8HP74/zhp/9kvGL+8nCp6Qn1RMqkw2T5lN
         nZp2n77xdOXTiWfpzxZmCn+V/rX2uc7zH35z/K1/NmJ24gX/xaffS17Kvzz0atmrnrmAuUevU18vzBe9
-        kX9z+C3jbd+78HeTC1nvse8rP+h+6P7o8/HBp9RPn/4FA5jz/LrE6NMAAAAJcEhZcwAACw4AAAsOAUC+
-        4UEAAANHSURBVFhH7ZddSFNhGMdn020657acli0tK43og0zxzqsugpQQi7yJLuoiJPq4sIIIyrCkxGYf
+        kX9z+C3jbd+78HeTC1nvse8rP+h+6P7o8/HBp9RPn/4FA5jz/LrE6NMAAAAJcEhZcwAACw0AAAsNAe0H
+        wCwAAANHSURBVFhH7ZddSFNhGMdn020657acli0tK43og0zxzqsugpQQi7yJLuoiJPq4sIIIyrCkxGYf
         fqAXEiMsCsG6yMggb0qKCqUiSystMjfFTLeduejp+Z8mrLnOeYWBXXTgx3nO3v/7f/7ve97BpiEizXwy
         r82x8P8BZu3As2t2HVPJfGYoSsALnrrw8xYpQNXQk3Lyf++hn4HhqAAveHKAKpEALmmsnaZHTpN/qDQq
         wAueHMAlEoACYw1RaRy6AHjidYoFGK0naXCnIo6KHDq4N1sGtZo+wJ5zCFDHhjsUOXu8gI6VrZZBraYP

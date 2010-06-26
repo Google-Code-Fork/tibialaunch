@@ -284,6 +284,9 @@
   <data name="ddlVersion.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Combo</value>
   </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Server Data</value>
+  </data>
   <data name="&gt;&gt;layoutControl2.Name" xml:space="preserve">
     <value>layoutControl2</value>
   </data>
