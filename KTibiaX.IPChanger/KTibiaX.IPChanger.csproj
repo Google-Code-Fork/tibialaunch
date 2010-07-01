@@ -103,9 +103,9 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
     </Reference>
-    <Reference Include="KTibiaX.Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Keyrox.Shared, Version=1.2.3833.20202, Culture=neutral, PublicKeyToken=baae35d99fad5456, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\KTibiaX.Shared.dll</HintPath>
+      <HintPath>..\lib\Keyrox.Shared.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>True</Private>
@@ -250,12 +250,11 @@
       <LastGenOutput>AppLocal.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Ctrl_ConfigFile.pt-BR.resx">
+      <DependentUpon>Ctrl_ConfigFile.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\Ctrl_ConfigFile.resx">
       <DependentUpon>Ctrl_ConfigFile.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Controls\Ctrl_ServerList.en-US.resx">
-      <DependentUpon>Ctrl_ServerList.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Ctrl_ServerList.pt-BR.resx">

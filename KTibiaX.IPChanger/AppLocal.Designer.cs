@@ -250,7 +250,7 @@ namespace KTibiaX.IPChanger {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [Select or type a server].
+        ///   Looks up a localized string similar to [Global Tibia Server].
         /// </summary>
         internal static string strSelectServer {
             get {

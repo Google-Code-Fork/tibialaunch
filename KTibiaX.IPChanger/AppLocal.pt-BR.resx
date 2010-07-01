@@ -178,13 +178,13 @@
     <value>Essa versão do Tibia não é suportada!</value>
   </data>
   <data name="strDefault" xml:space="preserve">
-    <value>[Padrão]</value>
+    <value>[Padrão Atual]</value>
   </data>
   <data name="strDeleteServer" xml:space="preserve">
     <value>Apagar Servidor!\nVocê tem Certeza?</value>
   </data>
   <data name="strSelectServer" xml:space="preserve">
-    <value>[Selecione um Servidor]</value>
+    <value>[Servidor Global do Tibia]</value>
   </data>
   <data name="strShure" xml:space="preserve">
     <value>Você tem certeza?</value>

@@ -144,7 +144,7 @@
     <value>523, 153</value>
   </data>
   <data name="emptySpaceItem2.Text" xml:space="preserve">
-    <value>7.6, 7.90, 7.92, 8.0, 8.10, 8.11, 8.20, 8.22, 8.30, 8.31, 8.4, 8.42, 8.54, 8.55, 8.57</value>
+    <value>7.6, 7.90, 7.92, 8.0, 8.10, 8.11, 8.20, 8.22, 8.30, 8.31, 8.4, 8.42, 8.50, 8.54, 8.55, 8.57, 8.60</value>
   </data>
   <data name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -216,11 +216,8 @@
   <data name="groupControl1.Text" xml:space="preserve">
     <value>Author</value>
   </data>
-  <data name="groupControl1.Text" xml:space="preserve">
-    <value>Author</value>
-  </data>
   <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>376, 99</value>
+    <value>376, 105</value>
   </data>
   <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -301,7 +298,7 @@
     <value>0</value>
   </data>
   <data name="layoutControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 28</value>
+    <value>2, 22</value>
   </data>
   <data name="emptySpaceItem1.Text" xml:space="preserve">
     <value> KTibiaX® Tibia Launcher 2010</value>

@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="groupControl1.Text" xml:space="preserve">
-    <value>Autor</value>
-  </data>
   <data name="lblVersion.CustomizationFormText" xml:space="preserve">
     <value>  Versão: 1.0.0.00000 (00/00/0000)</value>
   </data>
