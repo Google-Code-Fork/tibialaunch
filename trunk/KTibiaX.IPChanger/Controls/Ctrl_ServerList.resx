@@ -117,21 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="lookUpEdit1.Properties.Buttons9" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
+    <value>Undo</value>
+  </data>
+  <data name="toolTipTitleItem6.Text" xml:space="preserve">
+    <value>Warning: This action cannot be undone</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lookUpEdit1.Properties.Columns7" type="System.Int32, mscorlib">
     <value>150</value>
   </data>
-  <data name="toolTipItem7.Text" xml:space="preserve">
-    <value>Use this option to delete the selected server.</value>
-  </data>
   <data name="lookUpEdit1.Properties.Buttons1" xml:space="preserve">
     <value>List</value>
   </data>
-  <data name="toolTipTitleItem11.Text" xml:space="preserve">
-    <value>Add New OT Server</value>
-  </data>
-  <data name="lookUpEdit1.Properties.Columns12" xml:space="preserve">
-    <value>Exp</value>
+  <data name="lookUpEdit1.Properties.Columns9" xml:space="preserve">
+    <value>Port</value>
   </data>
   <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="lookUpEdit1.Properties.Buttons6" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v9.3">
@@ -140,15 +141,14 @@
   <data name="lookUpEdit1.Properties.Buttons33" type="DevExpress.XtraEditors.ImageLocation, DevExpress.XtraEditors.v9.3">
     <value>MiddleCenter</value>
   </data>
-  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="lookUpEdit1.Properties.Buttons18" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Plus</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons14" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons10" xml:space="preserve">
-    <value>Edit</value>
+  <data name="toolTipTitleItem7.Text" xml:space="preserve">
+    <value>OT Server List</value>
   </data>
   <data name="lookUpEdit1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -162,14 +162,11 @@
   <data name="lookUpEdit1.Properties.Buttons20" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="&gt;&gt;lookUpEdit1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="toolTipItem1.Text" xml:space="preserve">
+    <value>Use this option to update the OT Server Information.</value>
   </data>
   <data name="lookUpEdit1.Properties.Columns3" xml:space="preserve">
     <value>Name</value>
-  </data>
-  <data name="toolTipTitleItem15.Text" xml:space="preserve">
-    <value>OT Server List</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -187,14 +184,17 @@
   <data name="lookUpEdit1.Properties.Buttons2" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
+  <data name="toolTipTitleItem4.Text" xml:space="preserve">
+    <value>You can also check if this OT Server is online</value>
+  </data>
   <data name="lookUpEdit1.Properties.Columns11" xml:space="preserve">
     <value>Port</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons7" xml:space="preserve">
     <value />
   </data>
-  <data name="toolTipTitleItem13.Text" xml:space="preserve">
-    <value>Delete OT Server</value>
+  <data name="lookUpEdit1.Properties.Columns12" xml:space="preserve">
+    <value>Exp</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons19" xml:space="preserve">
     <value>Add</value>
@@ -205,17 +205,14 @@
   <data name="lookUpEdit1.Properties.Buttons11" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons8" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="toolTipItem3.Text" xml:space="preserve">
+    <value>Use this option to delete the selected server.</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons28" xml:space="preserve">
     <value>Del</value>
   </data>
   <data name="lookUpEdit1.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="lookUpEdit1.Properties.Columns9" xml:space="preserve">
-    <value>Port</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons30" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -226,22 +223,23 @@
   <data name="lookUpEdit1.Properties.Buttons21" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="toolTipTitleItem10.Text" xml:space="preserve">
-    <value>You can change any information</value>
-  </data>
   <data name="lookUpEdit1.Properties.Columns2" xml:space="preserve">
     <value>Version</value>
+  </data>
+  <data name="toolTipTitleItem5.Text" xml:space="preserve">
+    <value>Delete OT Server</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Ctrl_ServerList</value>
   </data>
-  <data name="toolTipItem8.Text" xml:space="preserve">
-    <value>You can Type, Add or Remove Servers to change the Client Login Server IP, allowig the connection in OT Servers or Custom Servers.
-
-Press the key [Delete] to back to the oficial server.</value>
+  <data name="lookUpEdit1.Properties.Buttons4" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolTipItem2.Text" xml:space="preserve">
+    <value>Use this option to add a new OT Server to current list.</value>
   </data>
   <data name="lookUpEdit1.Properties.NullText" xml:space="preserve">
-    <value>[Select or type a server]</value>
+    <value>[Global Tibia Server]</value>
   </data>
   <data name="lookUpEdit1.Properties.Columns" xml:space="preserve">
     <value>Version</value>
@@ -249,23 +247,17 @@ Press the key [Delete] to back to the oficial server.</value>
   <data name="lookUpEdit1.Properties.Buttons3" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;lookUpEdit1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lookUpEdit1.Properties.Buttons16" xml:space="preserve">
-    <value />
+  <data name="toolTipTitleItem2.Text" xml:space="preserve">
+    <value>You can change any information</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
     <value>Combo</value>
   </data>
-  <data name="toolTipItem5.Text" xml:space="preserve">
-    <value>Use this option to update the OT Server Information.</value>
-  </data>
   <data name="lookUpEdit1.Size" type="System.Drawing.Size, System.Drawing">
     <value>266, 20</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons4" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lookUpEdit1.Properties.Columns14" xml:space="preserve">
+    <value>Exp</value>
   </data>
   <data name="lookUpEdit1.Properties.Columns10" type="System.Int32, mscorlib">
     <value>40</value>
@@ -279,8 +271,8 @@ Press the key [Delete] to back to the oficial server.</value>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="lookUpEdit1.Properties.Buttons9" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
-    <value>Undo</value>
+  <data name="lookUpEdit1.Properties.Buttons16" xml:space="preserve">
+    <value />
   </data>
   <data name="lookUpEdit1.Properties.Buttons12" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -294,8 +286,8 @@ Press the key [Delete] to back to the oficial server.</value>
   <data name="lookUpEdit1.Properties.Buttons13" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="toolTipItem6.Text" xml:space="preserve">
-    <value>Use this option to add a new OT Server to current list.</value>
+  <data name="lookUpEdit1.Properties.Columns8" xml:space="preserve">
+    <value>Ip</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons35" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -309,23 +301,23 @@ Press the key [Delete] to back to the oficial server.</value>
   <data name="lookUpEdit1.Properties.Buttons22" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="toolTipTitleItem3.Text" xml:space="preserve">
+    <value>Add New OT Server</value>
+  </data>
   <data name="lookUpEdit1.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="toolTipTitleItem14.Text" xml:space="preserve">
-    <value>Warning: This action cannot be undone</value>
   </data>
   <data name="lookUpEdit1.Properties.Columns1" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
-  <data name="lookUpEdit1.Properties.Columns8" xml:space="preserve">
-    <value>Ip</value>
-  </data>
   <data name="lookUpEdit1.Properties.Columns4" type="System.Int32, mscorlib">
     <value>100</value>
   </data>
-  <data name="toolTipTitleItem16.Text" xml:space="preserve">
-    <value>To Official Tibia Servers dont change this value.</value>
+  <data name="toolTipTitleItem8.Text" xml:space="preserve">
+    <value>To Global Tibia Servers dont change this value.</value>
+  </data>
+  <data name="lookUpEdit1.Properties.Buttons8" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons5" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -333,17 +325,22 @@ Press the key [Delete] to back to the oficial server.</value>
   <data name="lookUpEdit1.Properties.Columns13" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
-  <data name="toolTipTitleItem12.Text" xml:space="preserve">
-    <value>You can also check if this OT Server is online</value>
+  <data name="&gt;&gt;lookUpEdit1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="lookUpEdit1.Properties.Columns14" xml:space="preserve">
-    <value>Exp</value>
+  <data name="&gt;&gt;lookUpEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lookUpEdit1.Properties.Buttons10" xml:space="preserve">
+    <value>Edit</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons17" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="toolTipTitleItem9.Text" xml:space="preserve">
-    <value>Edit OT Server</value>
+  <data name="toolTipItem4.Text" xml:space="preserve">
+    <value>You can Select, Add, Edit or Remove Servers to change the Client Login Server IP, allowig the connection in OT Servers or Custom Servers.
+
+Press the key [Delete] to back to the global server.</value>
   </data>
   <data name="lookUpEdit1.Properties.Buttons32" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -356,6 +353,9 @@ Press the key [Delete] to back to the oficial server.</value>
   </data>
   <data name="lookUpEdit1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="toolTipTitleItem1.Text" xml:space="preserve">
+    <value>Edit OT Server</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lookUpEdit1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">

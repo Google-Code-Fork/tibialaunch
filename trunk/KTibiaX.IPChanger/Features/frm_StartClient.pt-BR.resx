@@ -2591,25 +2591,28 @@
     <value>60, 74</value>
   </data>
   <data name="ctrl_ConfigFile1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 21</value>
+    <value>131, 21</value>
   </data>
   <data name="ctrl_ServerList1.Location" type="System.Drawing.Point, System.Drawing">
     <value>60, 5</value>
   </data>
   <data name="ctrl_ServerList1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 21</value>
+    <value>191, 21</value>
   </data>
   <data name="ddlGraphics.Location" type="System.Drawing.Point, System.Drawing">
     <value>60, 51</value>
   </data>
+  <data name="ddlGraphics.Properties.Items" xml:space="preserve">
+    <value>[Padrão Atual]</value>
+  </data>
   <data name="ddlGraphics.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 20</value>
+    <value>131, 20</value>
   </data>
   <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>60, 28</value>
   </data>
   <data name="txtPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 20</value>
+    <value>244, 20</value>
   </data>
   <data name="btnStart.Text" xml:space="preserve">
     <value>ڷNICIAR</value>

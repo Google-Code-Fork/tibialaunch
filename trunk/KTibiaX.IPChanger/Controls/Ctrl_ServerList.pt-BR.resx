@@ -117,42 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="toolTipTitleItem9.Text" xml:space="preserve">
-    <value>Editar Servidor</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lookUpEdit1.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="toolTipItem5.Text" xml:space="preserve">
-    <value>Utilize esta opção para alterar as informações do servidor selecionado.</value>
+  <data name="lookUpEdit1.Properties.NullText" xml:space="preserve">
+    <value>[Servidor Global do Tibia]</value>
   </data>
-  <data name="toolTipTitleItem10.Text" xml:space="preserve">
-    <value>Você poderá alterar qualquer informação</value>
+  <data name="lookUpEdit1.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
   </data>
-  <data name="toolTipTitleItem11.Text" xml:space="preserve">
-    <value>Adicionar Servidor</value>
+  <data name="lookUpEdit1.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="toolTipItem6.Text" xml:space="preserve">
-    <value>Utilize esta opção para adicionar um novo servidor à lista de OT Servers.</value>
-  </data>
-  <data name="toolTipTitleItem12.Text" xml:space="preserve">
-    <value>Você também poderá verificar se o servidor está online</value>
-  </data>
-  <data name="toolTipTitleItem13.Text" xml:space="preserve">
-    <value>Apagar Servidor</value>
-  </data>
-  <data name="toolTipItem7.Text" xml:space="preserve">
-    <value>Utilize esta opção para apagar o servidor selecionado.</value>
-  </data>
-  <data name="toolTipTitleItem14.Text" xml:space="preserve">
-    <value>Atenção: Esta ação não poderá ser desfeita</value>
-  </data>
-  <data name="toolTipTitleItem15.Text" xml:space="preserve">
+  <data name="toolTipTitleItem7.Text" xml:space="preserve">
     <value>Lista de Servidores</value>
   </data>
-  <data name="toolTipItem8.Text" xml:space="preserve">
-    <value>Aqui você pode digitar, selecionar, adicionar ou remover servidores à lista. 
+  <data name="toolTipItem4.Text" xml:space="preserve">
+    <value>Você pode Selecionar, Adicionar, Editar ou Remover servidores para possibilitar a conexão com OT Servers ou com os servidores globais de tibia.
 
-Para utilizar os servidores oficiais, não selecione nenhum, ou pressione a tecla [Delete] para voltar a selação para os servidores oficiais.</value>
+Pressine a tecla [Delete] para retornar ao servidor global.</value>
   </data>
-  <data name="toolTipTitleItem16.Text" xml:space="preserve">
-    <value>Operações de Inclusão, Edição e Remoção</value>
+  <data name="toolTipTitleItem8.Text" xml:space="preserve">
+    <value>Para usar o servidor global não altere este valor</value>
   </data>
 </root>

@@ -184,7 +184,7 @@
     <value>Delete current server.\nAre you shure?</value>
   </data>
   <data name="strSelectServer" xml:space="preserve">
-    <value>[Select or type a server]</value>
+    <value>[Global Tibia Server]</value>
   </data>
   <data name="strShure" xml:space="preserve">
     <value>Are you Shure?</value>

@@ -117,4 +117,95 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="ddlFiles.Properties.Buttons1" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
+    <value>Plus</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns6" xml:space="preserve">
+    <value>Vocation</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ddlFiles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="ddlFiles.Properties.NullText" xml:space="preserve">
+    <value>[Default]</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns2" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ddlFiles.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
+    <value>Combo</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns8" xml:space="preserve">
+    <value>Vocation</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns3" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraUserControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ddlFiles.Properties.Buttons2" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v9.3">
+    <value>Delete</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ddlFiles.Properties.Columns7" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;ddlFiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ddlFiles.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ddlFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="&gt;&gt;ddlFiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns1" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ddlFiles.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ddlFiles.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns5" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ddlFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ddlFiles.Name" xml:space="preserve">
+    <value>ddlFiles</value>
+  </data>
+  <data name="ddlFiles.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns4" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Ctrl_ConfigFile</value>
+  </data>
+  <data name="ddlFiles.Properties.Columns" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

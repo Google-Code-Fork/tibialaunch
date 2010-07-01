@@ -8,13 +8,13 @@ using System.Reflection;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Controls;
+using Keyrox.Shared.Objects;
 using KTibiaX.IPChanger.Data;
+using KTibiaX.IPChanger.Data.Objects;
 using KTibiaX.IPChanger.Features;
 using KTibiaX.IPChanger.Modules;
 using KTibiaX.IPChanger.Properties;
-using Keyrox.Shared.Objects;
 using Version = KTibiaX.IPChanger.Data.Version;
-using KTibiaX.IPChanger.Data.Objects;
 
 namespace KTibiaX.IPChanger {
     public partial class frm_StartClient : XtraForm {
@@ -23,12 +23,12 @@ namespace KTibiaX.IPChanger {
         /// </summary>
         public frm_StartClient() {
             InitializeComponent();
-
-            CheckApplicationPath();
-            ddlGraphics.SelectedIndex = 0;
-            TMUpdateValues.Start();
-            defaultLookAndFeel1.LookAndFeel.SetSkinStyle(Settings.Default.AppSkin);
-            InitializeData();
+            if (!DesignMode) {
+                ddlGraphics.SelectedIndex = 0;
+                TMUpdateValues.Start();
+                defaultLookAndFeel1.LookAndFeel.SetSkinStyle(Settings.Default.AppSkin);
+                InitializeData();
+            }
         }
 
         /// <summary>
@@ -529,23 +529,6 @@ namespace KTibiaX.IPChanger {
             memory = ClientMemory;
             address = MemoryAddress;
         }
-
-        #region "[rgn] KTibiaX Integration "
-        public void Show(Form mdiParent) {
-            //this.ShowIcon = false;
-            this.NotCheckForUpdates = true;
-            this.WindowState = FormWindowState.Normal;
-            this.StartPosition = FormStartPosition.CenterScreen;
-            this.Show();
-        }
-        private static void CheckApplicationPath() {
-            var programFilesPath = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);
-            var fullVersionPath = new System.IO.DirectoryInfo(Path.Combine(programFilesPath, @"Keyrox\KTibiaX Launcher 1.5\"));
-            if (fullVersionPath.Exists && fullVersionPath.FullName != Application.StartupPath) {
-                Program.ApplicationPath = fullVersionPath.FullName;
-            }
-        }
-        #endregion
 
         /// <summary>
         /// Handles the FormClosing event of the frm_StartClient control.
