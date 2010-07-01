@@ -4,7 +4,7 @@ using KTibiaX.IPChanger.Properties;
 using System.Reflection;
 using KTibiaX.IPChanger.Features;
 using System.Resources;
-using KTibiaX.Shared.Objects;
+using Keyrox.Shared.Objects;
 using System.IO;
 using IWshRuntimeLibrary;
 

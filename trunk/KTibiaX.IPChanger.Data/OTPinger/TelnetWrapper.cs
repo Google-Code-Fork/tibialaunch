@@ -111,26 +111,17 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         /// <param name="port">The Telnet port on the remote host.</param>
         public void Connect(string host, int port) {
             try {
-                // Establish the remote endpoint for the socket.
-                IPHostEntry ipHostInfo = Dns.Resolve(host);
-                IPAddress ipAddress = ipHostInfo.AddressList[0];
-                IPEndPoint remoteEP = new IPEndPoint(ipAddress, port);
+                var ipHostInfo = Dns.GetHostEntry(host);
+                var ipAddress = ipHostInfo.AddressList[0];
+                var remoteEP = new IPEndPoint(ipAddress, port);
 
-                //  Create a TCP/IP  socket.
-                socket = new Socket(AddressFamily.InterNetwork,
-                    SocketType.Stream, ProtocolType.Tcp);
-
-                // Connect to the remote endpoint.
-                socket.BeginConnect(remoteEP,
-                    new AsyncCallback(ConnectCallback), socket);
+                socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                socket.BeginConnect(remoteEP, new AsyncCallback(ConnectCallback), socket);
                 connectDone.WaitOne();
 
                 Reset();
             }
-            catch {
-                Disconnect();
-                throw;
-            }
+            catch (Exception) { Disconnect(); throw; }
         }
 
         /// <summary>
@@ -140,7 +131,7 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         /// <returns>output of the command</returns>
         public string Send(string cmd) {
             try {
-                byte[] arr = Encoding.ASCII.GetBytes(cmd);
+                var arr = Encoding.ASCII.GetBytes(cmd);
                 Transpose(arr);
                 return null;
             }
@@ -171,7 +162,6 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         #endregion
 
         #region IO methods
-
         /// <summary>
         /// Writes data to the socket.
         /// </summary>
@@ -191,20 +181,13 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
             Socket client = null;
 
             try {
-                // Retrieve the socket from the state object.
                 client = (Socket)ar.AsyncState;
-
-                // Complete the connection.
                 client.EndConnect(ar);
-
-                // Signal that the connection has been made.
                 connectDone.Set();
             }
-            catch (Exception e) {
+            catch (Exception/* e*/) {
                 Disconnect();
                 connectDone.Set();
-                //throw (new ApplicationException("Unable to connect to " +
-                //    client.RemoteEndPoint.ToString(), e));
             }
         }
 
@@ -214,13 +197,9 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         /// <param name="client">The socket to get data from.</param>
         private void Receive(Socket client) {
             try {
-                // Create the state object.
                 State state = new State();
                 state.WorkSocket = client;
-
-                // Begin receiving the data from the remote device.
-                client.BeginReceive(state.Buffer, 0, State.BufferSize, 0,
-                    new AsyncCallback(ReceiveCallback), state);
+                client.BeginReceive(state.Buffer, 0, State.BufferSize, 0, new AsyncCallback(ReceiveCallback), state);
             }
             catch (Exception e) {
                 Disconnect();
@@ -235,32 +214,20 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         /// operation as well as any user-defined data.</param>
         private void ReceiveCallback(IAsyncResult ar) {
             try {
-                // Retrieve the state object and the client socket 
-                // from the async state object.
                 State state = (State)ar.AsyncState;
                 Socket client = state.WorkSocket;
 
-                // Read data from the remote device.
                 int bytesRead = client.EndReceive(ar);
 
                 if (bytesRead > 0) {
                     InputFeed(state.Buffer, bytesRead);
                     Negotiate(state.Buffer);
-
-                    // Notify the caller that we have data.
-                    DataAvailable(this,
-                        new DataAvailableEventArgs(Encoding.ASCII.GetString(state.Buffer, 0, bytesRead)));
-
-                    // Get the rest of the data.
-                    client.BeginReceive(state.Buffer, 0, State.BufferSize, 0,
-                        new AsyncCallback(ReceiveCallback), state);
+                    DataAvailable(this, new DataAvailableEventArgs(Encoding.ASCII.GetString(state.Buffer, 0, bytesRead)));
+                    client.BeginReceive(state.Buffer, 0, State.BufferSize, 0, new AsyncCallback(ReceiveCallback), state);
                 }
-                else {
-                    // Raise an event here signalling completion
-                    Disconnect();
-                }
+                else { Disconnect(); }
             }
-            catch (Exception e) {
+            catch (Exception/* e*/) {
                 Disconnect();
                 //throw (new ApplicationException("Error reading from socket.", e));
             }
@@ -272,9 +239,7 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         /// <param name="client">The socket to write to.</param>
         /// <param name="byteData">The data to write.</param>
         private void Send(Socket client, byte[] byteData) {
-            // Begin sending the data to the remote device.
-            client.BeginSend(byteData, 0, byteData.Length, 0,
-                new AsyncCallback(SendCallback), client);
+            client.BeginSend(byteData, 0, byteData.Length, 0, new AsyncCallback(SendCallback), client);
         }
 
         /// <summary>
@@ -283,13 +248,8 @@ namespace KTibiaX.IPChanger.Data.OTPinger {
         /// <param name="ar">Stores state information for this asynchronous 
         /// operation as well as any user-defined data.</param>
         private void SendCallback(IAsyncResult ar) {
-            // Retrieve the socket from the state object.
             Socket client = (Socket)ar.AsyncState;
-
-            // Complete sending the data to the remote device.
             int bytesSent = client.EndSend(ar);
-
-            // Signal that all bytes have been sent.
             sendDone.Set();
         }
 

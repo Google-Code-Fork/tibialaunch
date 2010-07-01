@@ -117,20 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="groupControl4.Text" xml:space="preserve">
-    <value>Opções</value>
-  </data>
-  <data name="btnCheck.Text" xml:space="preserve">
-    <value>Verificar OT</value>
-  </data>
-  <data name="gcInfo.Text" xml:space="preserve">
-    <value>Informações</value>
-  </data>
-  <data name="groupControl1.Text" xml:space="preserve">
-    <value>Endereço</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="progressBarControl1.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="lblStatus.Text" xml:space="preserve">
     <value>Não Verificado...</value>
+  </data>
+  <data name="groupControl4.Text" xml:space="preserve">
+    <value>Opções</value>
   </data>
   <assembly alias="DevExpress.Utils.v9.3" name="DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="imgLarge.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v9.3" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -141,64 +136,105 @@
         bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
         YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
         U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAwAAAAMAAAAAkFAAAADwUA
-        AABhDAAAAl0MAACJUE5HDQoaCgAAAA1JSERSAAAAMAAAADAIBgAAAFcC+YcAAAABc1JHQgCuzhzpAAAA
-        BGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAviSURBVGhD
-        7ZppUFVXuobz83Z3+ppE1KiNCg7MKoqCKE0cOsVVk2iM86wIDghGERGZGxEBAYEAyhAQZBYFEZlkVhEE
-        FcQADoAgs8akKnXvv+futdPHPnJUpKrtmKqm6mHv/a1vrfO++9tn7XXOPh8AH/ye+V2LFydeNvDLL798
-        cOrUqS0SNyR4zxEahVZZu/xPOnDNysqip6dHOny//4RGoVVoVjbQ9fPPP8vKpWrw/PnzfzldXV1cuXJF
-        rq7Ydnd3y68xlLjQJv6EVmmcLmUD/Pjjj/z000/y9l1QUlJCbW2tLKCmpoby8nL5dYYaV2gUJ0LFwLsQ
-        rhgzOjqa1tZWOjo6ePToEbGxsbKBocYV4/3bDYgznZeXx927d7l8+fJLFRhK/LUGnj17xruks7OT0tJS
-        YmJi5K14D4jXG2pcoVGlAu9S/LsYW8XA06dPUSYipwRTpwD+uP7gb4rQILQM1KdioL+/HwXOCZmoHQnH
-        oP4xJv/LkDGV+gjmSsyTMJMwl5gvsVBi0f/B5xIWr0G0iRyRa9TQzkjnCIQmZY1vNDB+lzu6Bb1MqwH9
-        4mfoFfS8FfpSnkFhD1Mlpl/pZYaEUVEvxsW9mJb0YVbax/yyPhaW9/N5RT8WEouv9rPkH4h9ERNtImfB
-        tefMvyOdQKmv0PRGA319fSgQl41uXie6+d2/bt8C/fxODCSmShgWdDGzsAvjK13MLerGvKSbRWU9WJT3
-        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
+        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
+        ggs=
 </value>
+  </data>
+  <data name="btnCheck.Text" xml:space="preserve">
+    <value>Verificar OT</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtAuthor.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 156</value>
+  </data>
+  <data name="txtAuthor.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v9.3" name="DevExpress.XtraEditors.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="txtAuthor.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAuthor.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAuthor.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAuthor.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAuthor.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtAuthor.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
@@ -206,11 +242,83 @@
   <data name="txtMap.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 132</value>
   </data>
+  <data name="txtMap.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMap.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtMap.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMap.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMap.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMap.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtMap.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtMap.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMap.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMap.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMap.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMap.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="txtMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
   </data>
   <data name="txtMonsters.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 108</value>
+  </data>
+  <data name="txtMonsters.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMonsters.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMonsters.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMonsters.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMonsters.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtMonsters.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
@@ -218,11 +326,83 @@
   <data name="txtPeek.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 84</value>
   </data>
+  <data name="txtPeek.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPeek.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPeek.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPeek.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPeek.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="txtPeek.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
   </data>
   <data name="txtMax.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 60</value>
+  </data>
+  <data name="txtMax.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMax.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtMax.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMax.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMax.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMax.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtMax.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtMax.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMax.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtMax.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtMax.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMax.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtMax.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
@@ -230,11 +410,83 @@
   <data name="txtPlayers.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 36</value>
   </data>
+  <data name="txtPlayers.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPlayers.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPlayers.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPlayers.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPlayers.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="txtPlayers.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
   </data>
   <data name="txtClient.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 12</value>
+  </data>
+  <data name="txtClient.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtClient.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtClient.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtClient.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClient.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtClient.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtClient.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtClient.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtClient.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtClient.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtClient.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClient.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtClient.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
@@ -260,6 +512,267 @@
   <data name="layoutControlItem25.Text" xml:space="preserve">
     <value> Autor: </value>
   </data>
+  <data name="gcInfo.Text" xml:space="preserve">
+    <value>Informações</value>
+  </data>
+  <data name="txtMotd.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMotd.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtEmail.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmail.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtEmail.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtEmail.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmail.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtOwner.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOwner.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtOwner.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtOwner.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOwner.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLocation.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLocation.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLocation.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLocation.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLocation.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUrl.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUrl.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUrl.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUrl.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUrl.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtServer.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtServer.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtServer.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtServer.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServer.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtServer.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtServer.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtServer.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtServer.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtServer.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtServer.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServer.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVersion.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersion.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVersion.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVersion.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVersion.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUpTime.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUpTime.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUpTime.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtUpTime.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUpTime.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="layoutControlItem11.Text" xml:space="preserve">
     <value> Versão: </value>
   </data>
@@ -275,14 +788,83 @@
   <data name="layoutControlItem14.Text" xml:space="preserve">
     <value> Local: </value>
   </data>
+  <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtPort.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPort.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtPort.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPort.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPort.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="txtIp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 12</value>
+    <value>56, 2</value>
+  </data>
+  <data name="txtIp.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIp.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v9.3">
+    <value>Default</value>
+  </data>
+  <data name="txtIp.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtIp.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIp.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIp.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v9.3">
+    <value>None</value>
+  </data>
+  <data name="txtIp.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtIp.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIp.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtIp.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtIp.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIp.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="txtIp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 20</value>
+    <value>121, 20</value>
   </data>
   <data name="layoutControlItem2.Text" xml:space="preserve">
     <value> Servidor: </value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Endereço</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

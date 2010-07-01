@@ -146,6 +146,15 @@ namespace KTibiaX.IPChanger.Data {
                     FrameRateLimitOffset = 0x58;
                     break;
 
+                case Version.v850:
+                    MultiClient = 0x5067B5;
+                    LoginServer = 0x786E70;
+                    RSAKey = 0x5B0610;
+                    ptrFrameRateBegin = 0x7900DC;
+                    FrameRateCurrentOffset = 0x60;
+                    FrameRateLimitOffset = 0x58;
+                    break;
+
                 case Version.v854:
                     MultiClient = 0x5070D5;
                     LoginServer = 0x78A728;
@@ -169,6 +178,15 @@ namespace KTibiaX.IPChanger.Data {
                     LoginServer = 0x7947F0;
                     RSAKey = 0x5B8980;
                     ptrFrameRateBegin = 0x79DA6C;
+                    FrameRateCurrentOffset = 0x60;
+                    FrameRateLimitOffset = 0x58;
+                    break;
+
+                 case Version.v860:
+                    MultiClient = 0x50BCC5;
+                    LoginServer = 0x7947F8;
+                    RSAKey = 0x5B8980;
+                    ptrFrameRateBegin = 0x79DA74;
                     FrameRateCurrentOffset = 0x60;
                     FrameRateLimitOffset = 0x58;
                     break;

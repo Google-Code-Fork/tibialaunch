@@ -66,11 +66,11 @@ namespace KTibiaX.IPChanger {
         public static extern uint ResumeThread(IntPtr hThread);
 
         public static IntPtr OpenProcess(Process wprocess) {
-            var access = KTibiaX.Shared.WindowsAPI.ProcessAccessRights.PROCESS_VM_READ |
-                KTibiaX.Shared.WindowsAPI.ProcessAccessRights.PROCESS_VM_WRITE |
-                KTibiaX.Shared.WindowsAPI.ProcessAccessRights.PROCESS_VM_OPERATION;
+            var access = Keyrox.Shared.WindowsAPI.ProcessAccessRights.PROCESS_VM_READ |
+                Keyrox.Shared.WindowsAPI.ProcessAccessRights.PROCESS_VM_WRITE |
+                Keyrox.Shared.WindowsAPI.ProcessAccessRights.PROCESS_VM_OPERATION;
 
-            var hprocess = KTibiaX.Shared.WindowsAPI.OpenProcess((uint)access, 0, (uint)wprocess.Id);
+            var hprocess = Keyrox.Shared.WindowsAPI.OpenProcess((uint)access, 0, (uint)wprocess.Id);
             if (hprocess.ToInt32() == 0) { throw new Exception("OpenProcess Failed!"); }
             return hprocess;
         }

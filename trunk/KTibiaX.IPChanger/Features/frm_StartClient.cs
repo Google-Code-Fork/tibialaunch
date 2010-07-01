@@ -12,7 +12,7 @@ using KTibiaX.IPChanger.Data;
 using KTibiaX.IPChanger.Features;
 using KTibiaX.IPChanger.Modules;
 using KTibiaX.IPChanger.Properties;
-using KTibiaX.Shared.Objects;
+using Keyrox.Shared.Objects;
 using Version = KTibiaX.IPChanger.Data.Version;
 using KTibiaX.IPChanger.Data.Objects;
 
@@ -163,7 +163,7 @@ namespace KTibiaX.IPChanger {
             //Write RSA Key for OT Servers.
             if (isotserver && MemoryAddress != null && MemoryAddress.RSAKey > 0) {
                 uint returns = 0x0;
-                KTibiaX.Shared.WindowsAPI.VirtualProtectEx(TibiaClient.Handle, (IntPtr)MemoryAddress.RSAKey, (UIntPtr)((ulong)Properties.Settings.Default.RSAKey.ToString().Length), 0x40, out returns);
+                Keyrox.Shared.WindowsAPI.VirtualProtectEx(TibiaClient.Handle, (IntPtr)MemoryAddress.RSAKey, (UIntPtr)((ulong)Properties.Settings.Default.RSAKey.ToString().Length), 0x40, out returns);
                 ClientMemory.Writer.String(MemoryAddress.RSAKey, Properties.Settings.Default.RSAKey.ToString());
             }
             #endregion

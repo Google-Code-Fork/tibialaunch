@@ -1,5 +1,5 @@
 ﻿using System;
-using KTibiaX.Shared;
+using Keyrox.Shared;
 
 namespace KTibiaX.IPChanger {
     public class Memory {

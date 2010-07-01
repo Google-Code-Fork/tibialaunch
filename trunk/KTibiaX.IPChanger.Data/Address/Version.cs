@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Collections.Generic;
-using KTibiaX.Shared.Enumerators;
+using Keyrox.Shared.Enumerators;
 
 namespace KTibiaX.IPChanger.Data {
 
@@ -14,7 +14,7 @@ namespace KTibiaX.IPChanger.Data {
         /// <param name="process">The process.</param>
         /// <returns></returns>
         public static Version GetVersion(string clientPath) {
-            var items = KTibiaX.Shared.Enumerators.Enumerators.GetEnumItems<Version>(true);
+            var items = Enumerators.GetEnumItems<Version>(true);
             var fileversion = System.Diagnostics.FileVersionInfo.GetVersionInfo(clientPath).ProductVersion;
             if (items.ContainsKey(fileversion)) {
                 return items[fileversion];
@@ -67,6 +67,9 @@ namespace KTibiaX.IPChanger.Data {
         [Description("8.42")]
         v842 = 12,
 
+        [Description("8.50")]
+        v850 = 121,
+
         [Description("8.54")]
         v854 = 13,
 
@@ -74,7 +77,10 @@ namespace KTibiaX.IPChanger.Data {
         v855 = 14,
 
         [Description("8.57")]
-        v857 = 15
+        v857 = 15,
+
+        [Description("8.60")]
+        v860 = 16
 
     }
 

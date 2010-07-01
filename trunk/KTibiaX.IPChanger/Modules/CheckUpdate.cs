@@ -5,7 +5,7 @@ using System.Reflection;
 using KTibiaX.IPChanger.Data;
 using KTibiaX.IPChanger.Data.Objects;
 using KTibiaX.IPChanger.Properties;
-using KTibiaX.Shared.Objects;
+using Keyrox.Shared.Objects;
 using System.Threading;
 using System.Globalization;
 

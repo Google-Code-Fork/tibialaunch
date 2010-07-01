@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTibiaX.IPChanger", "KTibia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTibiaX.IPChanger.Data", "KTibiaX.IPChanger.Data\KTibiaX.IPChanger.Data.csproj", "{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KTibiaX.IPChanger.Setup", "KTibiaX.IPChanger.Setup\KTibiaX.IPChanger.Setup.vdproj", "{E0A470DD-67DE-480D-B104-51CC1DA9FDD5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +19,6 @@ Global
 		{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33F16FF-9CD4-4906-AD7C-615C29DD2C31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E0A470DD-67DE-480D-B104-51CC1DA9FDD5}.Debug|Any CPU.ActiveCfg = Debug
-		{E0A470DD-67DE-480D-B104-51CC1DA9FDD5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

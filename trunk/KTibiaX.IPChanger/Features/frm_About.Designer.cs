@@ -111,19 +111,17 @@ namespace KTibiaX.IPChanger.Features {
             this.emptySpaceItem2});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "Root";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(376, 114);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(376, 99);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // emptySpaceItem1
             // 
-            this.emptySpaceItem1.AppearanceItemCaption.BackColor = System.Drawing.Color.WhiteSmoke;
             this.emptySpaceItem1.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.emptySpaceItem1.AppearanceItemCaption.Options.UseBackColor = true;
             this.emptySpaceItem1.AppearanceItemCaption.Options.UseFont = true;
             resources.ApplyResources(this.emptySpaceItem1, "emptySpaceItem1");
             this.emptySpaceItem1.Location = new System.Drawing.Point(14, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(342, 21);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(260, 23);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             this.emptySpaceItem1.TextVisible = true;
             // 
@@ -132,9 +130,9 @@ namespace KTibiaX.IPChanger.Features {
             this.lblVersion.AppearanceItemCaption.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.lblVersion.AppearanceItemCaption.Options.UseForeColor = true;
             resources.ApplyResources(this.lblVersion, "lblVersion");
-            this.lblVersion.Location = new System.Drawing.Point(14, 21);
+            this.lblVersion.Location = new System.Drawing.Point(14, 23);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(342, 20);
+            this.lblVersion.Size = new System.Drawing.Size(260, 18);
             this.lblVersion.TextSize = new System.Drawing.Size(0, 0);
             this.lblVersion.TextVisible = true;
             // 
@@ -143,9 +141,9 @@ namespace KTibiaX.IPChanger.Features {
             this.emptySpaceItem3.AppearanceItemCaption.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.emptySpaceItem3.AppearanceItemCaption.Options.UseForeColor = true;
             resources.ApplyResources(this.emptySpaceItem3, "emptySpaceItem3");
-            this.emptySpaceItem3.Location = new System.Drawing.Point(14, 58);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(14, 60);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(342, 19);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(260, 19);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             this.emptySpaceItem3.TextVisible = true;
             // 
@@ -154,7 +152,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.emptySpaceItem5, "emptySpaceItem5");
             this.emptySpaceItem5.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(14, 94);
+            this.emptySpaceItem5.Size = new System.Drawing.Size(14, 79);
             this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem4
@@ -164,7 +162,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.emptySpaceItem4, "emptySpaceItem4");
             this.emptySpaceItem4.Location = new System.Drawing.Point(14, 41);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(342, 17);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(260, 19);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             this.emptySpaceItem4.TextVisible = true;
             // 
@@ -176,10 +174,11 @@ namespace KTibiaX.IPChanger.Features {
             this.emptySpaceItem2.AppearanceItemCaption.Options.UseForeColor = true;
             this.emptySpaceItem2.AppearanceItemCaption.Options.UseTextOptions = true;
             this.emptySpaceItem2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.emptySpaceItem2.AppearanceItemCaption.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
             resources.ApplyResources(this.emptySpaceItem2, "emptySpaceItem2");
-            this.emptySpaceItem2.Location = new System.Drawing.Point(14, 77);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(274, 0);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(342, 17);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(82, 79);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             this.emptySpaceItem2.TextVisible = true;
             // 
@@ -191,7 +190,7 @@ namespace KTibiaX.IPChanger.Features {
             this.layoutControlItem3});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(523, 168);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(523, 153);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem1
@@ -200,7 +199,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem1, "layoutControlItem1");
             this.layoutControlItem1.Location = new System.Drawing.Point(119, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(384, 148);
+            this.layoutControlItem1.Size = new System.Drawing.Size(384, 133);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextToControlDistance = 0;
             this.layoutControlItem1.TextVisible = false;
@@ -211,7 +210,7 @@ namespace KTibiaX.IPChanger.Features {
             resources.ApplyResources(this.layoutControlItem3, "layoutControlItem3");
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(119, 148);
+            this.layoutControlItem3.Size = new System.Drawing.Size(119, 133);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextToControlDistance = 0;
             this.layoutControlItem3.TextVisible = false;
