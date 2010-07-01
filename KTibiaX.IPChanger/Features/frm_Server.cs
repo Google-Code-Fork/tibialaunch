@@ -7,10 +7,10 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-using KTibiaX.Shared.Enumerators;
+using Keyrox.Shared.Enumerators;
 using DevExpress.XtraEditors.Controls;
 using KTibiaX.IPChanger.Data;
-using KTibiaX.Shared.Objects;
+using Keyrox.Shared.Objects;
 using Version = KTibiaX.IPChanger.Data.Version;
 using KTibiaX.IPChanger.Properties;
 

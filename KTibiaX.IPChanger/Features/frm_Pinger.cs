@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Net.Sockets;
 using System.Threading;
 using System.Windows.Forms;
-using KTibiaX.Shared.Objects;
+using Keyrox.Shared.Objects;
 using KTibiaX.IPChanger.Data.DTO;
 
 namespace KTibiaX.IPChanger.Features {
@@ -103,6 +103,16 @@ namespace KTibiaX.IPChanger.Features {
                 return;
             }
             Check();
+        }
+        private void txtIp_KeyDown(object sender, KeyEventArgs e) {
+            if (e.KeyCode == Keys.Enter) {
+                btnCheck.PerformClick();
+            }
+        }
+        private void txtPort_KeyDown(object sender, KeyEventArgs e) {
+            if (e.KeyCode == Keys.Enter) {
+                btnCheck.PerformClick();
+            }
         }
         #endregion
 

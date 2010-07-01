@@ -6,8 +6,8 @@ using DevExpress.XtraEditors.Controls;
 using KTibiaX.IPChanger.Data;
 using KTibiaX.IPChanger.Data.DTO;
 using KTibiaX.IPChanger.Properties;
-using KTibiaX.Shared.Enumerators;
-using KTibiaX.Shared.Objects;
+using Keyrox.Shared.Enumerators;
+using Keyrox.Shared.Objects;
 using Version = KTibiaX.IPChanger.Data.Version;
 
 namespace KTibiaX.IPChanger.Features {
