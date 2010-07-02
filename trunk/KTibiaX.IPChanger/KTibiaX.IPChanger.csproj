@@ -361,6 +361,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MTG_Blue.ico" />
+    <None Include="Resources\search_button_green_32.png" />
+    <None Include="Resources\search_button_32.png" />
     <None Include="Resources\onebit_26.png" />
     <None Include="Resources\onebit_26 %282%29.png" />
     <None Include="Resources\onebit_25 %282%29.png" />

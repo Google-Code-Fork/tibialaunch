@@ -68,19 +68,19 @@ namespace KTibiaX.IPChanger.Data {
         v842 = 12,
 
         [Description("8.50")]
-        v850 = 121,
+        v850 = 13,
 
         [Description("8.54")]
-        v854 = 13,
+        v854 = 14,
 
         [Description("8.55")]
-        v855 = 14,
+        v855 = 15,
 
         [Description("8.57")]
-        v857 = 15,
+        v857 = 16,
 
         [Description("8.60")]
-        v860 = 16
+        v860 = 17
 
     }
 

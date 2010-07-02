@@ -144,6 +144,20 @@ namespace KTibiaX.IPChanger.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap search_button_32 {
+            get {
+                object obj = ResourceManager.GetObject("search_button_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap search_button_green_32 {
+            get {
+                object obj = ResourceManager.GetObject("search_button_green_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap statusChecking {
             get {
                 object obj = ResourceManager.GetObject("statusChecking", resourceCulture);

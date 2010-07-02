@@ -2614,6 +2614,17 @@
   <data name="txtPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 20</value>
   </data>
+  <data name="toolTipTitleItem3.Text" xml:space="preserve">
+    <value>Diretório do Tibia</value>
+  </data>
+  <data name="toolTipItem2.Text" xml:space="preserve">
+    <value>Aqui você pode definir onde está o cliente do Tibia que corresponde à versão do servidor selecionado.
+
+Não se preocupe! Este cliente será salvo com a versão do servidor atual e será sugerido quando outro servidor com a mesma versão for selecionado.</value>
+  </data>
+  <data name="toolTipTitleItem4.Text" xml:space="preserve">
+    <value>A versão do Tibia deve ser a mesma do servidor</value>
+  </data>
   <data name="btnStart.Text" xml:space="preserve">
     <value>ڷNICIAR</value>
   </data>
