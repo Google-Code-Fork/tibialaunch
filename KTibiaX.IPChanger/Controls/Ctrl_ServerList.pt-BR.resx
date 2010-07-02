@@ -121,6 +121,33 @@
   <data name="lookUpEdit1.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="toolTipTitleItem1.Text" xml:space="preserve">
+    <value>Editar Servidor</value>
+  </data>
+  <data name="toolTipItem1.Text" xml:space="preserve">
+    <value>Utilize esta opção para editar as informações deste servidor.</value>
+  </data>
+  <data name="toolTipTitleItem2.Text" xml:space="preserve">
+    <value>Você pode atualizar qualquer informação</value>
+  </data>
+  <data name="toolTipTitleItem3.Text" xml:space="preserve">
+    <value>Adicionar Novo Servidor</value>
+  </data>
+  <data name="toolTipItem2.Text" xml:space="preserve">
+    <value>Utilize esta opção para adicionar um novo servidor.</value>
+  </data>
+  <data name="toolTipTitleItem4.Text" xml:space="preserve">
+    <value>Você também pode checar se o servidor está online</value>
+  </data>
+  <data name="toolTipTitleItem5.Text" xml:space="preserve">
+    <value>Excluir Servidor</value>
+  </data>
+  <data name="toolTipItem3.Text" xml:space="preserve">
+    <value>Utilize esta opção para excluir o servidor selecionado.</value>
+  </data>
+  <data name="toolTipTitleItem6.Text" xml:space="preserve">
+    <value>Atenção: Esta alteração não poder ser desfeita</value>
+  </data>
   <data name="lookUpEdit1.Properties.NullText" xml:space="preserve">
     <value>[Servidor Global do Tibia]</value>
   </data>

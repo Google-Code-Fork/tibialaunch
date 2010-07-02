@@ -230,8 +230,8 @@
   <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
     <value>btnClose</value>
   </data>
-  <data name="&gt;&gt;ctrl_ConfigFile1.Name" xml:space="preserve">
-    <value>ctrl_ConfigFile1</value>
+  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
+    <value>layoutControl3</value>
   </data>
   <data name="txtPath.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -245,11 +245,11 @@
   <data name="btnSkin.Description" xml:space="preserve">
     <value>Change the current application skin.</value>
   </data>
-  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 28</value>
+  <data name="&gt;&gt;ctrl_ConfigFile1.Name" xml:space="preserve">
+    <value>ctrl_ConfigFile1</value>
   </data>
-  <data name="btnAbout.Description" xml:space="preserve">
-    <value>Information about KTibiaX and his Author.</value>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Name" xml:space="preserve">
     <value>layoutControlGroup3</value>
@@ -271,6 +271,9 @@
   </data>
   <data name="txtPort.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="btnAbout.Description" xml:space="preserve">
+    <value>Information about KTibiaX and his Author.</value>
   </data>
   <data name="&gt;&gt;btnChecker.Name" xml:space="preserve">
     <value>btnChecker</value>
@@ -331,6 +334,11 @@
   </data>
   <data name="&gt;&gt;ribbonStatusBar1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="toolTipItem1.Text" xml:space="preserve">
+    <value>Here you can define where is the tibia client that match with version of selected server.
+
+Dont worry! This client will be saved with the server version and will be suggested when another server with the same version was selected.</value>
   </data>
   <data name="btnUpdates.Caption" xml:space="preserve">
     <value>Search for Updates</value>
@@ -5625,8 +5633,8 @@
   <data name="&gt;&gt;imgSmall.Type" xml:space="preserve">
     <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
-    <value>barButtonItem3</value>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
@@ -5682,8 +5690,8 @@
   <data name="layoutControl3.Text" xml:space="preserve">
     <value>layoutControl3</value>
   </data>
-  <data name="&gt;&gt;btnSkin.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="layoutControlItem7.CustomizationFormText" xml:space="preserve">
     <value> Tibia.cfg: </value>
@@ -5692,9 +5700,6 @@
     <value>layoutControl3</value>
   </data>
   <data name="&gt;&gt;txtPort.Parent" xml:space="preserve">
-    <value>layoutControl3</value>
-  </data>
-  <data name="&gt;&gt;ddlGraphics.Parent" xml:space="preserve">
     <value>layoutControl3</value>
   </data>
   <data name="&gt;&gt;imgSmall.Name" xml:space="preserve">
@@ -5724,11 +5729,8 @@
   <data name="txtPort.Properties.AutoHeight" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;ctrl_ServerList1.Type" xml:space="preserve">
-    <value>KTibiaX.IPChanger.Controls.Ctrl_ServerList, KTibiaX.IPChanger, Version=2.10.3834.32145, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
+    <value>txtPort</value>
   </data>
   <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
     <value>btnAbout</value>
@@ -5815,6 +5817,9 @@
   <data name="&gt;&gt;ctrl_ConfigFile1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="toolTipTitleItem2.Text" xml:space="preserve">
+    <value>Client version must match with selected server</value>
+  </data>
   <data name="&gt;&gt;btnOptions.Name" xml:space="preserve">
     <value>btnOptions</value>
   </data>
@@ -5832,6 +5837,9 @@
   </data>
   <data name="layoutControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
+  </data>
+  <data name="toolTipTitleItem1.Text" xml:space="preserve">
+    <value>Tibia Client Path</value>
   </data>
   <data name="&gt;&gt;ddlGraphics.Name" xml:space="preserve">
     <value>ddlGraphics</value>
@@ -5866,6 +5874,9 @@
   <data name="layoutControlItem8.Text" xml:space="preserve">
     <value> Port: </value>
   </data>
+  <data name="&gt;&gt;btnSkin.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="&gt;&gt;btnLanguage.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
@@ -5882,7 +5893,7 @@
     <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ctrl_ConfigFile1.Type" xml:space="preserve">
-    <value>KTibiaX.IPChanger.Controls.Ctrl_ConfigFile, KTibiaX.IPChanger, Version=2.10.3834.32145, Culture=neutral, PublicKeyToken=null</value>
+    <value>KTibiaX.IPChanger.Controls.Ctrl_ConfigFile, KTibiaX.IPChanger, Version=2.11.3834.40934, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;applicationMenu1.Name" xml:space="preserve">
     <value>applicationMenu1</value>
@@ -5902,17 +5913,23 @@
   <data name="layoutControlItem8.CustomizationFormText" xml:space="preserve">
     <value> Port: </value>
   </data>
+  <data name="txtPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 28</value>
+  </data>
   <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="txtPort.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;txtPath.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
   <data name="&gt;&gt;btnUpdates.Name" xml:space="preserve">
     <value>btnUpdates</value>
+  </data>
+  <data name="&gt;&gt;ctrl_ServerList1.Type" xml:space="preserve">
+    <value>KTibiaX.IPChanger.Controls.Ctrl_ServerList, KTibiaX.IPChanger, Version=2.11.3834.40934, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="layoutControlItem1.Text" xml:space="preserve">
     <value> Tibia Path:</value>
@@ -5922,9 +5939,6 @@
   </data>
   <data name="txtPath.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
-    <value>txtPort</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>451, 165</value>
@@ -5947,8 +5961,8 @@
   <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup3</value>
   </data>
   <data name="txtPort.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5982,9 +5996,6 @@
   </data>
   <data name="&gt;&gt;layoutControlGroup3.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="layoutControlGroup3.CustomizationFormText" xml:space="preserve">
-    <value>layoutControlGroup3</value>
   </data>
   <data name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
     <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
