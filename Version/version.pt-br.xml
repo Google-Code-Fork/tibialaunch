@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <SystemVersion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Version>1.5.3412.20614</Version>
-	<ReleaseDate>2009-05-05T00:00:00</ReleaseDate>
-	<UpdateDescription>[Você não perderá suas configurações ao atualizar]{0}{0}{0}* Suporte para nova versão do Tibia (8.42){0}{0}* Funcionalidade que permite editar os servidores existentes{0}{0}* Melhoria na interface do sistema{0}{0}* Melhoria na detecção de versão dos clientes{0}{0}* Alguns bugs corrigidos{0}{0}</UpdateDescription>
+	<Version>2.11.3835.857</Version>
+	<ReleaseDate>2010-06-01T00:00:00</ReleaseDate>
+	<UpdateDescription>[Uma nova e empolgante interface]{0}{0}{0}* Suporte para as versões até 8.60{0}{0}* Melhorias e correções de bugs no Lag checker{0}{0}* Melhorias no consumo de memória{0}{0}* Não será mais necessário realizar nenhuma instalação, KTibiaX agora é portable{0}{0}* Alguns bugs corrigidos{0}{0}</UpdateDescription>
 </SystemVersion>
